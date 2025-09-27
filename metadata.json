@@ -1,0 +1,5 @@
+{
+  "name": "Test Concursos Colombia",
+  "description": "Una aplicación web de prueba tipo test para prepararse para concursos públicos en Colombia. Permite a los usuarios seleccionar un eje temático, responder preguntas con retroalimentación inmediata y ver un resumen de sus resultados.",
+  "requestFramePermissions": []
+}
