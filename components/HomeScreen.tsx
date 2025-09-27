@@ -10,13 +10,8 @@ interface HomeScreenProps {
 const HomeScreen: React.FC<HomeScreenProps> = ({ onStartTest }) => {
   return (
     <div className="flex flex-col items-center justify-center min-h-[calc(100vh-12rem)] text-center">
-      <img
-        src="https://www.webcincodev.com/blog/wp-content/uploads/2025/09/nuevpo-logo-w5.png"
-        alt="Logo"
-        className="h-40 w-auto object-contain mb-6"
-      />
       <Card className="w-full max-w-md mx-auto">
-        <h1 className="text-2xl font-bold text-blue-600 dark:text-blue-400 mb-2">
+        <h1 className="text-2xl font-bold text-accent-600 dark:text-accent-400 mb-2">
           Bienvenido a Test Concursos Colombia
         </h1>
         <p className="text-slate-600 dark:text-slate-300 mb-6">
@@ -24,16 +19,16 @@ const HomeScreen: React.FC<HomeScreenProps> = ({ onStartTest }) => {
         </p>
         <button
           onClick={onStartTest}
-          className="w-full bg-blue-500 hover:bg-blue-600 text-white font-bold py-3 px-4 rounded-lg transition-transform transform hover:scale-105"
+          className="w-full bg-secondary-500 hover:bg-secondary-600 text-white font-bold py-3 px-4 rounded-lg transition-all duration-200 transform hover:scale-[1.02] shadow-md hover:shadow-lg"
         >
           Iniciar Test
         </button>
       </Card>
       <footer className="mt-8 text-sm text-slate-500 dark:text-slate-400">
         <div className="flex justify-center space-x-6 mb-4">
-          <SocialLink href="https://github.com/armandovalle" iconClass="fab fa-github" tooltipText="GitHub" />
-          <SocialLink href="https://www.webcincodev.com/" iconClass="fas fa-globe" tooltipText="Web" />
-          <SocialLink href="https://www.behance.net/armandovalle" iconClass="fab fa-behance" tooltipText="Behance" />
+          <SocialLink href="https://github.com/jacar" iconClass="fab fa-github" tooltipText="GitHub" />
+          <SocialLink href="https://www.armandomi.space/" iconClass="fas fa-globe" tooltipText="Web" />
+          <SocialLink href="https://www.behance.net/armandoovalle1" iconClass="fab fa-behance" tooltipText="Behance" />
         </div>
         <p>Desarrollado por Armando Ovalle Jacome</p>
       </footer>

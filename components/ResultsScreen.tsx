@@ -28,7 +28,7 @@ const ResultsScreen: React.FC<ResultsScreenProps> = ({ result, history, onTryAga
         <p className="mb-6">Completa un test para ver tus resultados aquí.</p>
         <button
           onClick={onTryAgain}
-          className="w-full bg-blue-500 hover:bg-blue-600 text-white font-bold py-3 px-4 rounded-lg transition-transform transform hover:scale-105"
+          className="w-full bg-secondary-500 hover:bg-secondary-600 text-white font-bold py-3 px-4 rounded-lg transition-all duration-200 transform hover:scale-[1.02] shadow-md hover:shadow-lg"
         >
           Ir al Test
         </button>
@@ -37,7 +37,6 @@ const ResultsScreen: React.FC<ResultsScreenProps> = ({ result, history, onTryAga
   }
 
   const currentResult = result || history[0];
-
   const { score, totalQuestions, correctAnswers, incorrectAnswers, axisName, performanceByAxis } = currentResult;
   const percentage = totalQuestions > 0 ? Math.round((correctAnswers / totalQuestions) * 100) : 0;
 
@@ -84,38 +83,61 @@ const ResultsScreen: React.FC<ResultsScreenProps> = ({ result, history, onTryAga
                       <li className="flex justify-between"><span>Correctas:</span> <span className="font-bold text-green-500">{correctAnswers}</span></li>
                       <li className="flex justify-between"><span>Incorrectas:</span> <span className="font-bold text-red-500">{incorrectAnswers}</span></li>
                       <li className="flex justify-between"><span>Total:</span> <span className="font-bold">{totalQuestions}</span></li>
-                      <li className="flex justify-between border-t pt-3 mt-3 border-slate-300 dark:border-slate-600"><span>Puntuación:</span> <span className="font-bold text-blue-500 dark:text-blue-400">{percentage}%</span></li>
+                      <li className="flex justify-between border-t pt-3 mt-3 border-slate-300 dark:border-slate-600"><span>Puntuación:</span> <span className="font-bold text-accent-500 dark:text-accent-400">{percentage}%</span></li>
                   </ul>
               </div>
-               <p className="text-center text-lg mt-6 p-4 bg-slate-100 dark:bg-slate-700 rounded-lg">{getFeedbackMessage()}</p>
+               <div className="mt-6 p-4 bg-primary-50 dark:bg-slate-800/50 border border-primary-100 dark:border-slate-700 rounded-lg flex items-start space-x-3">
+                  <i className={`fa-solid ${percentage >= 80 ? 'fa-circle-check text-green-500' : 'fa-circle-info text-primary-500'} mt-1`}></i>
+                  <p className="text-slate-700 dark:text-slate-300">{getFeedbackMessage()}</p>
+               </div>
             </div>
           </div>
 
-          {performanceByAxis && (
+          {performanceByAxis && Object.keys(performanceByAxis).length > 0 && (
             <div className="mt-8 border-t pt-6 border-slate-300 dark:border-slate-600">
               <h3 className="text-xl font-bold text-center mb-4">Desglose por Eje Temático</h3>
               <ul className="space-y-2">
-                {Object.entries(performanceByAxis).sort(([a], [b]) => a.localeCompare(b)).map(([axis, data]) => (
-                  <li key={axis} className="p-3 bg-slate-100 dark:bg-slate-700 rounded-lg flex justify-between items-center flex-wrap">
-                    <span className="font-semibold mr-2">{axis}</span>
-                    <span className="text-right font-mono">
-                      {data.correct} / {data.total}
-                      <span className={`ml-3 font-bold ${data.correct / data.total >= 0.6 ? 'text-green-500' : 'text-red-500'}`}>
-                        ({Math.round((data.correct / data.total) * 100)}%)
-                      </span>
-                    </span>
-                  </li>
-                ))}
+                {Object.entries(performanceByAxis)
+                  .sort(([a], [b]) => a.localeCompare(b))
+                  .map(([axis, data]) => {
+                    // Asegurarse de que data tenga el tipo correcto
+                    const axisData = data as { correct: number; total: number };
+                    const correct = axisData?.correct || 0;
+                    const total = axisData?.total || 1; // Evitar división por cero
+                    const percentage = total > 0 ? Math.round((correct / total) * 100) : 0;
+                    
+                    return (
+                      <li key={axis} className="p-3 bg-slate-100 dark:bg-slate-700 rounded-lg flex justify-between items-center flex-wrap">
+                        <span className="font-semibold mr-2">{axis}</span>
+                        <span className="text-right font-mono">
+                          {correct} / {total}
+                          <span className={`ml-3 font-bold ${percentage >= 60 ? 'text-green-500' : 'text-red-500'}`}>
+                            ({percentage}%)
+                          </span>
+                        </span>
+                      </li>
+                    );
+                  })}
               </ul>
             </div>
           )}
 
-          <button
-            onClick={onTryAgain}
-            className="w-full mt-8 bg-blue-500 hover:bg-blue-600 text-white font-bold py-3 px-4 rounded-lg transition-transform transform hover:scale-105"
-          >
-            Intentar de Nuevo
-          </button>
+          <div className="flex flex-col sm:flex-row gap-4 mt-8">
+            <button
+              onClick={onTryAgain}
+              className="flex-1 bg-secondary-500 hover:bg-secondary-600 text-white font-bold py-3 px-4 rounded-lg transition-all duration-200 transform hover:scale-[1.02] shadow-md hover:shadow-lg flex items-center justify-center space-x-2"
+            >
+              <i className="fa-solid fa-rotate-right"></i>
+              <span>Intentar de Nuevo</span>
+            </button>
+            <button
+              onClick={() => window.scrollTo({ top: 0, behavior: 'smooth' })}
+              className="flex-1 bg-white hover:bg-slate-50 text-primary-600 dark:bg-slate-800 dark:hover:bg-slate-700 dark:text-primary-400 border border-slate-200 dark:border-slate-700 font-bold py-3 px-4 rounded-lg transition-all duration-200 transform hover:scale-[1.02] shadow-sm hover:shadow flex items-center justify-center space-x-2"
+            >
+              <i className="fa-solid fa-arrow-up"></i>
+              <span>Volver Arriba</span>
+            </button>
+          </div>
         </Card>
       )}
 
@@ -126,7 +148,7 @@ const ResultsScreen: React.FC<ResultsScreenProps> = ({ result, history, onTryAga
                   {history.map((histResult, index) => (
                       <div key={index} className="p-4 bg-slate-100 dark:bg-slate-700 rounded-lg">
                           <div className="flex justify-between items-center flex-wrap">
-                              <span className="font-bold text-blue-600 dark:text-blue-400">{histResult.axisName}</span>
+                              <span className="font-bold text-accent-600 dark:text-accent-400">{histResult.axisName}</span>
                               <span className="text-sm text-slate-500 dark:text-slate-400">{formatDate(histResult.date)}</span>
                           </div>
                           <div className="mt-2 flex justify-between items-center">

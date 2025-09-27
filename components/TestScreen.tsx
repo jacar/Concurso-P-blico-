@@ -24,17 +24,17 @@ const AxisSelector: React.FC<{ onSelect: (axis: ThematicAxis) => void; questions
       {/* General Test Card */}
       <button
         onClick={() => onSelect(ALL_AXES_VIRTUAL_AXIS)}
-        className="text-left p-4 bg-white dark:bg-slate-800 rounded-lg shadow-md hover:shadow-lg hover:scale-105 transition-all duration-200 flex flex-col justify-between border-2 border-blue-500"
+        className="text-left p-4 bg-white dark:bg-slate-800 rounded-lg shadow-md hover:shadow-lg hover:scale-[1.02] transition-all duration-200 flex flex-col justify-between border-2 border-secondary-500"
       >
         <div className="flex items-start">
-          <i className={`fa-solid ${ALL_AXES_VIRTUAL_AXIS.icon} text-3xl text-blue-500 dark:text-blue-400 mr-4 w-8 text-center`}></i>
+          <i className={`fa-solid ${ALL_AXES_VIRTUAL_AXIS.icon} text-3xl text-secondary-600 dark:text-secondary-400 mr-4 w-8 text-center`}></i>
           <div>
-            <h3 className="font-bold text-lg text-blue-600 dark:text-blue-400">{ALL_AXES_VIRTUAL_AXIS.name}</h3>
+            <h3 className="font-bold text-lg text-accent-600 dark:text-accent-400">{ALL_AXES_VIRTUAL_AXIS.name}</h3>
             <p className="text-sm text-slate-600 dark:text-slate-300">{ALL_AXES_VIRTUAL_AXIS.description}</p>
           </div>
         </div>
         <div className="flex justify-end mt-3">
-            <span className="bg-blue-100 text-blue-800 text-xs font-semibold px-2.5 py-0.5 rounded-full dark:bg-blue-900 dark:text-blue-300">
+            <span className="bg-primary-100 text-primary-800 text-xs font-semibold px-2.5 py-0.5 rounded-full dark:bg-primary-900 dark:text-primary-200">
             {questions.length} preguntas disponibles
             </span>
         </div>
@@ -47,17 +47,17 @@ const AxisSelector: React.FC<{ onSelect: (axis: ThematicAxis) => void; questions
           <button
             key={axis.id}
             onClick={() => onSelect(axis)}
-            className="text-left p-4 bg-white dark:bg-slate-800 rounded-lg shadow-md hover:shadow-lg hover:scale-105 transition-all duration-200 flex flex-col justify-between"
+            className="text-left p-4 bg-white dark:bg-slate-800 rounded-lg shadow-md hover:shadow-lg hover:scale-[1.02] transition-all duration-200 flex flex-col justify-between border border-slate-200 dark:border-slate-700"
           >
             <div className="flex items-start">
-              <i className={`fa-solid ${axis.icon} text-3xl text-slate-500 dark:text-slate-400 mr-4 w-8 text-center`}></i>
+              <i className={`fa-solid ${axis.icon} text-3xl text-secondary-600 dark:text-secondary-400 mr-4 w-8 text-center`}></i>
               <div>
                 <h3 className="font-bold text-lg">{axis.name}</h3>
                 <p className="text-sm text-slate-600 dark:text-slate-300">{axis.description}</p>
               </div>
             </div>
             <div className="flex justify-end mt-3">
-               <span className="bg-slate-100 text-slate-800 text-xs font-semibold px-2.5 py-0.5 rounded-full dark:bg-slate-700 dark:text-slate-300">
+               <span className="bg-primary-50 text-primary-800 text-xs font-semibold px-2.5 py-0.5 rounded-full dark:bg-primary-900/50 dark:text-primary-200">
                 {questionCount} preguntas
               </span>
             </div>
@@ -95,22 +95,22 @@ const QuizView: React.FC<{ questions: Question[]; axisName: string; onComplete: 
 
   const getOptionClasses = (optionIndex: number) => {
     if (!isAnswered) {
-      return 'bg-slate-100 dark:bg-slate-700 hover:bg-slate-200 dark:hover:bg-slate-600';
+      return 'bg-white dark:bg-slate-800 border-2 border-slate-200 dark:border-slate-700 hover:border-primary-500 dark:hover:border-primary-400';
     }
     if (optionIndex === currentQuestion.correctOptionIndex) {
-      return 'bg-green-100 dark:bg-green-900 border-green-500 text-green-800 dark:text-green-300';
+      return 'bg-green-50 dark:bg-green-900/30 border-2 border-green-500 text-green-800 dark:text-green-200';
     }
     if (optionIndex === selectedOption) {
-      return 'bg-red-100 dark:bg-red-900 border-red-500 text-red-800 dark:text-red-300';
+      return 'bg-red-50 dark:bg-red-900/30 border-2 border-red-500 text-red-800 dark:text-red-200';
     }
-    return 'bg-slate-100 dark:bg-slate-700 opacity-60';
+    return 'bg-white/50 dark:bg-slate-800/50 border-2 border-slate-200 dark:border-slate-700 opacity-70';
   };
 
   return (
     <div className="animate-fade-in">
         <h1 className="text-2xl font-bold text-center mb-2">{axisName}</h1>
-        <div className="w-full bg-slate-200 dark:bg-slate-700 rounded-full h-2.5 mb-6">
-            <div className="bg-blue-500 h-2.5 rounded-full" style={{ width: `${((currentIndex + 1) / questions.length) * 100}%` }}></div>
+        <div className="w-full bg-slate-200 dark:bg-slate-700 rounded-full h-2.5 mb-6 overflow-hidden">
+            <div className="bg-primary-500 h-full rounded-full transition-all duration-300 ease-out" style={{ width: `${((currentIndex + 1) / questions.length) * 100}%` }}></div>
         </div>
 
         <Card>
@@ -129,11 +129,11 @@ const QuizView: React.FC<{ questions: Question[]; axisName: string; onComplete: 
                 ))}
             </div>
             {isAnswered && (
-                <div className="mt-6 p-4 bg-blue-50 dark:bg-slate-700 rounded-lg animate-fade-in flex items-start space-x-3">
-                    <i className="fa-solid fa-circle-info text-blue-500 mt-1"></i>
+                <div className="mt-6 p-4 bg-primary-50 dark:bg-slate-800 border border-primary-100 dark:border-slate-700 rounded-lg animate-fade-in flex items-start space-x-3">
+                    <i className="fa-solid fa-circle-info text-primary-600 dark:text-primary-400 mt-1"></i>
                     <div>
-                        <h4 className="font-bold text-blue-800 dark:text-blue-300">Explicación:</h4>
-                        <p className="text-sm text-blue-700 dark:text-blue-200">{currentQuestion.explanation}</p>
+                        <h4 className="font-bold text-accent-800 dark:text-accent-300">Explicación:</h4>
+                        <p className="text-sm text-accent-700 dark:text-accent-200">{currentQuestion.explanation}</p>
                     </div>
                 </div>
             )}
@@ -142,7 +142,7 @@ const QuizView: React.FC<{ questions: Question[]; axisName: string; onComplete: 
         {isAnswered && (
             <button
                 onClick={handleNext}
-                className="w-full mt-6 bg-blue-500 hover:bg-blue-600 text-white font-bold py-3 px-4 rounded-lg transition-transform transform hover:scale-105"
+                className="w-full mt-6 bg-secondary-500 hover:bg-secondary-600 text-white font-bold py-3 px-4 rounded-lg transition-all duration-200 transform hover:scale-[1.02] shadow-md hover:shadow-lg"
             >
                 {currentIndex < questions.length - 1 ? 'Siguiente Pregunta' : 'Finalizar Test'}
             </button>

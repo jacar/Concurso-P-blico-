@@ -14,7 +14,7 @@ const SocialLink: React.FC<SocialLinkProps> = ({ href, iconClass, tooltipText })
         href={href}
         target="_blank"
         rel="noopener noreferrer"
-        className="text-2xl text-slate-500 dark:text-slate-400 hover:text-blue-500 dark:hover:text-blue-400 transition-colors"
+        className="text-2xl text-primary-600 hover:text-secondary-500 dark:text-primary-400 dark:hover:text-secondary-400 transition-colors"
       >
         <i className={iconClass}></i>
       </a>
