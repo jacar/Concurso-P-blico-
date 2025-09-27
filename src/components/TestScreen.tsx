@@ -1,6 +1,6 @@
 import React, { useState, useMemo } from 'react';
 import Card from './Card';
-import { THEMATIC_AXES, QUESTIONS } from '../data/questions';
+import { THEMATIC_AXES, QUESTIONS } from '../data/questions_casuisticas';
 import type { Question, ThematicAxis, Result } from '../types';
 
 interface TestScreenProps {
@@ -68,7 +68,7 @@ const AxisSelector: React.FC<{ onSelect: (axis: ThematicAxis) => void; questions
   </div>
 );
 
-const QuizView: React.FC<{ questions: Question[]; axisName: string; onComplete: (userAnswers: number[]) => void }> = ({ questions, axisName, onComplete }) => {
+const QuizView: React.FC<{ questions: Question[]; axisName: string; onComplete: (userAnswers: number[]) => void; onBack: () => void }> = ({ questions, axisName, onComplete, onBack }) => {
   const [currentIndex, setCurrentIndex] = useState(0);
   const [selectedOption, setSelectedOption] = useState<number | null>(null);
   const [isAnswered, setIsAnswered] = useState(false);
@@ -108,7 +108,18 @@ const QuizView: React.FC<{ questions: Question[]; axisName: string; onComplete: 
 
   return (
     <div className="animate-fade-in">
-        <h1 className="text-2xl font-bold text-center mb-2">{axisName}</h1>
+        <div className="flex justify-between items-center mb-4">
+          <button 
+            onClick={onBack}
+            className="flex items-center text-primary-600 hover:text-primary-800 dark:text-primary-400 dark:hover:text-primary-200 transition-colors"
+            title="Volver a la selección de ejes"
+          >
+            <i className="fas fa-arrow-left mr-2"></i>
+            <span>Volver</span>
+          </button>
+          <h1 className="text-2xl font-bold text-center">{axisName}</h1>
+          <div className="w-24"></div> {/* Espacio para mantener el balance */}
+        </div>
         <div className="w-full bg-slate-200 dark:bg-slate-700 rounded-full h-2.5 mb-6 overflow-hidden">
             <div className="bg-primary-500 h-full rounded-full transition-all duration-300 ease-out" style={{ width: `${((currentIndex + 1) / questions.length) * 100}%` }}></div>
         </div>
@@ -154,6 +165,10 @@ const QuizView: React.FC<{ questions: Question[]; axisName: string; onComplete: 
 
 const TestScreen: React.FC<TestScreenProps> = ({ onTestComplete }) => {
   const [selectedAxis, setSelectedAxis] = useState<ThematicAxis | null>(null);
+
+  const handleBackToAxes = () => {
+    setSelectedAxis(null);
+  };
 
   const questionsForAxis = useMemo(() => {
     if (!selectedAxis) return [];
@@ -203,7 +218,26 @@ const TestScreen: React.FC<TestScreenProps> = ({ onTestComplete }) => {
     return <AxisSelector onSelect={setSelectedAxis} questions={QUESTIONS} />;
   }
   
-  return <QuizView questions={questionsForAxis} axisName={selectedAxis.name} onComplete={handleTestFinish} />;
+  return (
+    <div className="animate-fade-in">
+      <div className="flex justify-between items-center mb-4">
+        <button 
+          onClick={handleBackToAxes}
+          className="flex items-center text-primary-600 hover:text-primary-800 dark:text-primary-400 dark:hover:text-primary-200 transition-colors"
+          title="Volver a la selección de ejes"
+        >
+          <i className="fas fa-arrow-left mr-2"></i>
+          <span>Volver</span>
+        </button>
+      </div>
+      <QuizView 
+        questions={questionsForAxis} 
+        axisName={selectedAxis.name} 
+        onComplete={handleTestFinish}
+        onBack={handleBackToAxes}
+      />
+    </div>
+  );
 };
 
 export default TestScreen;

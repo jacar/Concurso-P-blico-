@@ -1,5 +1,6 @@
 import React from 'react';
 import Card from './Card';
+import ShareButton from './ShareButton';
 import type { Result } from '../types';
 
 interface ResultsScreenProps {
@@ -81,8 +82,14 @@ const ResultsScreen: React.FC<ResultsScreenProps> = ({
 
   return (
     <div className="p-4 max-w-4xl mx-auto">
-      <h1 className="text-2xl font-bold text-center mb-6">Resultados del Test</h1>
-      
+      <div className="flex justify-between items-center mb-6">
+        <h1 className="text-2xl font-bold">Resultados del Test</h1>
+        <ShareButton 
+          title={`¡He completado un test con un ${percentage}% de aciertos!`}
+          text={`He completado el test de ${axisName} con un ${percentage}% de aciertos. ¿Te animas a intentarlo?`}
+        />
+      </div>
+
       <Card className="mb-6">
         <div className="p-6">
           <h2 className="text-xl font-semibold mb-4">{axisName}</h2>
@@ -178,7 +185,7 @@ const ResultsScreen: React.FC<ResultsScreenProps> = ({
               const histPercentage = histResult.totalQuestions > 0 
                 ? Math.round((histResult.correctAnswers / histResult.totalQuestions) * 100) 
                 : 0;
-                
+
               return (
                 <div key={index} className="p-4 bg-slate-50 dark:bg-slate-700 rounded-lg hover:shadow-md transition-shadow">
                   <div className="flex justify-between items-center flex-wrap">
@@ -193,15 +200,21 @@ const ResultsScreen: React.FC<ResultsScreenProps> = ({
                     <div className="flex justify-between items-center mb-1">
                       <span>Resultado:</span>
                       <span className="font-bold">
-                        {histResult.correctAnswers} / {histResult.totalQuestions} 
+                        {histResult.correctAnswers} / {histResult.totalQuestions}
                         <span className={`ml-2 ${histPercentage >= 60 ? 'text-green-500' : 'text-red-500'}`}>
                           ({histPercentage}%)
                         </span>
                       </span>
                     </div>
                     <div className="w-full bg-gray-200 rounded-full h-1.5 mt-2">
-                      <div 
-                        className={`h-1.5 rounded-full ${histPercentage >= 80 ? 'bg-green-500' : histPercentage >= 60 ? 'bg-blue-500' : 'bg-yellow-500'}`}
+                      <div
+                        className={`h-1.5 rounded-full ${
+                          histPercentage >= 80 
+                            ? 'bg-green-500' 
+                            : histPercentage >= 60 
+                              ? 'bg-blue-500' 
+                              : 'bg-yellow-500'
+                        }`}
                         style={{ width: `${histPercentage}%` }}
                       ></div>
                     </div>

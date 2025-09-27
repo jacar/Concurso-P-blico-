@@ -1,6 +1,7 @@
 import React from 'react';
 import Card from './Card';
 import SocialLink from './SocialLink';
+import ShareButton from './ShareButton';
 
 interface HomeScreenProps {
   onStartTest: () => void;
@@ -10,7 +11,10 @@ interface HomeScreenProps {
 const HomeScreen: React.FC<HomeScreenProps> = ({ onStartTest }) => {
   return (
     <div className="flex flex-col items-center justify-center min-h-[calc(100vh-12rem)] text-center">
-      <Card className="w-full max-w-md mx-auto">
+      <Card className="w-full max-w-md mx-auto relative">
+        <div className="absolute top-4 right-4">
+          <ShareButton />
+        </div>
         <h1 className="text-2xl font-bold text-accent-600 dark:text-accent-400 mb-2">
           Bienvenido a Test Concursos Colombia
         </h1>
