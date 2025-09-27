@@ -1,0 +1,217 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap');
+
+:root {
+  --color-primary: #F0122D;      /* Carmesí */
+  --color-background: #FDF8F0;   /* Beige claro */
+  --color-text: #1F2937;         /* Gris oscuro para texto */
+  --color-text-light: #6B7280;   /* Gris más claro para texto secundario */
+  --color-white: #FFFFFF;        /* Blanco puro */
+  --color-error: #DC2626;        /* Rojo para errores */
+  --color-success: #10B981;      /* Verde para éxito */
+  --color-warning: #F59E0B;      /* Amarillo para advertencias */
+}
+
+/* Estilos base */
+body {
+  @apply bg-[#FDF8F0] text-[#1F2937] dark:bg-gray-900 dark:text-gray-100 transition-colors duration-200;
+  font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+/* Botones */
+.btn-primary {
+  @apply bg-[#F0122D] hover:bg-[#D40F29] text-white font-medium py-2 px-4 rounded-lg transition-colors duration-200;
+}
+
+.btn-secondary {
+  @apply bg-white hover:bg-gray-50 text-[#1F2937] border border-gray-200 font-medium py-2 px-4 rounded-lg transition-colors duration-200;
+}
+
+/* Tarjetas */
+.card {
+  @apply bg-white dark:bg-gray-800 rounded-xl shadow-sm p-6 transition-all duration-200 hover:shadow-md dark:shadow-gray-800/50;
+}
+
+/* Encabezados */
+h1 {
+  @apply text-3xl font-bold text-[#1F2937] dark:text-white;
+}
+
+h2 {
+  @apply text-2xl font-semibold text-[#1F2937] dark:text-white;
+}
+
+h3 {
+  @apply text-xl font-medium text-[#1F2937] dark:text-white;
+}
+
+/* Enlaces */
+a {
+  @apply text-[#F0122D] hover:text-[#D40F29] transition-colors duration-200;
+}
+
+/* Inputs */
+input, textarea, select {
+  @apply w-full px-4 py-2 border border-gray-200 dark:border-gray-700 rounded-lg focus:ring-2 focus:ring-[#F0122D] focus:border-transparent dark:bg-gray-800 dark:text-white transition-colors duration-200;
+}
+
+/* Barra de navegación inferior */
+.bottom-nav {
+  @apply bg-white dark:bg-gray-800 border-t border-gray-100 dark:border-gray-700 fixed bottom-0 left-0 right-0 p-2 shadow-lg;
+}
+
+/* Pestañas */
+.tab {
+  @apply px-4 py-2 text-sm font-medium rounded-md transition-colors duration-200;
+}
+
+.tab-active {
+  @apply bg-[#F0122D] text-white;
+}
+
+/* Badges */
+.badge {
+  @apply inline-flex items-center px-2.5 py-0.5 rounded-full text-xs font-medium;
+}
+
+.badge-primary {
+  @apply bg-[#FEE2E2] text-[#F0122D];
+}
+
+/* Animaciones */
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(10px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+.animate-fade-in {
+  animation: fadeIn 0.3s ease-out forwards;
+}
+
+/* Modo oscuro personalizado */
+.dark .card {
+  @apply bg-gray-800 border-gray-700;
+}
+
+.dark .btn-secondary {
+  @apply bg-gray-700 border-gray-600 text-white hover:bg-gray-600;
+}
+
+.dark input,
+.dark textarea,
+.dark select {
+  @apply bg-gray-800 border-gray-700 text-white;
+}
+
+/* Estilos para el tema claro */
+:root {
+  --color-primary: #F0122D;
+  --color-background: #FDF8F0;
+  --color-surface: #FFFFFF;
+  --color-text: #1F2937;
+  --color-text-secondary: #6B7280;
+  --color-border: #E5E7EB;
+}
+
+/* Estilos para el tema oscuro */
+.dark {
+  --color-primary: #FF4D4D;
+  --color-background: #111827;
+  --color-surface: #1F2937;
+  --color-text: #F9FAFB;
+  --color-text-secondary: #9CA3AF;
+  --color-border: #374151;
+}
+
+/* Aplicar colores del tema */
+body {
+  background-color: var(--color-background);
+  color: var(--color-text);
+}
+
+/* Clases de utilidad para los colores */
+.bg-surface {
+  background-color: var(--color-surface);
+}
+
+.text-primary {
+  color: var(--color-primary);
+}
+
+.text-secondary {
+  color: var(--color-text-secondary);
+}
+
+.border-color {
+  border-color: var(--color-border);
+}
+
+/* Mejoras de accesibilidad */
+:focus-visible {
+  @apply outline-none ring-2 ring-[#F0122D] ring-offset-2 ring-offset-[#FDF8F0] dark:ring-offset-gray-900;
+}
+
+/* Scrollbar personalizada */
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+
+::-webkit-scrollbar-track {
+  @apply bg-gray-100 dark:bg-gray-800;
+}
+
+::-webkit-scrollbar-thumb {
+  @apply bg-gray-300 dark:bg-gray-600 rounded-full hover:bg-gray-400 dark:hover:bg-gray-500;
+}
+
+/* Mejoras para móviles */
+@media (max-width: 640px) {
+  .container {
+    @apply px-4;
+  }
+  
+  h1 {
+    @apply text-2xl;
+  }
+  
+  h2 {
+    @apply text-xl;
+  }
+}
+
+/* Transiciones suaves */
+* {
+  transition: background-color 0.2s ease, border-color 0.2s ease, color 0.2s ease;
+}
+
+/* Clase para resaltar elementos importantes */
+.highlight {
+  @apply bg-yellow-50 dark:bg-yellow-900/30 border-l-4 border-yellow-400 pl-4 py-2 my-2;
+}
+
+/* Clase para mensajes de éxito/error */
+.alert {
+  @apply p-4 rounded-lg mb-4 text-sm;
+}
+
+.alert-success {
+  @apply bg-green-50 text-green-800 dark:bg-green-900/30 dark:text-green-200;
+}
+
+.alert-error {
+  @apply bg-red-50 text-red-800 dark:bg-red-900/30 dark:text-red-200;
+}
+
+/* Mejoras para los botones en modo oscuro */
+.dark .btn-primary {
+  @apply bg-[#FF4D4D] hover:bg-[#FF3333];
+}
+
+/* Ajustes para los enlaces en modo oscuro */
+.dark a {
+  @apply text-[#FF4D4D] hover:text-[#FF3333];
+}

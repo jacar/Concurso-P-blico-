@@ -1,0 +1,107 @@
+import type { ThematicAxis, Question } from '../types';
+
+export const THEMATIC_AXES: ThematicAxis[] = [
+  {
+    id: 1,
+    name: 'Constitución Política de Colombia',
+    description: 'Preguntas sobre la estructura del estado y derechos fundamentales.',
+    icon: 'fa-landmark-flag',
+  },
+  {
+    id: 2,
+    name: 'Estructura y Funcionamiento del Estado',
+    description: 'Preguntas sobre la organización y funcionamiento del estado colombiano.',
+    icon: 'fa-building-columns',
+  },
+  {
+    id: 3,
+    name: 'Servicio al Ciudadano',
+    description: 'Preguntas sobre atención y servicio al ciudadano en entidades públicas.',
+    icon: 'fa-people-arrows',
+  },
+  {
+    id: 4,
+    name: 'Sistema Integrado de Gestión',
+    description: 'Preguntas sobre el sistema de gestión en entidades públicas.',
+    icon: 'fa-gears',
+  },
+];
+
+export const QUESTIONS: Question[] = [
+  // Constitución Política de Colombia (30 Preguntas)
+  {
+    id: 1,
+    axisId: 1,
+    text: 'Un ciudadano solicita a una entidad pública copia de un documento oficial. El funcionario duda si debe entregarlo porque contiene información personal de otro ciudadano. ¿Qué principio debe primar en este caso?',
+    options: [
+      'El derecho de petición sobre cualquier otra norma.',
+      'La reserva legal y protección de datos personales.',
+      'La publicidad de los actos públicos sin excepción.',
+      'La autonomía administrativa de la entidad.'
+    ],
+    correctOptionIndex: 1,
+    explanation: 'La reserva legal y protección de datos personales debe primar, ya que la información personal está protegida por la Constitución y la ley de protección de datos.'
+  },
+  {
+    id: 2,
+    axisId: 1,
+    text: 'Un ciudadano solicita a una entidad pública copia de un documento oficial. El funcionario duda si debe entregarlo porque contiene información personal de otro ciudadano. ¿Qué principio debe primar en este caso?',
+    options: [
+      'El derecho de petición sobre cualquier otra norma.',
+      'La reserva legal y protección de datos personales.',
+      'La publicidad de los actos públicos sin excepción.',
+      'La autonomía administrativa de la entidad.'
+    ],
+    correctOptionIndex: 1,
+    explanation: 'La reserva legal y protección de datos personales debe primar, ya que la información personal está protegida por la Constitución y la ley de protección de datos.'
+  },
+  // ... (repetir para las 30 preguntas de Constitución Política)
+
+  // Estructura y Funcionamiento del Estado (30 Preguntas)
+  {
+    id: 31,
+    axisId: 2,
+    text: 'Una entidad del orden nacional necesita coordinar un proyecto de vivienda con las alcaldías municipales. ¿Qué nivel de entidad territorial se articula directamente con los municipios para este fin?',
+    options: [
+      'Gobernaciones',
+      'Consejos Municipales',
+      'Congreso de la República',
+      'Presidencia de la República'
+    ],
+    correctOptionIndex: 0,
+    explanation: 'Las gobernaciones son las entidades territoriales que coordinan directamente con los municipios para la ejecución de proyectos conjuntos con la nación.'
+  },
+  // ... (repetir para las 30 preguntas de Estructura y Funcionamiento del Estado)
+
+  // Servicio al Ciudadano (30 Preguntas)
+  {
+    id: 61,
+    axisId: 3,
+    text: 'Un ciudadano llega molesto porque lleva 2 horas esperando turno. Usted, como auxiliar de atención, está encargado de orientar a los usuarios. ¿Qué debe hacer primero?',
+    options: [
+      'Decirle que espere como los demás.',
+      'Escuchar con respeto su queja y verificar en el sistema su turno.',
+      'Llamar al jefe inmediato para que lo atienda.',
+      'Entregarle un formulario de PQRS y no atenderlo.'
+    ],
+    correctOptionIndex: 1,
+    explanation: 'Lo más apropiado es escuchar con respeto la queja del ciudadano y verificar en el sistema el estado de su turno, mostrando empatía y disposición a ayudar.'
+  },
+  // ... (repetir para las 30 preguntas de Servicio al Ciudadano)
+
+  // Sistema Integrado de Gestión (10 Preguntas)
+  {
+    id: 91,
+    axisId: 4,
+    text: 'Durante una auditoría interna se detecta que no hay registro de capacitación en servicio al ciudadano. Según los principios de un SIG, ¿qué acción corresponde?',
+    options: [
+      'No registrar nada porque no se realizó.',
+      'Crear registros falsos para cumplir.',
+      'Generar un plan de mejora y registrar la novedad.',
+      'Ignorar la observación porque no es grave.'
+    ],
+    correctOptionIndex: 2,
+    explanation: 'Según los principios del Sistema Integrado de Gestión (SIG), cuando se detecta una no conformidad, se debe registrar y generar un plan de mejora para subsanarla, no ocultarla ni falsificar información.'
+  },
+  // ... (repetir para las 10 preguntas de Sistema Integrado de Gestión)
+];

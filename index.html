@@ -1,8 +1,9 @@
 <!DOCTYPE html>
-<html lang="es" class="light">
+<html lang="es">
   <head>
     <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <link rel="icon" type="image/x-icon" href="/favicon.ico" />
+    <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Test Concursos Colombia</title>
     
@@ -20,101 +21,47 @@
           crossorigin="anonymous" 
           referrerpolicy="no-referrer" />
     
-    <!-- Tailwind CSS -->
-    <script src="https://cdn.tailwindcss.com"></script>
-    <script>
-      tailwind.config = {
-        darkMode: 'class',
-        theme: {
-          extend: {
-            colors: {
-              primary: {
-                DEFAULT: '#083D56',
-                50: '#E6F0F5',
-                100: '#CCE1EB',
-                200: '#99C3D7',
-                300: '#66A5C3',
-                400: '#3387AF',
-                500: '#083D56',
-                600: '#063144',
-                700: '#052533',
-                800: '#031822',
-                900: '#020C11',
-              },
-              secondary: {
-                DEFAULT: '#E6A121',
-                50: '#FDF4E3',
-                100: '#FCE9C7',
-                200: '#F9D38F',
-                300: '#F5BD57',
-                400: '#F2A71F',
-                500: '#E6A121',
-                600: '#B87E1A',
-                700: '#8A5B14',
-                800: '#5C3D0D',
-                900: '#2E1E07',
-              },
-              accent: {
-                DEFAULT: '#D8202F',
-                50: '#FBE9EA',
-                100: '#F7D3D6',
-                200: '#EFA7AC',
-                300: '#E77B83',
-                400: '#DF4F59',
-                500: '#D8202F',
-                600: '#AD1A26',
-                700: '#82131C',
-                800: '#560D13',
-                900: '#2B0609',
-              },
-              neutral: {
-                50: '#F8F9FA',
-                100: '#E9ECEF',
-                200: '#DEE2E6',
-                300: '#CED4DA',
-                400: '#ADB5BD',
-                500: '#6C757D',
-                600: '#495057',
-                700: '#343A40',
-                800: '#212529',
-                900: '#121416',
-              },
-            },
-            fontFamily: {
-              sans: ['Inter', 'sans-serif'],
-            },
-          },
-        },
-      };
-    </script>
+    <!-- Estilos de Tailwind -->
+    <link href="/src/index.css" rel="stylesheet">
     
     <!-- Estilos personalizados -->
     <link rel="stylesheet" href="/src/styles.css">
     
-    <!-- Script para manejo inicial del tema -->
     <script>
-      // Función simple para establecer el tema inicial sin depender de localStorage
+      // Configuración de tema oscuro/claro - Versión simplificada
       (function() {
         try {
-          // Verificar preferencia del sistema
-          const prefersDark = window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches;
+          // Establecer el tema claro por defecto
+          let theme = 'light';
           
-          // Por defecto, usar preferencia del sistema
-          if (prefersDark) {
-            document.documentElement.classList.add('dark');
-          } else {
-            document.documentElement.classList.remove('dark');
+          // Verificar si hay un tema guardado en localStorage
+          try {
+            const savedTheme = localStorage.getItem('theme');
+            if (savedTheme === 'dark' || savedTheme === 'light') {
+              theme = savedTheme;
+            } else if (window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches) {
+              // Usar la preferencia del sistema si no hay tema guardado
+              theme = 'dark';
+            }
+          } catch (e) {
+            console.warn('No se pudo acceder a localStorage o matchMedia:', e);
           }
+          
+          // Aplicar el tema al documento
+          document.documentElement.classList.add(theme);
+          document.documentElement.setAttribute('data-theme', theme);
+          
         } catch (e) {
-          console.warn('Error al cargar el tema inicial:', e);
-          // Tema claro por defecto en caso de error
-          document.documentElement.classList.remove('dark');
+          console.warn('Error al inicializar el tema:', e);
+          // Establecer valores por defecto en caso de error
+          document.documentElement.classList.add('light');
+          document.documentElement.setAttribute('data-theme', 'light');
         }
       })();
     </script>
   </head>
   <body class="min-h-screen flex flex-col">
     <div id="root" class="flex-1"></div>
-    <script type="module" src="/index.tsx"></script>
+    <script type="module" src="/src/index.tsx"></script>
   </body>
 </html>
