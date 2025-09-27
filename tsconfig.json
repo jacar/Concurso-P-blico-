@@ -11,19 +11,18 @@
     ],
     "skipLibCheck": true,
     "types": [
-      "node",
-      "vite/client"
+      "node"
     ],
     "moduleResolution": "bundler",
     "baseUrl": ".",
     "paths": {
-      "@/*": ["./src/*"]
+      "@/*": [
+        "./src/*"
+      ]
     },
     "isolatedModules": true,
     "moduleDetection": "force",
     "allowJs": true,
-    "resolveJsonModule": true,
-    "esModuleInterop": true,
     "jsx": "react-jsx",
     "noEmit": true,
     "strict": true,

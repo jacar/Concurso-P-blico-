@@ -1,18 +1,6 @@
 import type { ThematicAxis, Question } from '../types';
 import { ADDITIONAL_QUESTIONS } from './additional_questions';
-import MORE_QUESTIONS from './more_questions.json';
-
-// Asegurarse de que MORE_QUESTIONS tenga el tipo correcto
-interface QuestionFromJson {
-  id: number;
-  axisId: number;
-  text: string;
-  options: string[];
-  correctOptionIndex: number;
-  explanation: string;
-}
-
-const MORE_QUESTIONS_TYPED = MORE_QUESTIONS as QuestionFromJson[];
+import MORE_QUESTIONS from './more_questions';
 
 export const THEMATIC_AXES: ThematicAxis[] = [
   {
@@ -392,7 +380,7 @@ const BASE_QUESTIONS: Question[] = [
 export const QUESTIONS: Question[] = [
   ...BASE_QUESTIONS,
   ...ADDITIONAL_QUESTIONS,
-  ...MORE_QUESTIONS_TYPED
+  ...MORE_QUESTIONS
 ].map((q, index) => ({
   ...q,
   // Asegurarse de que los IDs sean únicos y secuenciales
