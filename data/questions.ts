@@ -3,44 +3,44 @@ import type { ThematicAxis, Question } from '../types';
 export const THEMATIC_AXES: ThematicAxis[] = [
   {
     id: 1,
-    name: 'Constitución Política',
+    name: 'Constitución Política de Colombia',
     description: 'Preguntas sobre la estructura del estado y derechos fundamentales.',
     icon: 'fa-landmark-flag',
   },
   {
     id: 2,
-    name: 'Función Pública',
-    description: 'Conocimientos sobre el empleo público y la carrera administrativa.',
-    icon: 'fa-users-gear',
+    name: 'Estructura y Funcionamiento del Estado',
+    description: 'Preguntas sobre la organización y funcionamiento del estado colombiano.',
+    icon: 'fa-building-columns',
   },
   {
     id: 3,
-    name: 'Contratación Estatal',
-    description: 'Principios y modalidades de la contratación pública en Colombia.',
-    icon: 'fa-file-signature',
+    name: 'Servicio al Ciudadano',
+    description: 'Preguntas sobre atención y servicio al ciudadano en entidades públicas.',
+    icon: 'fa-people-arrows',
   },
   {
     id: 4,
-    name: 'Control Disciplinario',
-    description: 'Preguntas relacionadas con la Ley 1952 de 2019 y el régimen disciplinario.',
-    icon: 'fa-gavel',
+    name: 'Sistema Integrado de Gestión',
+    description: 'Preguntas sobre el sistema de gestión en entidades públicas.',
+    icon: 'fa-gears',
   },
 ];
 
 export const QUESTIONS: Question[] = [
-  // Constitución Política (50 Preguntas)
+  // Constitución Política de Colombia (30 Preguntas)
   {
-    id: 101,
+    id: 1,
     axisId: 1,
-    text: '¿Cuál de los siguientes NO es un fin esencial del Estado colombiano según el Artículo 2 de la Constitución?',
+    text: 'Un ciudadano solicita a una entidad pública copia de un documento oficial. El funcionario duda si debe entregarlo porque contiene información personal de otro ciudadano. ¿Qué principio debe primar en este caso?',
     options: [
-      'Servir a la comunidad',
-      'Garantizar la efectividad de los principios, derechos y deberes',
-      'Promover la prosperidad individual de los gobernantes',
-      'Facilitar la participación de todos en las decisiones que los afectan'
+      'El derecho de petición sobre cualquier otra norma.',
+      'La reserva legal y protección de datos personales.',
+      'La publicidad de los actos públicos sin excepción.',
+      'La autonomía administrativa de la entidad.'
     ],
-    correctOptionIndex: 2,
-    explanation: 'El Artículo 2 de la Constitución establece los fines esenciales del Estado. Promover la prosperidad individual de los gobernantes no es uno de ellos; se debe promover la prosperidad general.'
+    correctOptionIndex: 1,
+    explanation: 'La reserva legal y protección de datos personales debe primar, ya que la información personal está protegida por la Constitución y la ley de protección de datos.'
   },
   {
     id: 102,
