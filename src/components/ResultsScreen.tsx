@@ -1,164 +1,216 @@
 import React from 'react';
 import Card from './Card';
 import type { Result } from '../types';
-import { PieChart, Pie, Cell, ResponsiveContainer, Legend } from 'recharts';
 
 interface ResultsScreenProps {
   result: Result | null;
-  history: Result[];
+  history?: Result[];
   onTryAgain: () => void;
+  onBack: () => void;
 }
 
-const formatDate = (isoString: string) => {
-    const date = new Date(isoString);
-    return date.toLocaleString('es-CO', {
-        year: 'numeric',
-        month: 'short',
-        day: 'numeric',
-        hour: '2-digit',
-        minute: '2-digit'
-    });
-};
-
-const ResultsScreen: React.FC<ResultsScreenProps> = ({ result, history, onTryAgain }) => {
-  if (!result && history.length === 0) {
+const ResultsScreen: React.FC<ResultsScreenProps> = ({
+  result = null,
+  history = [],
+  onTryAgain,
+  onBack
+}) => {
+  // Estado de carga
+  if (result === undefined && (!history || history.length === 0)) {
     return (
-      <Card className="text-center animate-fade-in">
+      <div className="flex items-center justify-center min-h-[200px]">
+        <p>Cargando resultados...</p>
+      </div>
+    );
+  }
+
+  // Si no hay resultados ni historial
+  if (!result && (!Array.isArray(history) || history.length === 0)) {
+    return (
+      <Card className="text-center p-6">
         <h2 className="text-xl font-bold mb-4">No hay resultados</h2>
-        <p className="mb-6">Completa un test para ver tus resultados aquí.</p>
+        <p className="mb-6">Completa un test para ver tus resultados.</p>
         <button
           onClick={onTryAgain}
-          className="w-full bg-secondary-500 hover:bg-secondary-600 text-white font-bold py-3 px-4 rounded-lg transition-all duration-200 transform hover:scale-[1.02] shadow-md hover:shadow-lg"
+          className="w-full bg-blue-500 hover:bg-blue-600 text-white font-bold py-2 px-4 rounded"
         >
-          Ir al Test
+          Realizar Test
         </button>
       </Card>
     );
   }
 
-  const currentResult = result || history[0];
-  const { score, totalQuestions, correctAnswers, incorrectAnswers, axisName, performanceByAxis } = currentResult;
-  const percentage = totalQuestions > 0 ? Math.round((correctAnswers / totalQuestions) * 100) : 0;
+  // Usar el resultado actual o el más reciente del historial
+  const currentResult = result || (Array.isArray(history) && history[0]) || null;
+  
+  if (!currentResult) {
+    return (
+      <Card className="text-center p-6">
+        <h2 className="text-xl font-bold mb-4">Error</h2>
+        <p className="mb-6">No se pudieron cargar los resultados.</p>
+        <button
+          onClick={onBack}
+          className="w-full bg-gray-500 hover:bg-gray-600 text-white font-bold py-2 px-4 rounded"
+        >
+          Volver al inicio
+        </button>
+      </Card>
+    );
+  }
 
-  const data = [
-    { name: 'Correctas', value: correctAnswers },
-    { name: 'Incorrectas', value: incorrectAnswers },
-  ];
-  const COLORS = ['#10B981', '#EF4444'];
+  // Datos del resultado actual
+  const {
+    correctAnswers = 0,
+    incorrectAnswers = 0,
+    totalQuestions = 0,
+    axisName = 'Test',
+    performanceByAxis = {}
+  } = currentResult;
 
+  // Calcular porcentaje
+  const percentage = totalQuestions > 0 
+    ? Math.round((correctAnswers / totalQuestions) * 100) 
+    : 0;
+
+  // Mensaje de retroalimentación
   const getFeedbackMessage = () => {
-    if (percentage >= 80) return "¡Excelente trabajo! Estás muy bien preparado.";
-    if (percentage >= 60) return "¡Buen resultado! Sigue practicando para perfeccionar.";
-    if (percentage >= 40) return "Vas por buen camino, pero necesitas repasar un poco más.";
-    return "No te desanimes. ¡La práctica hace al maestro!";
+    if (percentage >= 80) return "¡Excelente trabajo! Tu puntuación es sobresaliente.";
+    if (percentage >= 40) return "Vas por buen camino, pero hay margen de mejora.";
+    return "No te desanimes. La práctica hace al maestro.";
   };
 
   return (
-    <div className="animate-fade-in">
-      <h1 className="text-3xl font-bold text-center mb-2">Resumen de Resultados</h1>
-      <p className="text-center text-xl text-slate-600 dark:text-slate-300 mb-6">{result ? axisName : 'Último Resultado'}</p>
+    <div className="p-4 max-w-4xl mx-auto">
+      <h1 className="text-2xl font-bold text-center mb-6">Resultados del Test</h1>
       
-      {currentResult && (
-        <Card>
-          <div className="grid grid-cols-1 md:grid-cols-2 md:gap-8 items-center">
-            {/* Chart Column */}
-            <div className="h-64 md:h-80 w-full">
-              <ResponsiveContainer>
-                <PieChart>
-                  <Pie data={data} cx="50%" cy="50%" innerRadius={60} outerRadius={90} fill="#8884d8" paddingAngle={5} dataKey="value">
-                    {data.map((entry, index) => (
-                      <Cell key={`cell-${index}`} fill={COLORS[index % COLORS.length]} />
-                    ))}
-                  </Pie>
-                  <Legend />
-                </PieChart>
-              </ResponsiveContainer>
-            </div>
-
-            {/* Details Column */}
-            <div className="text-center md:text-left mt-6 md:mt-0">
-              <div className="bg-slate-100 dark:bg-slate-700 p-6 rounded-lg">
-                  <h2 className="text-2xl font-bold mb-4 text-slate-800 dark:text-slate-200">Tu Desempeño</h2>
-                  <ul className="space-y-3 text-lg text-slate-700 dark:text-slate-300">
-                      <li className="flex justify-between"><span>Correctas:</span> <span className="font-bold text-green-500">{correctAnswers}</span></li>
-                      <li className="flex justify-between"><span>Incorrectas:</span> <span className="font-bold text-red-500">{incorrectAnswers}</span></li>
-                      <li className="flex justify-between"><span>Total:</span> <span className="font-bold">{totalQuestions}</span></li>
-                      <li className="flex justify-between border-t pt-3 mt-3 border-slate-300 dark:border-slate-600"><span>Puntuación:</span> <span className="font-bold text-accent-500 dark:text-accent-400">{percentage}%</span></li>
-                  </ul>
+      <Card className="mb-6">
+        <div className="p-6">
+          <h2 className="text-xl font-semibold mb-4">{axisName}</h2>
+          
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
+            {/* Left Column - Stats */}
+            <div>
+              <div className="grid grid-cols-2 gap-4 mb-6">
+                <div className="bg-green-50 p-4 rounded-lg border border-green-100">
+                  <p className="text-sm text-gray-600">Respuestas correctas</p>
+                  <p className="text-2xl font-bold text-green-600">
+                    {correctAnswers} <span className="text-sm">de {totalQuestions}</span>
+                  </p>
+                </div>
+                <div className="bg-red-50 p-4 rounded-lg border border-red-100">
+                  <p className="text-sm text-gray-600">Respuestas incorrectas</p>
+                  <p className="text-2xl font-bold text-red-600">{incorrectAnswers}</p>
+                </div>
               </div>
-               <div className="mt-6 p-4 bg-primary-50 dark:bg-slate-800/50 border border-primary-100 dark:border-slate-700 rounded-lg flex items-start space-x-3">
-                  <i className={`fa-solid ${percentage >= 80 ? 'fa-circle-check text-green-500' : 'fa-circle-info text-primary-500'} mt-1`}></i>
-                  <p className="text-slate-700 dark:text-slate-300">{getFeedbackMessage()}</p>
-               </div>
-            </div>
-          </div>
 
-          {performanceByAxis && Object.keys(performanceByAxis).length > 0 && (
-            <div className="mt-8 border-t pt-6 border-slate-300 dark:border-slate-600">
-              <h3 className="text-xl font-bold text-center mb-4">Desglose por Eje Temático</h3>
-              <ul className="space-y-2">
-                {Object.entries(performanceByAxis)
-                  .sort(([a], [b]) => a.localeCompare(b))
-                  .map(([axis, data]) => {
-                    // Asegurarse de que data tenga el tipo correcto
-                    const axisData = data as { correct: number; total: number };
-                    const correct = axisData?.correct || 0;
-                    const total = axisData?.total || 1; // Evitar división por cero
-                    const percentage = total > 0 ? Math.round((correct / total) * 100) : 0;
-                    
-                    return (
-                      <li key={axis} className="p-3 bg-slate-100 dark:bg-slate-700 rounded-lg flex justify-between items-center flex-wrap">
-                        <span className="font-semibold mr-2">{axis}</span>
-                        <span className="text-right font-mono">
-                          {correct} / {total}
-                          <span className={`ml-3 font-bold ${percentage >= 60 ? 'text-green-500' : 'text-red-500'}`}>
-                            ({percentage}%)
+              <div className="mb-6">
+                <div className="flex justify-between mb-1">
+                  <span className="text-sm font-medium">Progreso</span>
+                  <span className="text-sm font-medium">{percentage}%</span>
+                </div>
+                <div className="w-full bg-gray-200 rounded-full h-2.5">
+                  <div 
+                    className="bg-blue-600 h-2.5 rounded-full transition-all duration-500" 
+                    style={{ width: `${percentage}%` }}
+                  ></div>
+                </div>
+              </div>
+
+              <div className="bg-blue-50 p-4 rounded-lg border border-blue-100 mb-4">
+                <p className="text-blue-800">{getFeedbackMessage()}</p>
+              </div>
+            </div>
+
+            {/* Right Column - Performance by Axis */}
+            {performanceByAxis && Object.keys(performanceByAxis).length > 0 && (
+              <div>
+                <h3 className="text-lg font-semibold mb-3">Desglose por Eje Temático</h3>
+                <ul className="space-y-2">
+                  {Object.entries(performanceByAxis)
+                    .sort(([a], [b]) => a.localeCompare(b))
+                    .map(([axis, data]) => {
+                      const axisData = data as { correct: number; total: number };
+                      const correct = axisData?.correct || 0;
+                      const total = axisData?.total || 1;
+                      const axisPercentage = total > 0 ? Math.round((correct / total) * 100) : 0;
+                      
+                      return (
+                        <li key={axis} className="p-3 bg-slate-50 dark:bg-slate-700 rounded-lg flex justify-between items-center">
+                          <span className="font-medium">{axis}</span>
+                          <span className="text-right font-mono">
+                            {correct} / {total}
+                            <span className={`ml-3 font-bold ${axisPercentage >= 60 ? 'text-green-500' : 'text-red-500'}`}>
+                              ({axisPercentage}%)
+                            </span>
                           </span>
-                        </span>
-                      </li>
-                    );
-                  })}
-              </ul>
-            </div>
-          )}
-
-          <div className="flex flex-col sm:flex-row gap-4 mt-8">
-            <button
-              onClick={onTryAgain}
-              className="flex-1 bg-secondary-500 hover:bg-secondary-600 text-white font-bold py-3 px-4 rounded-lg transition-all duration-200 transform hover:scale-[1.02] shadow-md hover:shadow-lg flex items-center justify-center space-x-2"
-            >
-              <i className="fa-solid fa-rotate-right"></i>
-              <span>Intentar de Nuevo</span>
-            </button>
-            <button
-              onClick={() => window.scrollTo({ top: 0, behavior: 'smooth' })}
-              className="flex-1 bg-white hover:bg-slate-50 text-primary-600 dark:bg-slate-800 dark:hover:bg-slate-700 dark:text-primary-400 border border-slate-200 dark:border-slate-700 font-bold py-3 px-4 rounded-lg transition-all duration-200 transform hover:scale-[1.02] shadow-sm hover:shadow flex items-center justify-center space-x-2"
-            >
-              <i className="fa-solid fa-arrow-up"></i>
-              <span>Volver Arriba</span>
-            </button>
+                        </li>
+                      );
+                    })}
+                </ul>
+              </div>
+            )}
           </div>
-        </Card>
-      )}
+        </div>
+      </Card>
+
+      <div className="flex flex-col space-y-3 mt-6">
+        <button
+          onClick={onTryAgain}
+          className="w-full bg-blue-500 hover:bg-blue-600 text-white font-bold py-3 px-4 rounded-lg transition-colors flex items-center justify-center space-x-2"
+        >
+          <i className="fa-solid fa-rotate-right"></i>
+          <span>Realizar otro test</span>
+        </button>
+        <button
+          onClick={onBack}
+          className="w-full bg-white hover:bg-gray-100 text-gray-800 font-bold py-3 px-4 border border-gray-300 rounded-lg transition-colors flex items-center justify-center space-x-2"
+        >
+          <i className="fa-solid fa-home"></i>
+          <span>Volver al inicio</span>
+        </button>
+      </div>
 
       {history.length > 0 && (
-          <div className="mt-10">
-              <h2 className="text-2xl font-bold text-center mb-6">Historial de Resultados</h2>
-              <Card className="space-y-4">
-                  {history.map((histResult, index) => (
-                      <div key={index} className="p-4 bg-slate-100 dark:bg-slate-700 rounded-lg">
-                          <div className="flex justify-between items-center flex-wrap">
-                              <span className="font-bold text-accent-600 dark:text-accent-400">{histResult.axisName}</span>
-                              <span className="text-sm text-slate-500 dark:text-slate-400">{formatDate(histResult.date)}</span>
-                          </div>
-                          <div className="mt-2 flex justify-between items-center">
-                              <p>Resultado: {histResult.correctAnswers} / {histResult.totalQuestions}</p>
-                              <p className="font-bold text-lg">{Math.round((histResult.correctAnswers / histResult.totalQuestions) * 100)}%</p>
-                          </div>
-                      </div>
-                  ))}
-              </Card>
-          </div>
+        <div className="mt-10">
+          <h2 className="text-2xl font-bold text-center mb-6">Historial de Resultados</h2>
+          <Card className="space-y-4">
+            {history.map((histResult, index) => {
+              const histPercentage = histResult.totalQuestions > 0 
+                ? Math.round((histResult.correctAnswers / histResult.totalQuestions) * 100) 
+                : 0;
+                
+              return (
+                <div key={index} className="p-4 bg-slate-50 dark:bg-slate-700 rounded-lg hover:shadow-md transition-shadow">
+                  <div className="flex justify-between items-center flex-wrap">
+                    <span className="font-bold text-blue-600 dark:text-blue-400">
+                      {histResult.axisName || 'Test'}
+                    </span>
+                    <span className="text-sm text-slate-500 dark:text-slate-400">
+                      {new Date(histResult.date).toLocaleDateString('es-CO')}
+                    </span>
+                  </div>
+                  <div className="mt-2">
+                    <div className="flex justify-between items-center mb-1">
+                      <span>Resultado:</span>
+                      <span className="font-bold">
+                        {histResult.correctAnswers} / {histResult.totalQuestions} 
+                        <span className={`ml-2 ${histPercentage >= 60 ? 'text-green-500' : 'text-red-500'}`}>
+                          ({histPercentage}%)
+                        </span>
+                      </span>
+                    </div>
+                    <div className="w-full bg-gray-200 rounded-full h-1.5 mt-2">
+                      <div 
+                        className={`h-1.5 rounded-full ${histPercentage >= 80 ? 'bg-green-500' : histPercentage >= 60 ? 'bg-blue-500' : 'bg-yellow-500'}`}
+                        style={{ width: `${histPercentage}%` }}
+                      ></div>
+                    </div>
+                  </div>
+                </div>
+              );
+            })}
+          </Card>
+        </div>
       )}
     </div>
   );
