@@ -34,8 +34,9 @@ vscode/*
 # Backup files
 *.bak
 *.backup
-*_backup.*
+*_backup*
 *_backup_*
+*backup*
 
 # Temporary files
 *.tmp
@@ -43,11 +44,39 @@ vscode/*
 
 # Generated files
 src/data/more_questions.json
-src/data/*_backup*.ts
+src/data/*_backup*
 src/data/*.backup.*
+src/data/*.old
+src/data/*.temp.*
 src/components/*_backup*.*
 
 # Scripts and generated files
+*.ps1
+*.js
+!webpack.config.js
+!vite.config.ts
+!tsconfig.json
+!package.json
+!package-lock.json
+!yarn.lock
+
+# Archivos de preguntas temporales
+src/data/temp_*
+src/data/fix_*
+src/data/re*_questions.*
+src/data/*_final.*
+
+# Archivos de configuración local
+*.local.*
+
+# Archivos de sistema operativo
+Thumbs.db
+desktop.ini
+
+# Archivos de desarrollo
+.vercel
+.next
+out
 /generate-ts.js
 /temp_*.js
 /temp_*.json
