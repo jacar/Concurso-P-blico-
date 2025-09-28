@@ -1,6 +1,9 @@
 import type { ThematicAxis, Question } from '../types';
 import { ADDITIONAL_QUESTIONS } from './additional_questions';
-import MORE_QUESTIONS from './more_questions';
+import moreQuestionsJson from './more_questions.json';
+
+// Convertir el JSON importado a un array de preguntas
+const MORE_QUESTIONS: Question[] = moreQuestionsJson as Question[];
 
 export const THEMATIC_AXES: ThematicAxis[] = [
   {
