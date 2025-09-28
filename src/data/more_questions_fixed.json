@@ -1,0 +1,3915 @@
+﻿[
+  {
+    "id": 1200,
+    "axisId": 1,
+    "text": "Un ciudadano solicita información sobre contratación estatal. ¿Cómo procede?",
+    "options": [
+      "Seguir el protocolo establecido",
+      "Consultar con un superior",
+      "Tomar una decisión autónoma",
+      "Derivar a otra área"
+    ],
+    "correctOptionIndex": 3,
+    "explanation": "Esta acción promueve la eficiencia en la gestión pública."
+  },
+  {
+    "id": 1201,
+    "axisId": 1,
+    "text": "Un ciudadano solicita información sobre licencias ambientales. ¿Cómo procede?",
+    "options": [
+      "Aplicar el principio de transparencia",
+      "Solicitar autorización",
+      "Documentar la situación",
+      "Buscar una solución alternativa"
+    ],
+    "correctOptionIndex": 0,
+    "explanation": "Se debe priorizar el interés general sobre el particular en estos casos."
+  },
+  {
+    "id": 1202,
+    "axisId": 1,
+    "text": "Un ciudadano solicita información sobre procesos disciplinarios. ¿Cómo procede?",
+    "options": [
+      "Actuar de inmediato",
+      "Evaluar las consecuencias",
+      "Solicitar asesoría jurídica",
+      "Conformar un comité de evaluación"
+    ],
+    "correctOptionIndex": 1,
+    "explanation": "Es importante considerar el principio de transparencia en estos casos."
+  },
+  {
+    "id": 1203,
+    "axisId": 1,
+    "text": "Ante una acción de tutela por licencias ambientales, ¿cuál es el procedimiento?",
+    "options": [
+      "Aplicar el principio de transparencia",
+      "Solicitar autorización",
+      "Documentar la situación",
+      "Buscar una solución alternativa"
+    ],
+    "correctOptionIndex": 2,
+    "explanation": "Esta acción promueve la eficiencia en la gestión pública."
+  },
+  {
+    "id": 1204,
+    "axisId": 1,
+    "text": "Cómo actuaría si hay un conflicto de intereses en el marco de los derechos fundamentales?",
+    "options": [
+      "Aplicar el principio de transparencia",
+      "Solicitar autorización",
+      "Documentar la situación",
+      "Buscar una solución alternativa"
+    ],
+    "correctOptionIndex": 1,
+    "explanation": "La ley establece claramente el procedimiento a seguir en estas situaciones."
+  },
+  {
+    "id": 1205,
+    "axisId": 1,
+    "text": "Cómo actuaría si hay información confidencial de por medio en el marco de los derechos fundamentales?",
+    "options": [
+      "Actuar de inmediato",
+      "Evaluar las consecuencias",
+      "Solicitar asesoría jurídica",
+      "Conformar un comité de evaluación"
+    ],
+    "correctOptionIndex": 0,
+    "explanation": "Es importante considerar el principio de transparencia en estos casos."
+  },
+  {
+    "id": 1206,
+    "axisId": 1,
+    "text": "Cómo actuaría si hay un conflicto de intereses en el marco de los derechos fundamentales?",
+    "options": [
+      "Seguir el protocolo establecido",
+      "Consultar con un superior",
+      "Tomar una decisión autónoma",
+      "Derivar a otra área"
+    ],
+    "correctOptionIndex": 3,
+    "explanation": "Es importante considerar el principio de transparencia en estos casos."
+  },
+  {
+    "id": 1207,
+    "axisId": 1,
+    "text": "Un ciudadano solicita información sobre derechos de petición. ¿Cómo procede?",
+    "options": [
+      "Actuar de inmediato",
+      "Evaluar las consecuencias",
+      "Solicitar asesoría jurídica",
+      "Conformar un comité de evaluación"
+    ],
+    "correctOptionIndex": 3,
+    "explanation": "La ley establece claramente el procedimiento a seguir en estas situaciones."
+  },
+  {
+    "id": 1208,
+    "axisId": 1,
+    "text": "Un ciudadano solicita información sobre derechos de petición. ¿Cómo procede?",
+    "options": [
+      "Actuar de inmediato",
+      "Evaluar las consecuencias",
+      "Solicitar asesoría jurídica",
+      "Conformar un comité de evaluación"
+    ],
+    "correctOptionIndex": 3,
+    "explanation": "Esta decisión garantiza el cumplimiento de la normativa vigente."
+  },
+  {
+    "id": 1209,
+    "axisId": 1,
+    "text": "Ante una acción de tutela por procesos disciplinarios, ¿cuál es el procedimiento?",
+    "options": [
+      "Aplicar el principio de transparencia",
+      "Solicitar autorización",
+      "Documentar la situación",
+      "Buscar una solución alternativa"
+    ],
+    "correctOptionIndex": 3,
+    "explanation": "Esta acción promueve la eficiencia en la gestión pública."
+  },
+  {
+    "id": 1210,
+    "axisId": 1,
+    "text": "Cómo actuaría si hay información confidencial de por medio en el marco de los derechos fundamentales?",
+    "options": [
+      "Actuar de inmediato",
+      "Evaluar las consecuencias",
+      "Solicitar asesoría jurídica",
+      "Conformar un comité de evaluación"
+    ],
+    "correctOptionIndex": 1,
+    "explanation": "Se debe priorizar el interés general sobre el particular en estos casos."
+  },
+  {
+    "id": 1211,
+    "axisId": 1,
+    "text": "Un ciudadano solicita información sobre procesos disciplinarios. ¿Cómo procede?",
+    "options": [
+      "Actuar de inmediato",
+      "Evaluar las consecuencias",
+      "Solicitar asesoría jurídica",
+      "Conformar un comité de evaluación"
+    ],
+    "correctOptionIndex": 1,
+    "explanation": "Es importante considerar el principio de transparencia en estos casos."
+  },
+  {
+    "id": 1212,
+    "axisId": 1,
+    "text": "Un ciudadano solicita información sobre contratación estatal. ¿Cómo procede?",
+    "options": [
+      "Aplicar el principio de transparencia",
+      "Solicitar autorización",
+      "Documentar la situación",
+      "Buscar una solución alternativa"
+    ],
+    "correctOptionIndex": 3,
+    "explanation": "Se debe priorizar el interés general sobre el particular en estos casos."
+  },
+  {
+    "id": 1213,
+    "axisId": 1,
+    "text": "Un ciudadano solicita información sobre contratación estatal. ¿Cómo procede?",
+    "options": [
+      "Seguir el protocolo establecido",
+      "Consultar con un superior",
+      "Tomar una decisión autónoma",
+      "Derivar a otra área"
+    ],
+    "correctOptionIndex": 3,
+    "explanation": "Esta acción promueve la eficiencia en la gestión pública."
+  },
+  {
+    "id": 1214,
+    "axisId": 1,
+    "text": "Ante una acción de tutela por protección de datos, ¿cuál es el procedimiento?",
+    "options": [
+      "Aplicar el principio de transparencia",
+      "Solicitar autorización",
+      "Documentar la situación",
+      "Buscar una solución alternativa"
+    ],
+    "correctOptionIndex": 2,
+    "explanation": "Es importante considerar el principio de transparencia en estos casos."
+  },
+  {
+    "id": 1215,
+    "axisId": 1,
+    "text": "Un ciudadano solicita información sobre derechos de petición. ¿Cómo procede?",
+    "options": [
+      "Seguir el protocolo establecido",
+      "Consultar con un superior",
+      "Tomar una decisión autónoma",
+      "Derivar a otra área"
+    ],
+    "correctOptionIndex": 2,
+    "explanation": "Esta decisión garantiza el cumplimiento de la normativa vigente."
+  },
+  {
+    "id": 1216,
+    "axisId": 1,
+    "text": "Cómo actuaría si se vulneran derechos fundamentales en el marco de los derechos fundamentales?",
+    "options": [
+      "Actuar de inmediato",
+      "Evaluar las consecuencias",
+      "Solicitar asesoría jurídica",
+      "Conformar un comité de evaluación"
+    ],
+    "correctOptionIndex": 2,
+    "explanation": "Esta decisión garantiza el cumplimiento de la normativa vigente."
+  },
+  {
+    "id": 1217,
+    "axisId": 1,
+    "text": "Ante una acción de tutela por procesos disciplinarios, ¿cuál es el procedimiento?",
+    "options": [
+      "Seguir el protocolo establecido",
+      "Consultar con un superior",
+      "Tomar una decisión autónoma",
+      "Derivar a otra área"
+    ],
+    "correctOptionIndex": 1,
+    "explanation": "Esta acción promueve la eficiencia en la gestión pública."
+  },
+  {
+    "id": 1218,
+    "axisId": 1,
+    "text": "Cómo actuaría si se requiere tomar una decisión rápida en el marco de los derechos fundamentales?",
+    "options": [
+      "Actuar de inmediato",
+      "Evaluar las consecuencias",
+      "Solicitar asesoría jurídica",
+      "Conformar un comité de evaluación"
+    ],
+    "correctOptionIndex": 0,
+    "explanation": "Es importante considerar el principio de transparencia en estos casos."
+  },
+  {
+    "id": 1219,
+    "axisId": 1,
+    "text": "Un ciudadano solicita información sobre derechos de petición. ¿Cómo procede?",
+    "options": [
+      "Aplicar el principio de transparencia",
+      "Solicitar autorización",
+      "Documentar la situación",
+      "Buscar una solución alternativa"
+    ],
+    "correctOptionIndex": 0,
+    "explanation": "Esta acción promueve la eficiencia en la gestión pública."
+  },
+  {
+    "id": 1220,
+    "axisId": 1,
+    "text": "Ante una acción de tutela por protección de datos, ¿cuál es el procedimiento?",
+    "options": [
+      "Actuar de inmediato",
+      "Evaluar las consecuencias",
+      "Solicitar asesoría jurídica",
+      "Conformar un comité de evaluación"
+    ],
+    "correctOptionIndex": 2,
+    "explanation": "Esta acción promueve la eficiencia en la gestión pública."
+  },
+  {
+    "id": 1221,
+    "axisId": 1,
+    "text": "Un ciudadano solicita información sobre licencias ambientales. ¿Cómo procede?",
+    "options": [
+      "Actuar de inmediato",
+      "Evaluar las consecuencias",
+      "Solicitar asesoría jurídica",
+      "Conformar un comité de evaluación"
+    ],
+    "correctOptionIndex": 3,
+    "explanation": "Esta acción promueve la eficiencia en la gestión pública."
+  },
+  {
+    "id": 1222,
+    "axisId": 1,
+    "text": "Un ciudadano solicita información sobre licencias ambientales. ¿Cómo procede?",
+    "options": [
+      "Actuar de inmediato",
+      "Evaluar las consecuencias",
+      "Solicitar asesoría jurídica",
+      "Conformar un comité de evaluación"
+    ],
+    "correctOptionIndex": 2,
+    "explanation": "Es importante considerar el principio de transparencia en estos casos."
+  },
+  {
+    "id": 1223,
+    "axisId": 1,
+    "text": "Ante una acción de tutela por derechos de petición, ¿cuál es el procedimiento?",
+    "options": [
+      "Actuar de inmediato",
+      "Evaluar las consecuencias",
+      "Solicitar asesoría jurídica",
+      "Conformar un comité de evaluación"
+    ],
+    "correctOptionIndex": 2,
+    "explanation": "Esta acción promueve la eficiencia en la gestión pública."
+  },
+  {
+    "id": 1224,
+    "axisId": 1,
+    "text": "Ante una acción de tutela por procesos disciplinarios, ¿cuál es el procedimiento?",
+    "options": [
+      "Actuar de inmediato",
+      "Evaluar las consecuencias",
+      "Solicitar asesoría jurídica",
+      "Conformar un comité de evaluación"
+    ],
+    "correctOptionIndex": 1,
+    "explanation": "La ley establece claramente el procedimiento a seguir en estas situaciones."
+  },
+  {
+    "id": 1225,
+    "axisId": 1,
+    "text": "Ante una acción de tutela por contratación estatal, ¿cuál es el procedimiento?",
+    "options": [
+      "Aplicar el principio de transparencia",
+      "Solicitar autorización",
+      "Documentar la situación",
+      "Buscar una solución alternativa"
+    ],
+    "correctOptionIndex": 1,
+    "explanation": "Esta decisión garantiza el cumplimiento de la normativa vigente."
+  },
+  {
+    "id": 1226,
+    "axisId": 1,
+    "text": "Ante una acción de tutela por derechos de petición, ¿cuál es el procedimiento?",
+    "options": [
+      "Actuar de inmediato",
+      "Evaluar las consecuencias",
+      "Solicitar asesoría jurídica",
+      "Conformar un comité de evaluación"
+    ],
+    "correctOptionIndex": 0,
+    "explanation": "La ley establece claramente el procedimiento a seguir en estas situaciones."
+  },
+  {
+    "id": 1227,
+    "axisId": 1,
+    "text": "Ante una acción de tutela por procesos disciplinarios, ¿cuál es el procedimiento?",
+    "options": [
+      "Aplicar el principio de transparencia",
+      "Solicitar autorización",
+      "Documentar la situación",
+      "Buscar una solución alternativa"
+    ],
+    "correctOptionIndex": 0,
+    "explanation": "Esta acción promueve la eficiencia en la gestión pública."
+  },
+  {
+    "id": 1228,
+    "axisId": 1,
+    "text": "Cómo actuaría si se requiere tomar una decisión rápida en el marco de los derechos fundamentales?",
+    "options": [
+      "Seguir el protocolo establecido",
+      "Consultar con un superior",
+      "Tomar una decisión autónoma",
+      "Derivar a otra área"
+    ],
+    "correctOptionIndex": 2,
+    "explanation": "Es importante considerar el principio de transparencia en estos casos."
+  },
+  {
+    "id": 1229,
+    "axisId": 1,
+    "text": "Un ciudadano solicita información sobre procesos disciplinarios. ¿Cómo procede?",
+    "options": [
+      "Seguir el protocolo establecido",
+      "Consultar con un superior",
+      "Tomar una decisión autónoma",
+      "Derivar a otra área"
+    ],
+    "correctOptionIndex": 0,
+    "explanation": "Esta decisión garantiza el cumplimiento de la normativa vigente."
+  },
+  {
+    "id": 1230,
+    "axisId": 1,
+    "text": "Cómo actuaría si se vulneran derechos fundamentales en el marco de los derechos fundamentales?",
+    "options": [
+      "Actuar de inmediato",
+      "Evaluar las consecuencias",
+      "Solicitar asesoría jurídica",
+      "Conformar un comité de evaluación"
+    ],
+    "correctOptionIndex": 2,
+    "explanation": "La ley establece claramente el procedimiento a seguir en estas situaciones."
+  },
+  {
+    "id": 1231,
+    "axisId": 1,
+    "text": "Ante una acción de tutela por derechos de petición, ¿cuál es el procedimiento?",
+    "options": [
+      "Aplicar el principio de transparencia",
+      "Solicitar autorización",
+      "Documentar la situación",
+      "Buscar una solución alternativa"
+    ],
+    "correctOptionIndex": 3,
+    "explanation": "La ley establece claramente el procedimiento a seguir en estas situaciones."
+  },
+  {
+    "id": 1232,
+    "axisId": 1,
+    "text": "Un ciudadano solicita información sobre licencias ambientales. ¿Cómo procede?",
+    "options": [
+      "Aplicar el principio de transparencia",
+      "Solicitar autorización",
+      "Documentar la situación",
+      "Buscar una solución alternativa"
+    ],
+    "correctOptionIndex": 3,
+    "explanation": "Es importante considerar el principio de transparencia en estos casos."
+  },
+  {
+    "id": 1233,
+    "axisId": 1,
+    "text": "Cómo actuaría si se requiere tomar una decisión rápida en el marco de los derechos fundamentales?",
+    "options": [
+      "Actuar de inmediato",
+      "Evaluar las consecuencias",
+      "Solicitar asesoría jurídica",
+      "Conformar un comité de evaluación"
+    ],
+    "correctOptionIndex": 2,
+    "explanation": "Esta decisión garantiza el cumplimiento de la normativa vigente."
+  },
+  {
+    "id": 1234,
+    "axisId": 1,
+    "text": "Ante una acción de tutela por procesos disciplinarios, ¿cuál es el procedimiento?",
+    "options": [
+      "Seguir el protocolo establecido",
+      "Consultar con un superior",
+      "Tomar una decisión autónoma",
+      "Derivar a otra área"
+    ],
+    "correctOptionIndex": 0,
+    "explanation": "La ley establece claramente el procedimiento a seguir en estas situaciones."
+  },
+  {
+    "id": 1235,
+    "axisId": 1,
+    "text": "Un ciudadano solicita información sobre derechos de petición. ¿Cómo procede?",
+    "options": [
+      "Actuar de inmediato",
+      "Evaluar las consecuencias",
+      "Solicitar asesoría jurídica",
+      "Conformar un comité de evaluación"
+    ],
+    "correctOptionIndex": 3,
+    "explanation": "Esta decisión garantiza el cumplimiento de la normativa vigente."
+  },
+  {
+    "id": 1236,
+    "axisId": 1,
+    "text": "Un ciudadano solicita información sobre derechos de petición. ¿Cómo procede?",
+    "options": [
+      "Aplicar el principio de transparencia",
+      "Solicitar autorización",
+      "Documentar la situación",
+      "Buscar una solución alternativa"
+    ],
+    "correctOptionIndex": 2,
+    "explanation": "Esta acción promueve la eficiencia en la gestión pública."
+  },
+  {
+    "id": 1237,
+    "axisId": 1,
+    "text": "Un ciudadano solicita información sobre derechos de petición. ¿Cómo procede?",
+    "options": [
+      "Actuar de inmediato",
+      "Evaluar las consecuencias",
+      "Solicitar asesoría jurídica",
+      "Conformar un comité de evaluación"
+    ],
+    "correctOptionIndex": 2,
+    "explanation": "Es importante considerar el principio de transparencia en estos casos."
+  },
+  {
+    "id": 1238,
+    "axisId": 1,
+    "text": "Un ciudadano solicita información sobre protección de datos. ¿Cómo procede?",
+    "options": [
+      "Aplicar el principio de transparencia",
+      "Solicitar autorización",
+      "Documentar la situación",
+      "Buscar una solución alternativa"
+    ],
+    "correctOptionIndex": 3,
+    "explanation": "Esta acción promueve la eficiencia en la gestión pública."
+  },
+  {
+    "id": 1239,
+    "axisId": 1,
+    "text": "Un ciudadano solicita información sobre procesos disciplinarios. ¿Cómo procede?",
+    "options": [
+      "Actuar de inmediato",
+      "Evaluar las consecuencias",
+      "Solicitar asesoría jurídica",
+      "Conformar un comité de evaluación"
+    ],
+    "correctOptionIndex": 1,
+    "explanation": "Esta decisión garantiza el cumplimiento de la normativa vigente."
+  },
+  {
+    "id": 1240,
+    "axisId": 1,
+    "text": "Ante una acción de tutela por licencias ambientales, ¿cuál es el procedimiento?",
+    "options": [
+      "Seguir el protocolo establecido",
+      "Consultar con un superior",
+      "Tomar una decisión autónoma",
+      "Derivar a otra área"
+    ],
+    "correctOptionIndex": 2,
+    "explanation": "Esta acción promueve la eficiencia en la gestión pública."
+  },
+  {
+    "id": 1241,
+    "axisId": 1,
+    "text": "Un ciudadano solicita información sobre contratación estatal. ¿Cómo procede?",
+    "options": [
+      "Seguir el protocolo establecido",
+      "Consultar con un superior",
+      "Tomar una decisión autónoma",
+      "Derivar a otra área"
+    ],
+    "correctOptionIndex": 0,
+    "explanation": "Es importante considerar el principio de transparencia en estos casos."
+  },
+  {
+    "id": 1242,
+    "axisId": 1,
+    "text": "Cómo actuaría si hay un conflicto de intereses en el marco de los derechos fundamentales?",
+    "options": [
+      "Actuar de inmediato",
+      "Evaluar las consecuencias",
+      "Solicitar asesoría jurídica",
+      "Conformar un comité de evaluación"
+    ],
+    "correctOptionIndex": 1,
+    "explanation": "La ley establece claramente el procedimiento a seguir en estas situaciones."
+  },
+  {
+    "id": 1243,
+    "axisId": 2,
+    "text": "Cómo garantizaría la transparencia en procesos administrativos?",
+    "options": [
+      "Aplicar el principio de transparencia",
+      "Solicitar autorización",
+      "Documentar la situación",
+      "Buscar una solución alternativa"
+    ],
+    "correctOptionIndex": 2,
+    "explanation": "Se debe priorizar el interés general sobre el particular en estos casos."
+  },
+  {
+    "id": 1244,
+    "axisId": 2,
+    "text": "Como funcionario, ¿cómo manejaría hay información confidencial de por medio en su área?",
+    "options": [
+      "Actuar de inmediato",
+      "Evaluar las consecuencias",
+      "Solicitar asesoría jurídica",
+      "Conformar un comité de evaluación"
+    ],
+    "correctOptionIndex": 1,
+    "explanation": "Es importante considerar el principio de transparencia en estos casos."
+  },
+  {
+    "id": 1245,
+    "axisId": 2,
+    "text": "Ante un conflicto de intereses por protección de datos, ¿qué haría?",
+    "options": [
+      "Actuar de inmediato",
+      "Evaluar las consecuencias",
+      "Solicitar asesoría jurídica",
+      "Conformar un comité de evaluación"
+    ],
+    "correctOptionIndex": 2,
+    "explanation": "Esta decisión garantiza el cumplimiento de la normativa vigente."
+  },
+  {
+    "id": 1246,
+    "axisId": 2,
+    "text": "Como funcionario, ¿cómo manejaría se vulneran derechos fundamentales en su área?",
+    "options": [
+      "Actuar de inmediato",
+      "Evaluar las consecuencias",
+      "Solicitar asesoría jurídica",
+      "Conformar un comité de evaluación"
+    ],
+    "correctOptionIndex": 3,
+    "explanation": "Es importante considerar el principio de transparencia en estos casos."
+  },
+  {
+    "id": 1247,
+    "axisId": 2,
+    "text": "Ante un conflicto de intereses por protección de datos, ¿qué haría?",
+    "options": [
+      "Aplicar el principio de transparencia",
+      "Solicitar autorización",
+      "Documentar la situación",
+      "Buscar una solución alternativa"
+    ],
+    "correctOptionIndex": 0,
+    "explanation": "Es importante considerar el principio de transparencia en estos casos."
+  },
+  {
+    "id": 1248,
+    "axisId": 2,
+    "text": "Como funcionario, ¿cómo manejaría se requiere tomar una decisión rápida en su área?",
+    "options": [
+      "Actuar de inmediato",
+      "Evaluar las consecuencias",
+      "Solicitar asesoría jurídica",
+      "Conformar un comité de evaluación"
+    ],
+    "correctOptionIndex": 0,
+    "explanation": "Esta acción promueve la eficiencia en la gestión pública."
+  },
+  {
+    "id": 1249,
+    "axisId": 2,
+    "text": "Cómo garantizaría la transparencia en su área de trabajo?",
+    "options": [
+      "Actuar de inmediato",
+      "Evaluar las consecuencias",
+      "Solicitar asesoría jurídica",
+      "Conformar un comité de evaluación"
+    ],
+    "correctOptionIndex": 2,
+    "explanation": "Esta decisión garantiza el cumplimiento de la normativa vigente."
+  },
+  {
+    "id": 1250,
+    "axisId": 2,
+    "text": "Ante un conflicto de intereses por derechos de petición, ¿qué haría?",
+    "options": [
+      "Actuar de inmediato",
+      "Evaluar las consecuencias",
+      "Solicitar asesoría jurídica",
+      "Conformar un comité de evaluación"
+    ],
+    "correctOptionIndex": 0,
+    "explanation": "Es importante considerar el principio de transparencia en estos casos."
+  },
+  {
+    "id": 1251,
+    "axisId": 2,
+    "text": "Ante un conflicto de intereses por licencias ambientales, ¿qué haría?",
+    "options": [
+      "Aplicar el principio de transparencia",
+      "Solicitar autorización",
+      "Documentar la situación",
+      "Buscar una solución alternativa"
+    ],
+    "correctOptionIndex": 1,
+    "explanation": "La ley establece claramente el procedimiento a seguir en estas situaciones."
+  },
+  {
+    "id": 1252,
+    "axisId": 2,
+    "text": "Cómo garantizaría la transparencia en procesos administrativos?",
+    "options": [
+      "Actuar de inmediato",
+      "Evaluar las consecuencias",
+      "Solicitar asesoría jurídica",
+      "Conformar un comité de evaluación"
+    ],
+    "correctOptionIndex": 0,
+    "explanation": "Esta acción promueve la eficiencia en la gestión pública."
+  },
+  {
+    "id": 1253,
+    "axisId": 2,
+    "text": "Cómo garantizaría la transparencia en su área de trabajo?",
+    "options": [
+      "Aplicar el principio de transparencia",
+      "Solicitar autorización",
+      "Documentar la situación",
+      "Buscar una solución alternativa"
+    ],
+    "correctOptionIndex": 3,
+    "explanation": "Esta acción promueve la eficiencia en la gestión pública."
+  },
+  {
+    "id": 1254,
+    "axisId": 2,
+    "text": "Ante un conflicto de intereses por derechos de petición, ¿qué haría?",
+    "options": [
+      "Seguir el protocolo establecido",
+      "Consultar con un superior",
+      "Tomar una decisión autónoma",
+      "Derivar a otra área"
+    ],
+    "correctOptionIndex": 2,
+    "explanation": "Es importante considerar el principio de transparencia en estos casos."
+  },
+  {
+    "id": 1255,
+    "axisId": 2,
+    "text": "Cómo garantizaría la transparencia en la entidad?",
+    "options": [
+      "Aplicar el principio de transparencia",
+      "Solicitar autorización",
+      "Documentar la situación",
+      "Buscar una solución alternativa"
+    ],
+    "correctOptionIndex": 3,
+    "explanation": "Esta acción promueve la eficiencia en la gestión pública."
+  },
+  {
+    "id": 1256,
+    "axisId": 2,
+    "text": "Como funcionario, ¿cómo manejaría se requiere tomar una decisión rápida en su área?",
+    "options": [
+      "Actuar de inmediato",
+      "Evaluar las consecuencias",
+      "Solicitar asesoría jurídica",
+      "Conformar un comité de evaluación"
+    ],
+    "correctOptionIndex": 1,
+    "explanation": "La ley establece claramente el procedimiento a seguir en estas situaciones."
+  },
+  {
+    "id": 1257,
+    "axisId": 2,
+    "text": "Cómo garantizaría la transparencia en la entidad?",
+    "options": [
+      "Seguir el protocolo establecido",
+      "Consultar con un superior",
+      "Tomar una decisión autónoma",
+      "Derivar a otra área"
+    ],
+    "correctOptionIndex": 2,
+    "explanation": "Es importante considerar el principio de transparencia en estos casos."
+  },
+  {
+    "id": 1258,
+    "axisId": 2,
+    "text": "Ante un conflicto de intereses por contratación estatal, ¿qué haría?",
+    "options": [
+      "Aplicar el principio de transparencia",
+      "Solicitar autorización",
+      "Documentar la situación",
+      "Buscar una solución alternativa"
+    ],
+    "correctOptionIndex": 0,
+    "explanation": "Esta acción promueve la eficiencia en la gestión pública."
+  },
+  {
+    "id": 1259,
+    "axisId": 2,
+    "text": "Como funcionario, ¿cómo manejaría se vulneran derechos fundamentales en su área?",
+    "options": [
+      "Aplicar el principio de transparencia",
+      "Solicitar autorización",
+      "Documentar la situación",
+      "Buscar una solución alternativa"
+    ],
+    "correctOptionIndex": 0,
+    "explanation": "La ley establece claramente el procedimiento a seguir en estas situaciones."
+  },
+  {
+    "id": 1260,
+    "axisId": 2,
+    "text": "Ante un conflicto de intereses por derechos de petición, ¿qué haría?",
+    "options": [
+      "Aplicar el principio de transparencia",
+      "Solicitar autorización",
+      "Documentar la situación",
+      "Buscar una solución alternativa"
+    ],
+    "correctOptionIndex": 1,
+    "explanation": "Es importante considerar el principio de transparencia en estos casos."
+  },
+  {
+    "id": 1261,
+    "axisId": 2,
+    "text": "Como funcionario, ¿cómo manejaría hay un conflicto de intereses en su área?",
+    "options": [
+      "Actuar de inmediato",
+      "Evaluar las consecuencias",
+      "Solicitar asesoría jurídica",
+      "Conformar un comité de evaluación"
+    ],
+    "correctOptionIndex": 0,
+    "explanation": "Esta acción promueve la eficiencia en la gestión pública."
+  },
+  {
+    "id": 1262,
+    "axisId": 2,
+    "text": "Cómo garantizaría la transparencia en procesos administrativos?",
+    "options": [
+      "Aplicar el principio de transparencia",
+      "Solicitar autorización",
+      "Documentar la situación",
+      "Buscar una solución alternativa"
+    ],
+    "correctOptionIndex": 3,
+    "explanation": "Se debe priorizar el interés general sobre el particular en estos casos."
+  },
+  {
+    "id": 1263,
+    "axisId": 2,
+    "text": "Cómo garantizaría la transparencia en procesos administrativos?",
+    "options": [
+      "Actuar de inmediato",
+      "Evaluar las consecuencias",
+      "Solicitar asesoría jurídica",
+      "Conformar un comité de evaluación"
+    ],
+    "correctOptionIndex": 2,
+    "explanation": "Es importante considerar el principio de transparencia en estos casos."
+  },
+  {
+    "id": 1264,
+    "axisId": 2,
+    "text": "Cómo garantizaría la transparencia en la entidad?",
+    "options": [
+      "Seguir el protocolo establecido",
+      "Consultar con un superior",
+      "Tomar una decisión autónoma",
+      "Derivar a otra área"
+    ],
+    "correctOptionIndex": 3,
+    "explanation": "Esta decisión garantiza el cumplimiento de la normativa vigente."
+  },
+  {
+    "id": 1265,
+    "axisId": 2,
+    "text": "Cómo garantizaría la transparencia en procesos administrativos?",
+    "options": [
+      "Aplicar el principio de transparencia",
+      "Solicitar autorización",
+      "Documentar la situación",
+      "Buscar una solución alternativa"
+    ],
+    "correctOptionIndex": 0,
+    "explanation": "Es importante considerar el principio de transparencia en estos casos."
+  },
+  {
+    "id": 1266,
+    "axisId": 2,
+    "text": "Ante un conflicto de intereses por procesos disciplinarios, ¿qué haría?",
+    "options": [
+      "Aplicar el principio de transparencia",
+      "Solicitar autorización",
+      "Documentar la situación",
+      "Buscar una solución alternativa"
+    ],
+    "correctOptionIndex": 2,
+    "explanation": "Se debe priorizar el interés general sobre el particular en estos casos."
+  },
+  {
+    "id": 1267,
+    "axisId": 2,
+    "text": "Ante un conflicto de intereses por protección de datos, ¿qué haría?",
+    "options": [
+      "Aplicar el principio de transparencia",
+      "Solicitar autorización",
+      "Documentar la situación",
+      "Buscar una solución alternativa"
+    ],
+    "correctOptionIndex": 3,
+    "explanation": "La ley establece claramente el procedimiento a seguir en estas situaciones."
+  },
+  {
+    "id": 1268,
+    "axisId": 2,
+    "text": "Cómo garantizaría la transparencia en procesos administrativos?",
+    "options": [
+      "Aplicar el principio de transparencia",
+      "Solicitar autorización",
+      "Documentar la situación",
+      "Buscar una solución alternativa"
+    ],
+    "correctOptionIndex": 2,
+    "explanation": "Esta acción promueve la eficiencia en la gestión pública."
+  },
+  {
+    "id": 1269,
+    "axisId": 2,
+    "text": "Ante un conflicto de intereses por contratación estatal, ¿qué haría?",
+    "options": [
+      "Actuar de inmediato",
+      "Evaluar las consecuencias",
+      "Solicitar asesoría jurídica",
+      "Conformar un comité de evaluación"
+    ],
+    "correctOptionIndex": 2,
+    "explanation": "Esta acción promueve la eficiencia en la gestión pública."
+  },
+  {
+    "id": 1270,
+    "axisId": 2,
+    "text": "Ante un conflicto de intereses por protección de datos, ¿qué haría?",
+    "options": [
+      "Actuar de inmediato",
+      "Evaluar las consecuencias",
+      "Solicitar asesoría jurídica",
+      "Conformar un comité de evaluación"
+    ],
+    "correctOptionIndex": 3,
+    "explanation": "Esta acción promueve la eficiencia en la gestión pública."
+  },
+  {
+    "id": 1271,
+    "axisId": 2,
+    "text": "Ante un conflicto de intereses por licencias ambientales, ¿qué haría?",
+    "options": [
+      "Aplicar el principio de transparencia",
+      "Solicitar autorización",
+      "Documentar la situación",
+      "Buscar una solución alternativa"
+    ],
+    "correctOptionIndex": 1,
+    "explanation": "Esta acción promueve la eficiencia en la gestión pública."
+  },
+  {
+    "id": 1272,
+    "axisId": 2,
+    "text": "Cómo garantizaría la transparencia en su área de trabajo?",
+    "options": [
+      "Actuar de inmediato",
+      "Evaluar las consecuencias",
+      "Solicitar asesoría jurídica",
+      "Conformar un comité de evaluación"
+    ],
+    "correctOptionIndex": 2,
+    "explanation": "Es importante considerar el principio de transparencia en estos casos."
+  },
+  {
+    "id": 1273,
+    "axisId": 2,
+    "text": "Cómo garantizaría la transparencia en servicios al ciudadano?",
+    "options": [
+      "Actuar de inmediato",
+      "Evaluar las consecuencias",
+      "Solicitar asesoría jurídica",
+      "Conformar un comité de evaluación"
+    ],
+    "correctOptionIndex": 2,
+    "explanation": "La ley establece claramente el procedimiento a seguir en estas situaciones."
+  },
+  {
+    "id": 1274,
+    "axisId": 2,
+    "text": "Como funcionario, ¿cómo manejaría hay información confidencial de por medio en su área?",
+    "options": [
+      "Actuar de inmediato",
+      "Evaluar las consecuencias",
+      "Solicitar asesoría jurídica",
+      "Conformar un comité de evaluación"
+    ],
+    "correctOptionIndex": 2,
+    "explanation": "Se debe priorizar el interés general sobre el particular en estos casos."
+  },
+  {
+    "id": 1275,
+    "axisId": 2,
+    "text": "Cómo garantizaría la transparencia en servicios al ciudadano?",
+    "options": [
+      "Aplicar el principio de transparencia",
+      "Solicitar autorización",
+      "Documentar la situación",
+      "Buscar una solución alternativa"
+    ],
+    "correctOptionIndex": 3,
+    "explanation": "Es importante considerar el principio de transparencia en estos casos."
+  },
+  {
+    "id": 1276,
+    "axisId": 2,
+    "text": "Como funcionario, ¿cómo manejaría hay un conflicto de intereses en su área?",
+    "options": [
+      "Seguir el protocolo establecido",
+      "Consultar con un superior",
+      "Tomar una decisión autónoma",
+      "Derivar a otra área"
+    ],
+    "correctOptionIndex": 1,
+    "explanation": "La ley establece claramente el procedimiento a seguir en estas situaciones."
+  },
+  {
+    "id": 1277,
+    "axisId": 2,
+    "text": "Cómo garantizaría la transparencia en la entidad?",
+    "options": [
+      "Seguir el protocolo establecido",
+      "Consultar con un superior",
+      "Tomar una decisión autónoma",
+      "Derivar a otra área"
+    ],
+    "correctOptionIndex": 1,
+    "explanation": "Esta acción promueve la eficiencia en la gestión pública."
+  },
+  {
+    "id": 1278,
+    "axisId": 2,
+    "text": "Como funcionario, ¿cómo manejaría hay un conflicto de intereses en su área?",
+    "options": [
+      "Actuar de inmediato",
+      "Evaluar las consecuencias",
+      "Solicitar asesoría jurídica",
+      "Conformar un comité de evaluación"
+    ],
+    "correctOptionIndex": 1,
+    "explanation": "Esta acción promueve la eficiencia en la gestión pública."
+  },
+  {
+    "id": 1279,
+    "axisId": 2,
+    "text": "Ante un conflicto de intereses por derechos de petición, ¿qué haría?",
+    "options": [
+      "Actuar de inmediato",
+      "Evaluar las consecuencias",
+      "Solicitar asesoría jurídica",
+      "Conformar un comité de evaluación"
+    ],
+    "correctOptionIndex": 0,
+    "explanation": "Esta decisión garantiza el cumplimiento de la normativa vigente."
+  },
+  {
+    "id": 1280,
+    "axisId": 2,
+    "text": "Ante un conflicto de intereses por derechos de petición, ¿qué haría?",
+    "options": [
+      "Aplicar el principio de transparencia",
+      "Solicitar autorización",
+      "Documentar la situación",
+      "Buscar una solución alternativa"
+    ],
+    "correctOptionIndex": 1,
+    "explanation": "La ley establece claramente el procedimiento a seguir en estas situaciones."
+  },
+  {
+    "id": 1281,
+    "axisId": 2,
+    "text": "Cómo garantizaría la transparencia en servicios al ciudadano?",
+    "options": [
+      "Seguir el protocolo establecido",
+      "Consultar con un superior",
+      "Tomar una decisión autónoma",
+      "Derivar a otra área"
+    ],
+    "correctOptionIndex": 1,
+    "explanation": "La ley establece claramente el procedimiento a seguir en estas situaciones."
+  },
+  {
+    "id": 1282,
+    "axisId": 2,
+    "text": "Cómo garantizaría la transparencia en su área de trabajo?",
+    "options": [
+      "Actuar de inmediato",
+      "Evaluar las consecuencias",
+      "Solicitar asesoría jurídica",
+      "Conformar un comité de evaluación"
+    ],
+    "correctOptionIndex": 3,
+    "explanation": "Esta decisión garantiza el cumplimiento de la normativa vigente."
+  },
+  {
+    "id": 1283,
+    "axisId": 2,
+    "text": "Cómo garantizaría la transparencia en la entidad?",
+    "options": [
+      "Aplicar el principio de transparencia",
+      "Solicitar autorización",
+      "Documentar la situación",
+      "Buscar una solución alternativa"
+    ],
+    "correctOptionIndex": 2,
+    "explanation": "Esta decisión garantiza el cumplimiento de la normativa vigente."
+  },
+  {
+    "id": 1284,
+    "axisId": 2,
+    "text": "Ante un conflicto de intereses por contratación estatal, ¿qué haría?",
+    "options": [
+      "Aplicar el principio de transparencia",
+      "Solicitar autorización",
+      "Documentar la situación",
+      "Buscar una solución alternativa"
+    ],
+    "correctOptionIndex": 2,
+    "explanation": "Se debe priorizar el interés general sobre el particular en estos casos."
+  },
+  {
+    "id": 1285,
+    "axisId": 2,
+    "text": "Como funcionario, ¿cómo manejaría se requiere tomar una decisión rápida en su área?",
+    "options": [
+      "Aplicar el principio de transparencia",
+      "Solicitar autorización",
+      "Documentar la situación",
+      "Buscar una solución alternativa"
+    ],
+    "correctOptionIndex": 0,
+    "explanation": "Esta decisión garantiza el cumplimiento de la normativa vigente."
+  },
+  {
+    "id": 1286,
+    "axisId": 3,
+    "text": "Ante un reclamo por procesos disciplinarios, ¿cuál sería su estrategia de atención?",
+    "options": [
+      "Seguir el protocolo establecido",
+      "Consultar con un superior",
+      "Tomar una decisión autónoma",
+      "Derivar a otra área"
+    ],
+    "correctOptionIndex": 2,
+    "explanation": "Se debe priorizar el interés general sobre el particular en estos casos."
+  },
+  {
+    "id": 1287,
+    "axisId": 3,
+    "text": "Cómo mejoraría el servicio al ciudadano en su área de trabajo?",
+    "options": [
+      "Actuar de inmediato",
+      "Evaluar las consecuencias",
+      "Solicitar asesoría jurídica",
+      "Conformar un comité de evaluación"
+    ],
+    "correctOptionIndex": 1,
+    "explanation": "Esta decisión garantiza el cumplimiento de la normativa vigente."
+  },
+  {
+    "id": 1288,
+    "axisId": 3,
+    "text": "Ante un reclamo por derechos de petición, ¿cuál sería su estrategia de atención?",
+    "options": [
+      "Seguir el protocolo establecido",
+      "Consultar con un superior",
+      "Tomar una decisión autónoma",
+      "Derivar a otra área"
+    ],
+    "correctOptionIndex": 1,
+    "explanation": "La ley establece claramente el procedimiento a seguir en estas situaciones."
+  },
+  {
+    "id": 1289,
+    "axisId": 3,
+    "text": "Ante un reclamo por derechos de petición, ¿cuál sería su estrategia de atención?",
+    "options": [
+      "Actuar de inmediato",
+      "Evaluar las consecuencias",
+      "Solicitar asesoría jurídica",
+      "Conformar un comité de evaluación"
+    ],
+    "correctOptionIndex": 0,
+    "explanation": "Es importante considerar el principio de transparencia en estos casos."
+  },
+  {
+    "id": 1290,
+    "axisId": 3,
+    "text": "Cómo mejoraría el servicio al ciudadano en procesos administrativos?",
+    "options": [
+      "Actuar de inmediato",
+      "Evaluar las consecuencias",
+      "Solicitar asesoría jurídica",
+      "Conformar un comité de evaluación"
+    ],
+    "correctOptionIndex": 0,
+    "explanation": "Esta decisión garantiza el cumplimiento de la normativa vigente."
+  },
+  {
+    "id": 1291,
+    "axisId": 3,
+    "text": "Cómo mejoraría el servicio al ciudadano en procesos administrativos?",
+    "options": [
+      "Seguir el protocolo establecido",
+      "Consultar con un superior",
+      "Tomar una decisión autónoma",
+      "Derivar a otra área"
+    ],
+    "correctOptionIndex": 2,
+    "explanation": "Es importante considerar el principio de transparencia en estos casos."
+  },
+  {
+    "id": 1292,
+    "axisId": 3,
+    "text": "Un ciudadano se queja por demora en trámites. ¿Cómo atendería su caso?",
+    "options": [
+      "Aplicar el principio de transparencia",
+      "Solicitar autorización",
+      "Documentar la situación",
+      "Buscar una solución alternativa"
+    ],
+    "correctOptionIndex": 3,
+    "explanation": "Se debe priorizar el interés general sobre el particular en estos casos."
+  },
+  {
+    "id": 1293,
+    "axisId": 3,
+    "text": "Un ciudadano se queja por demora en trámites. ¿Cómo atendería su caso?",
+    "options": [
+      "Aplicar el principio de transparencia",
+      "Solicitar autorización",
+      "Documentar la situación",
+      "Buscar una solución alternativa"
+    ],
+    "correctOptionIndex": 2,
+    "explanation": "Esta acción promueve la eficiencia en la gestión pública."
+  },
+  {
+    "id": 1294,
+    "axisId": 3,
+    "text": "Un ciudadano se queja por errores en documentos. ¿Cómo atendería su caso?",
+    "options": [
+      "Aplicar el principio de transparencia",
+      "Solicitar autorización",
+      "Documentar la situación",
+      "Buscar una solución alternativa"
+    ],
+    "correctOptionIndex": 0,
+    "explanation": "Esta decisión garantiza el cumplimiento de la normativa vigente."
+  },
+  {
+    "id": 1295,
+    "axisId": 3,
+    "text": "Un ciudadano se queja por maltrato por parte de funcionarios. ¿Cómo atendería su caso?",
+    "options": [
+      "Actuar de inmediato",
+      "Evaluar las consecuencias",
+      "Solicitar asesoría jurídica",
+      "Conformar un comité de evaluación"
+    ],
+    "correctOptionIndex": 3,
+    "explanation": "Es importante considerar el principio de transparencia en estos casos."
+  },
+  {
+    "id": 1296,
+    "axisId": 3,
+    "text": "Cómo mejoraría el servicio al ciudadano en procesos administrativos?",
+    "options": [
+      "Actuar de inmediato",
+      "Evaluar las consecuencias",
+      "Solicitar asesoría jurídica",
+      "Conformar un comité de evaluación"
+    ],
+    "correctOptionIndex": 0,
+    "explanation": "Esta decisión garantiza el cumplimiento de la normativa vigente."
+  },
+  {
+    "id": 1297,
+    "axisId": 3,
+    "text": "Ante un reclamo por licencias ambientales, ¿cuál sería su estrategia de atención?",
+    "options": [
+      "Aplicar el principio de transparencia",
+      "Solicitar autorización",
+      "Documentar la situación",
+      "Buscar una solución alternativa"
+    ],
+    "correctOptionIndex": 1,
+    "explanation": "Esta acción promueve la eficiencia en la gestión pública."
+  },
+  {
+    "id": 1298,
+    "axisId": 3,
+    "text": "Cómo mejoraría el servicio al ciudadano en la entidad?",
+    "options": [
+      "Aplicar el principio de transparencia",
+      "Solicitar autorización",
+      "Documentar la situación",
+      "Buscar una solución alternativa"
+    ],
+    "correctOptionIndex": 2,
+    "explanation": "La ley establece claramente el procedimiento a seguir en estas situaciones."
+  },
+  {
+    "id": 1299,
+    "axisId": 3,
+    "text": "Cómo mejoraría el servicio al ciudadano en la entidad?",
+    "options": [
+      "Aplicar el principio de transparencia",
+      "Solicitar autorización",
+      "Documentar la situación",
+      "Buscar una solución alternativa"
+    ],
+    "correctOptionIndex": 3,
+    "explanation": "Esta decisión garantiza el cumplimiento de la normativa vigente."
+  },
+  {
+    "id": 1300,
+    "axisId": 3,
+    "text": "Ante un reclamo por procesos disciplinarios, ¿cuál sería su estrategia de atención?",
+    "options": [
+      "Seguir el protocolo establecido",
+      "Consultar con un superior",
+      "Tomar una decisión autónoma",
+      "Derivar a otra área"
+    ],
+    "correctOptionIndex": 3,
+    "explanation": "La ley establece claramente el procedimiento a seguir en estas situaciones."
+  },
+  {
+    "id": 1301,
+    "axisId": 3,
+    "text": "Ante un reclamo por derechos de petición, ¿cuál sería su estrategia de atención?",
+    "options": [
+      "Aplicar el principio de transparencia",
+      "Solicitar autorización",
+      "Documentar la situación",
+      "Buscar una solución alternativa"
+    ],
+    "correctOptionIndex": 3,
+    "explanation": "Esta acción promueve la eficiencia en la gestión pública."
+  },
+  {
+    "id": 1302,
+    "axisId": 3,
+    "text": "Ante un reclamo por procesos disciplinarios, ¿cuál sería su estrategia de atención?",
+    "options": [
+      "Seguir el protocolo establecido",
+      "Consultar con un superior",
+      "Tomar una decisión autónoma",
+      "Derivar a otra área"
+    ],
+    "correctOptionIndex": 0,
+    "explanation": "Esta decisión garantiza el cumplimiento de la normativa vigente."
+  },
+  {
+    "id": 1303,
+    "axisId": 3,
+    "text": "Un ciudadano se queja por demora en trámites. ¿Cómo atendería su caso?",
+    "options": [
+      "Seguir el protocolo establecido",
+      "Consultar con un superior",
+      "Tomar una decisión autónoma",
+      "Derivar a otra área"
+    ],
+    "correctOptionIndex": 0,
+    "explanation": "Es importante considerar el principio de transparencia en estos casos."
+  },
+  {
+    "id": 1304,
+    "axisId": 3,
+    "text": "Cómo mejoraría el servicio al ciudadano en servicios al ciudadano?",
+    "options": [
+      "Actuar de inmediato",
+      "Evaluar las consecuencias",
+      "Solicitar asesoría jurídica",
+      "Conformar un comité de evaluación"
+    ],
+    "correctOptionIndex": 3,
+    "explanation": "La ley establece claramente el procedimiento a seguir en estas situaciones."
+  },
+  {
+    "id": 1305,
+    "axisId": 3,
+    "text": "Un ciudadano se queja por errores en documentos. ¿Cómo atendería su caso?",
+    "options": [
+      "Actuar de inmediato",
+      "Evaluar las consecuencias",
+      "Solicitar asesoría jurídica",
+      "Conformar un comité de evaluación"
+    ],
+    "correctOptionIndex": 0,
+    "explanation": "Se debe priorizar el interés general sobre el particular en estos casos."
+  },
+  {
+    "id": 1306,
+    "axisId": 3,
+    "text": "Cómo mejoraría el servicio al ciudadano en servicios al ciudadano?",
+    "options": [
+      "Aplicar el principio de transparencia",
+      "Solicitar autorización",
+      "Documentar la situación",
+      "Buscar una solución alternativa"
+    ],
+    "correctOptionIndex": 2,
+    "explanation": "La ley establece claramente el procedimiento a seguir en estas situaciones."
+  },
+  {
+    "id": 1307,
+    "axisId": 3,
+    "text": "Un ciudadano se queja por maltrato por parte de funcionarios. ¿Cómo atendería su caso?",
+    "options": [
+      "Aplicar el principio de transparencia",
+      "Solicitar autorización",
+      "Documentar la situación",
+      "Buscar una solución alternativa"
+    ],
+    "correctOptionIndex": 1,
+    "explanation": "Esta acción promueve la eficiencia en la gestión pública."
+  },
+  {
+    "id": 1308,
+    "axisId": 3,
+    "text": "Un ciudadano se queja por errores en documentos. ¿Cómo atendería su caso?",
+    "options": [
+      "Seguir el protocolo establecido",
+      "Consultar con un superior",
+      "Tomar una decisión autónoma",
+      "Derivar a otra área"
+    ],
+    "correctOptionIndex": 2,
+    "explanation": "Se debe priorizar el interés general sobre el particular en estos casos."
+  },
+  {
+    "id": 1309,
+    "axisId": 3,
+    "text": "Un ciudadano se queja por falta de información clara. ¿Cómo atendería su caso?",
+    "options": [
+      "Seguir el protocolo establecido",
+      "Consultar con un superior",
+      "Tomar una decisión autónoma",
+      "Derivar a otra área"
+    ],
+    "correctOptionIndex": 0,
+    "explanation": "Esta decisión garantiza el cumplimiento de la normativa vigente."
+  },
+  {
+    "id": 1310,
+    "axisId": 3,
+    "text": "Cómo mejoraría el servicio al ciudadano en servicios al ciudadano?",
+    "options": [
+      "Aplicar el principio de transparencia",
+      "Solicitar autorización",
+      "Documentar la situación",
+      "Buscar una solución alternativa"
+    ],
+    "correctOptionIndex": 2,
+    "explanation": "Esta decisión garantiza el cumplimiento de la normativa vigente."
+  },
+  {
+    "id": 1311,
+    "axisId": 3,
+    "text": "Ante un reclamo por contratación estatal, ¿cuál sería su estrategia de atención?",
+    "options": [
+      "Aplicar el principio de transparencia",
+      "Solicitar autorización",
+      "Documentar la situación",
+      "Buscar una solución alternativa"
+    ],
+    "correctOptionIndex": 2,
+    "explanation": "Se debe priorizar el interés general sobre el particular en estos casos."
+  },
+  {
+    "id": 1312,
+    "axisId": 3,
+    "text": "Ante un reclamo por licencias ambientales, ¿cuál sería su estrategia de atención?",
+    "options": [
+      "Actuar de inmediato",
+      "Evaluar las consecuencias",
+      "Solicitar asesoría jurídica",
+      "Conformar un comité de evaluación"
+    ],
+    "correctOptionIndex": 3,
+    "explanation": "Es importante considerar el principio de transparencia en estos casos."
+  },
+  {
+    "id": 1313,
+    "axisId": 3,
+    "text": "Cómo mejoraría el servicio al ciudadano en su área de trabajo?",
+    "options": [
+      "Seguir el protocolo establecido",
+      "Consultar con un superior",
+      "Tomar una decisión autónoma",
+      "Derivar a otra área"
+    ],
+    "correctOptionIndex": 0,
+    "explanation": "Esta acción promueve la eficiencia en la gestión pública."
+  },
+  {
+    "id": 1314,
+    "axisId": 3,
+    "text": "Un ciudadano se queja por errores en documentos. ¿Cómo atendería su caso?",
+    "options": [
+      "Actuar de inmediato",
+      "Evaluar las consecuencias",
+      "Solicitar asesoría jurídica",
+      "Conformar un comité de evaluación"
+    ],
+    "correctOptionIndex": 0,
+    "explanation": "Esta decisión garantiza el cumplimiento de la normativa vigente."
+  },
+  {
+    "id": 1315,
+    "axisId": 3,
+    "text": "Ante un reclamo por protección de datos, ¿cuál sería su estrategia de atención?",
+    "options": [
+      "Seguir el protocolo establecido",
+      "Consultar con un superior",
+      "Tomar una decisión autónoma",
+      "Derivar a otra área"
+    ],
+    "correctOptionIndex": 3,
+    "explanation": "Se debe priorizar el interés general sobre el particular en estos casos."
+  },
+  {
+    "id": 1316,
+    "axisId": 3,
+    "text": "Cómo mejoraría el servicio al ciudadano en procesos administrativos?",
+    "options": [
+      "Aplicar el principio de transparencia",
+      "Solicitar autorización",
+      "Documentar la situación",
+      "Buscar una solución alternativa"
+    ],
+    "correctOptionIndex": 1,
+    "explanation": "Esta decisión garantiza el cumplimiento de la normativa vigente."
+  },
+  {
+    "id": 1317,
+    "axisId": 3,
+    "text": "Ante un reclamo por protección de datos, ¿cuál sería su estrategia de atención?",
+    "options": [
+      "Aplicar el principio de transparencia",
+      "Solicitar autorización",
+      "Documentar la situación",
+      "Buscar una solución alternativa"
+    ],
+    "correctOptionIndex": 3,
+    "explanation": "Esta acción promueve la eficiencia en la gestión pública."
+  },
+  {
+    "id": 1318,
+    "axisId": 3,
+    "text": "Un ciudadano se queja por errores en documentos. ¿Cómo atendería su caso?",
+    "options": [
+      "Seguir el protocolo establecido",
+      "Consultar con un superior",
+      "Tomar una decisión autónoma",
+      "Derivar a otra área"
+    ],
+    "correctOptionIndex": 1,
+    "explanation": "Es importante considerar el principio de transparencia en estos casos."
+  },
+  {
+    "id": 1319,
+    "axisId": 3,
+    "text": "Un ciudadano se queja por maltrato por parte de funcionarios. ¿Cómo atendería su caso?",
+    "options": [
+      "Seguir el protocolo establecido",
+      "Consultar con un superior",
+      "Tomar una decisión autónoma",
+      "Derivar a otra área"
+    ],
+    "correctOptionIndex": 2,
+    "explanation": "Esta acción promueve la eficiencia en la gestión pública."
+  },
+  {
+    "id": 1320,
+    "axisId": 3,
+    "text": "Ante un reclamo por derechos de petición, ¿cuál sería su estrategia de atención?",
+    "options": [
+      "Seguir el protocolo establecido",
+      "Consultar con un superior",
+      "Tomar una decisión autónoma",
+      "Derivar a otra área"
+    ],
+    "correctOptionIndex": 0,
+    "explanation": "Esta decisión garantiza el cumplimiento de la normativa vigente."
+  },
+  {
+    "id": 1321,
+    "axisId": 3,
+    "text": "Cómo mejoraría el servicio al ciudadano en su área de trabajo?",
+    "options": [
+      "Actuar de inmediato",
+      "Evaluar las consecuencias",
+      "Solicitar asesoría jurídica",
+      "Conformar un comité de evaluación"
+    ],
+    "correctOptionIndex": 2,
+    "explanation": "La ley establece claramente el procedimiento a seguir en estas situaciones."
+  },
+  {
+    "id": 1322,
+    "axisId": 3,
+    "text": "Ante un reclamo por contratación estatal, ¿cuál sería su estrategia de atención?",
+    "options": [
+      "Seguir el protocolo establecido",
+      "Consultar con un superior",
+      "Tomar una decisión autónoma",
+      "Derivar a otra área"
+    ],
+    "correctOptionIndex": 0,
+    "explanation": "Se debe priorizar el interés general sobre el particular en estos casos."
+  },
+  {
+    "id": 1323,
+    "axisId": 3,
+    "text": "Ante un reclamo por protección de datos, ¿cuál sería su estrategia de atención?",
+    "options": [
+      "Aplicar el principio de transparencia",
+      "Solicitar autorización",
+      "Documentar la situación",
+      "Buscar una solución alternativa"
+    ],
+    "correctOptionIndex": 3,
+    "explanation": "Esta decisión garantiza el cumplimiento de la normativa vigente."
+  },
+  {
+    "id": 1324,
+    "axisId": 3,
+    "text": "Ante un reclamo por licencias ambientales, ¿cuál sería su estrategia de atención?",
+    "options": [
+      "Seguir el protocolo establecido",
+      "Consultar con un superior",
+      "Tomar una decisión autónoma",
+      "Derivar a otra área"
+    ],
+    "correctOptionIndex": 3,
+    "explanation": "Esta decisión garantiza el cumplimiento de la normativa vigente."
+  },
+  {
+    "id": 1325,
+    "axisId": 3,
+    "text": "Ante un reclamo por derechos de petición, ¿cuál sería su estrategia de atención?",
+    "options": [
+      "Actuar de inmediato",
+      "Evaluar las consecuencias",
+      "Solicitar asesoría jurídica",
+      "Conformar un comité de evaluación"
+    ],
+    "correctOptionIndex": 1,
+    "explanation": "Se debe priorizar el interés general sobre el particular en estos casos."
+  },
+  {
+    "id": 1326,
+    "axisId": 3,
+    "text": "Cómo mejoraría el servicio al ciudadano en la entidad?",
+    "options": [
+      "Seguir el protocolo establecido",
+      "Consultar con un superior",
+      "Tomar una decisión autónoma",
+      "Derivar a otra área"
+    ],
+    "correctOptionIndex": 3,
+    "explanation": "Esta decisión garantiza el cumplimiento de la normativa vigente."
+  },
+  {
+    "id": 1327,
+    "axisId": 3,
+    "text": "Cómo mejoraría el servicio al ciudadano en la entidad?",
+    "options": [
+      "Seguir el protocolo establecido",
+      "Consultar con un superior",
+      "Tomar una decisión autónoma",
+      "Derivar a otra área"
+    ],
+    "correctOptionIndex": 3,
+    "explanation": "Esta acción promueve la eficiencia en la gestión pública."
+  },
+  {
+    "id": 1328,
+    "axisId": 3,
+    "text": "Cómo mejoraría el servicio al ciudadano en servicios al ciudadano?",
+    "options": [
+      "Aplicar el principio de transparencia",
+      "Solicitar autorización",
+      "Documentar la situación",
+      "Buscar una solución alternativa"
+    ],
+    "correctOptionIndex": 1,
+    "explanation": "Esta acción promueve la eficiencia en la gestión pública."
+  },
+  {
+    "id": 1329,
+    "axisId": 4,
+    "text": "Ante una solicitud de información sobre derechos de petición, ¿dónde buscaría la documentación?",
+    "options": [
+      "Seguir el protocolo establecido",
+      "Consultar con un superior",
+      "Tomar una decisión autónoma",
+      "Derivar a otra área"
+    ],
+    "correctOptionIndex": 2,
+    "explanation": "Es importante considerar el principio de transparencia en estos casos."
+  },
+  {
+    "id": 1330,
+    "axisId": 4,
+    "text": "Cómo garantizaría la conservación de documentos de dato no especificado?",
+    "options": [
+      "Seguir el protocolo establecido",
+      "Consultar con un superior",
+      "Tomar una decisión autónoma",
+      "Derivar a otra área"
+    ],
+    "correctOptionIndex": 3,
+    "explanation": "Esta decisión garantiza el cumplimiento de la normativa vigente."
+  },
+  {
+    "id": 1331,
+    "axisId": 4,
+    "text": "Ante una solicitud de información sobre contratación estatal, ¿dónde buscaría la documentación?",
+    "options": [
+      "Aplicar el principio de transparencia",
+      "Solicitar autorización",
+      "Documentar la situación",
+      "Buscar una solución alternativa"
+    ],
+    "correctOptionIndex": 1,
+    "explanation": "Es importante considerar el principio de transparencia en estos casos."
+  },
+  {
+    "id": 1332,
+    "axisId": 4,
+    "text": "Cómo garantizaría la conservación de documentos de dato no especificado?",
+    "options": [
+      "Seguir el protocolo establecido",
+      "Consultar con un superior",
+      "Tomar una decisión autónoma",
+      "Derivar a otra área"
+    ],
+    "correctOptionIndex": 3,
+    "explanation": "Se debe priorizar el interés general sobre el particular en estos casos."
+  },
+  {
+    "id": 1333,
+    "axisId": 4,
+    "text": "Ante una solicitud de información sobre procesos disciplinarios, ¿dónde buscaría la documentación?",
+    "options": [
+      "Seguir el protocolo establecido",
+      "Consultar con un superior",
+      "Tomar una decisión autónoma",
+      "Derivar a otra área"
+    ],
+    "correctOptionIndex": 1,
+    "explanation": "Esta acción promueve la eficiencia en la gestión pública."
+  },
+  {
+    "id": 1334,
+    "axisId": 4,
+    "text": "Cómo garantizaría la conservación de documentos de dato no especificado?",
+    "options": [
+      "Actuar de inmediato",
+      "Evaluar las consecuencias",
+      "Solicitar asesoría jurídica",
+      "Conformar un comité de evaluación"
+    ],
+    "correctOptionIndex": 1,
+    "explanation": "Esta decisión garantiza el cumplimiento de la normativa vigente."
+  },
+  {
+    "id": 1335,
+    "axisId": 4,
+    "text": "Cómo organizaría la documentación de contratación?",
+    "options": [
+      "Actuar de inmediato",
+      "Evaluar las consecuencias",
+      "Solicitar asesoría jurídica",
+      "Conformar un comité de evaluación"
+    ],
+    "correctOptionIndex": 2,
+    "explanation": "Se debe priorizar el interés general sobre el particular en estos casos."
+  },
+  {
+    "id": 1336,
+    "axisId": 4,
+    "text": "Cómo organizaría la documentación de atención al ciudadano?",
+    "options": [
+      "Aplicar el principio de transparencia",
+      "Solicitar autorización",
+      "Documentar la situación",
+      "Buscar una solución alternativa"
+    ],
+    "correctOptionIndex": 0,
+    "explanation": "Esta acción promueve la eficiencia en la gestión pública."
+  },
+  {
+    "id": 1337,
+    "axisId": 4,
+    "text": "Ante una solicitud de información sobre derechos de petición, ¿dónde buscaría la documentación?",
+    "options": [
+      "Actuar de inmediato",
+      "Evaluar las consecuencias",
+      "Solicitar asesoría jurídica",
+      "Conformar un comité de evaluación"
+    ],
+    "correctOptionIndex": 0,
+    "explanation": "Se debe priorizar el interés general sobre el particular en estos casos."
+  },
+  {
+    "id": 1338,
+    "axisId": 4,
+    "text": "Cómo garantizaría la conservación de documentos de dato no especificado?",
+    "options": [
+      "Aplicar el principio de transparencia",
+      "Solicitar autorización",
+      "Documentar la situación",
+      "Buscar una solución alternativa"
+    ],
+    "correctOptionIndex": 3,
+    "explanation": "Esta acción promueve la eficiencia en la gestión pública."
+  },
+  {
+    "id": 1339,
+    "axisId": 4,
+    "text": "Cómo garantizaría la conservación de documentos de dato no especificado?",
+    "options": [
+      "Aplicar el principio de transparencia",
+      "Solicitar autorización",
+      "Documentar la situación",
+      "Buscar una solución alternativa"
+    ],
+    "correctOptionIndex": 1,
+    "explanation": "Se debe priorizar el interés general sobre el particular en estos casos."
+  },
+  {
+    "id": 1340,
+    "axisId": 4,
+    "text": "Cómo organizaría la documentación de contratación?",
+    "options": [
+      "Seguir el protocolo establecido",
+      "Consultar con un superior",
+      "Tomar una decisión autónoma",
+      "Derivar a otra área"
+    ],
+    "correctOptionIndex": 0,
+    "explanation": "Esta decisión garantiza el cumplimiento de la normativa vigente."
+  },
+  {
+    "id": 1341,
+    "axisId": 4,
+    "text": "Cómo garantizaría la conservación de documentos de dato no especificado?",
+    "options": [
+      "Seguir el protocolo establecido",
+      "Consultar con un superior",
+      "Tomar una decisión autónoma",
+      "Derivar a otra área"
+    ],
+    "correctOptionIndex": 0,
+    "explanation": "Se debe priorizar el interés general sobre el particular en estos casos."
+  },
+  {
+    "id": 1342,
+    "axisId": 4,
+    "text": "Cómo organizaría la documentación de archivo de documentos?",
+    "options": [
+      "Actuar de inmediato",
+      "Evaluar las consecuencias",
+      "Solicitar asesoría jurídica",
+      "Conformar un comité de evaluación"
+    ],
+    "correctOptionIndex": 3,
+    "explanation": "Esta decisión garantiza el cumplimiento de la normativa vigente."
+  },
+  {
+    "id": 1343,
+    "axisId": 4,
+    "text": "Ante una solicitud de información sobre contratación estatal, ¿dónde buscaría la documentación?",
+    "options": [
+      "Seguir el protocolo establecido",
+      "Consultar con un superior",
+      "Tomar una decisión autónoma",
+      "Derivar a otra área"
+    ],
+    "correctOptionIndex": 1,
+    "explanation": "La ley establece claramente el procedimiento a seguir en estas situaciones."
+  },
+  {
+    "id": 1344,
+    "axisId": 4,
+    "text": "Ante una solicitud de información sobre derechos de petición, ¿dónde buscaría la documentación?",
+    "options": [
+      "Actuar de inmediato",
+      "Evaluar las consecuencias",
+      "Solicitar asesoría jurídica",
+      "Conformar un comité de evaluación"
+    ],
+    "correctOptionIndex": 1,
+    "explanation": "La ley establece claramente el procedimiento a seguir en estas situaciones."
+  },
+  {
+    "id": 1345,
+    "axisId": 4,
+    "text": "Ante una solicitud de información sobre contratación estatal, ¿dónde buscaría la documentación?",
+    "options": [
+      "Actuar de inmediato",
+      "Evaluar las consecuencias",
+      "Solicitar asesoría jurídica",
+      "Conformar un comité de evaluación"
+    ],
+    "correctOptionIndex": 2,
+    "explanation": "Se debe priorizar el interés general sobre el particular en estos casos."
+  },
+  {
+    "id": 1346,
+    "axisId": 4,
+    "text": "Ante una solicitud de información sobre contratación estatal, ¿dónde buscaría la documentación?",
+    "options": [
+      "Aplicar el principio de transparencia",
+      "Solicitar autorización",
+      "Documentar la situación",
+      "Buscar una solución alternativa"
+    ],
+    "correctOptionIndex": 0,
+    "explanation": "Es importante considerar el principio de transparencia en estos casos."
+  },
+  {
+    "id": 1347,
+    "axisId": 4,
+    "text": "Cómo garantizaría la conservación de documentos de dato no especificado?",
+    "options": [
+      "Aplicar el principio de transparencia",
+      "Solicitar autorización",
+      "Documentar la situación",
+      "Buscar una solución alternativa"
+    ],
+    "correctOptionIndex": 0,
+    "explanation": "Esta decisión garantiza el cumplimiento de la normativa vigente."
+  },
+  {
+    "id": 1348,
+    "axisId": 4,
+    "text": "Cómo organizaría la documentación de atención al ciudadano?",
+    "options": [
+      "Actuar de inmediato",
+      "Evaluar las consecuencias",
+      "Solicitar asesoría jurídica",
+      "Conformar un comité de evaluación"
+    ],
+    "correctOptionIndex": 2,
+    "explanation": "Se debe priorizar el interés general sobre el particular en estos casos."
+  },
+  {
+    "id": 1349,
+    "axisId": 4,
+    "text": "Ante una solicitud de información sobre derechos de petición, ¿dónde buscaría la documentación?",
+    "options": [
+      "Actuar de inmediato",
+      "Evaluar las consecuencias",
+      "Solicitar asesoría jurídica",
+      "Conformar un comité de evaluación"
+    ],
+    "correctOptionIndex": 1,
+    "explanation": "Esta decisión garantiza el cumplimiento de la normativa vigente."
+  },
+  {
+    "id": 1350,
+    "axisId": 4,
+    "text": "Ante una solicitud de información sobre licencias ambientales, ¿dónde buscaría la documentación?",
+    "options": [
+      "Seguir el protocolo establecido",
+      "Consultar con un superior",
+      "Tomar una decisión autónoma",
+      "Derivar a otra área"
+    ],
+    "correctOptionIndex": 1,
+    "explanation": "Esta decisión garantiza el cumplimiento de la normativa vigente."
+  },
+  {
+    "id": 1351,
+    "axisId": 4,
+    "text": "Cómo garantizaría la conservación de documentos de dato no especificado?",
+    "options": [
+      "Aplicar el principio de transparencia",
+      "Solicitar autorización",
+      "Documentar la situación",
+      "Buscar una solución alternativa"
+    ],
+    "correctOptionIndex": 0,
+    "explanation": "La ley establece claramente el procedimiento a seguir en estas situaciones."
+  },
+  {
+    "id": 1352,
+    "axisId": 4,
+    "text": "Ante una solicitud de información sobre derechos de petición, ¿dónde buscaría la documentación?",
+    "options": [
+      "Aplicar el principio de transparencia",
+      "Solicitar autorización",
+      "Documentar la situación",
+      "Buscar una solución alternativa"
+    ],
+    "correctOptionIndex": 0,
+    "explanation": "Esta decisión garantiza el cumplimiento de la normativa vigente."
+  },
+  {
+    "id": 1353,
+    "axisId": 4,
+    "text": "Cómo organizaría la documentación de archivo de documentos?",
+    "options": [
+      "Aplicar el principio de transparencia",
+      "Solicitar autorización",
+      "Documentar la situación",
+      "Buscar una solución alternativa"
+    ],
+    "correctOptionIndex": 0,
+    "explanation": "Esta acción promueve la eficiencia en la gestión pública."
+  },
+  {
+    "id": 1354,
+    "axisId": 4,
+    "text": "Cómo garantizaría la conservación de documentos de dato no especificado?",
+    "options": [
+      "Actuar de inmediato",
+      "Evaluar las consecuencias",
+      "Solicitar asesoría jurídica",
+      "Conformar un comité de evaluación"
+    ],
+    "correctOptionIndex": 3,
+    "explanation": "La ley establece claramente el procedimiento a seguir en estas situaciones."
+  },
+  {
+    "id": 1355,
+    "axisId": 4,
+    "text": "Cómo organizaría la documentación de gestión documental?",
+    "options": [
+      "Aplicar el principio de transparencia",
+      "Solicitar autorización",
+      "Documentar la situación",
+      "Buscar una solución alternativa"
+    ],
+    "correctOptionIndex": 3,
+    "explanation": "La ley establece claramente el procedimiento a seguir en estas situaciones."
+  },
+  {
+    "id": 1356,
+    "axisId": 4,
+    "text": "Cómo garantizaría la conservación de documentos de dato no especificado?",
+    "options": [
+      "Actuar de inmediato",
+      "Evaluar las consecuencias",
+      "Solicitar asesoría jurídica",
+      "Conformar un comité de evaluación"
+    ],
+    "correctOptionIndex": 0,
+    "explanation": "Esta decisión garantiza el cumplimiento de la normativa vigente."
+  },
+  {
+    "id": 1357,
+    "axisId": 4,
+    "text": "Ante una solicitud de información sobre derechos de petición, ¿dónde buscaría la documentación?",
+    "options": [
+      "Seguir el protocolo establecido",
+      "Consultar con un superior",
+      "Tomar una decisión autónoma",
+      "Derivar a otra área"
+    ],
+    "correctOptionIndex": 1,
+    "explanation": "Esta decisión garantiza el cumplimiento de la normativa vigente."
+  },
+  {
+    "id": 1358,
+    "axisId": 4,
+    "text": "Ante una solicitud de información sobre derechos de petición, ¿dónde buscaría la documentación?",
+    "options": [
+      "Actuar de inmediato",
+      "Evaluar las consecuencias",
+      "Solicitar asesoría jurídica",
+      "Conformar un comité de evaluación"
+    ],
+    "correctOptionIndex": 2,
+    "explanation": "Es importante considerar el principio de transparencia en estos casos."
+  },
+  {
+    "id": 1359,
+    "axisId": 4,
+    "text": "Cómo organizaría la documentación de gestión documental?",
+    "options": [
+      "Aplicar el principio de transparencia",
+      "Solicitar autorización",
+      "Documentar la situación",
+      "Buscar una solución alternativa"
+    ],
+    "correctOptionIndex": 2,
+    "explanation": "Se debe priorizar el interés general sobre el particular en estos casos."
+  },
+  {
+    "id": 1360,
+    "axisId": 4,
+    "text": "Cómo organizaría la documentación de contratación?",
+    "options": [
+      "Aplicar el principio de transparencia",
+      "Solicitar autorización",
+      "Documentar la situación",
+      "Buscar una solución alternativa"
+    ],
+    "correctOptionIndex": 1,
+    "explanation": "Esta acción promueve la eficiencia en la gestión pública."
+  },
+  {
+    "id": 1361,
+    "axisId": 4,
+    "text": "Cómo garantizaría la conservación de documentos de dato no especificado?",
+    "options": [
+      "Aplicar el principio de transparencia",
+      "Solicitar autorización",
+      "Documentar la situación",
+      "Buscar una solución alternativa"
+    ],
+    "correctOptionIndex": 1,
+    "explanation": "Esta acción promueve la eficiencia en la gestión pública."
+  },
+  {
+    "id": 1362,
+    "axisId": 4,
+    "text": "Cómo organizaría la documentación de archivo de documentos?",
+    "options": [
+      "Seguir el protocolo establecido",
+      "Consultar con un superior",
+      "Tomar una decisión autónoma",
+      "Derivar a otra área"
+    ],
+    "correctOptionIndex": 1,
+    "explanation": "Esta acción promueve la eficiencia en la gestión pública."
+  },
+  {
+    "id": 1363,
+    "axisId": 4,
+    "text": "Cómo garantizaría la conservación de documentos de dato no especificado?",
+    "options": [
+      "Actuar de inmediato",
+      "Evaluar las consecuencias",
+      "Solicitar asesoría jurídica",
+      "Conformar un comité de evaluación"
+    ],
+    "correctOptionIndex": 0,
+    "explanation": "La ley establece claramente el procedimiento a seguir en estas situaciones."
+  },
+  {
+    "id": 1364,
+    "axisId": 4,
+    "text": "Cómo organizaría la documentación de contratación?",
+    "options": [
+      "Actuar de inmediato",
+      "Evaluar las consecuencias",
+      "Solicitar asesoría jurídica",
+      "Conformar un comité de evaluación"
+    ],
+    "correctOptionIndex": 2,
+    "explanation": "Se debe priorizar el interés general sobre el particular en estos casos."
+  },
+  {
+    "id": 1365,
+    "axisId": 4,
+    "text": "Ante una solicitud de información sobre licencias ambientales, ¿dónde buscaría la documentación?",
+    "options": [
+      "Aplicar el principio de transparencia",
+      "Solicitar autorización",
+      "Documentar la situación",
+      "Buscar una solución alternativa"
+    ],
+    "correctOptionIndex": 0,
+    "explanation": "La ley establece claramente el procedimiento a seguir en estas situaciones."
+  },
+  {
+    "id": 1366,
+    "axisId": 4,
+    "text": "Cómo organizaría la documentación de archivo de documentos?",
+    "options": [
+      "Actuar de inmediato",
+      "Evaluar las consecuencias",
+      "Solicitar asesoría jurídica",
+      "Conformar un comité de evaluación"
+    ],
+    "correctOptionIndex": 0,
+    "explanation": "Se debe priorizar el interés general sobre el particular en estos casos."
+  },
+  {
+    "id": 1367,
+    "axisId": 4,
+    "text": "Ante una solicitud de información sobre licencias ambientales, ¿dónde buscaría la documentación?",
+    "options": [
+      "Aplicar el principio de transparencia",
+      "Solicitar autorización",
+      "Documentar la situación",
+      "Buscar una solución alternativa"
+    ],
+    "correctOptionIndex": 3,
+    "explanation": "Esta acción promueve la eficiencia en la gestión pública."
+  },
+  {
+    "id": 1368,
+    "axisId": 4,
+    "text": "Ante una solicitud de información sobre protección de datos, ¿dónde buscaría la documentación?",
+    "options": [
+      "Actuar de inmediato",
+      "Evaluar las consecuencias",
+      "Solicitar asesoría jurídica",
+      "Conformar un comité de evaluación"
+    ],
+    "correctOptionIndex": 0,
+    "explanation": "Esta acción promueve la eficiencia en la gestión pública."
+  },
+  {
+    "id": 1369,
+    "axisId": 4,
+    "text": "Ante una solicitud de información sobre derechos de petición, ¿dónde buscaría la documentación?",
+    "options": [
+      "Actuar de inmediato",
+      "Evaluar las consecuencias",
+      "Solicitar asesoría jurídica",
+      "Conformar un comité de evaluación"
+    ],
+    "correctOptionIndex": 0,
+    "explanation": "Se debe priorizar el interés general sobre el particular en estos casos."
+  },
+  {
+    "id": 1370,
+    "axisId": 4,
+    "text": "Ante una solicitud de información sobre contratación estatal, ¿dónde buscaría la documentación?",
+    "options": [
+      "Aplicar el principio de transparencia",
+      "Solicitar autorización",
+      "Documentar la situación",
+      "Buscar una solución alternativa"
+    ],
+    "correctOptionIndex": 2,
+    "explanation": "Esta acción promueve la eficiencia en la gestión pública."
+  },
+  {
+    "id": 1371,
+    "axisId": 4,
+    "text": "Ante una solicitud de información sobre licencias ambientales, ¿dónde buscaría la documentación?",
+    "options": [
+      "Aplicar el principio de transparencia",
+      "Solicitar autorización",
+      "Documentar la situación",
+      "Buscar una solución alternativa"
+    ],
+    "correctOptionIndex": 1,
+    "explanation": "La ley establece claramente el procedimiento a seguir en estas situaciones."
+  },
+  {
+    "id": 1372,
+    "axisId": 5,
+    "text": "Cómo capacitaría a su equipo en el uso de plataformas digitales?",
+    "options": [
+      "Seguir el protocolo establecido",
+      "Consultar con un superior",
+      "Tomar una decisión autónoma",
+      "Derivar a otra área"
+    ],
+    "correctOptionIndex": 2,
+    "explanation": "Es importante considerar el principio de transparencia en estos casos."
+  },
+  {
+    "id": 1373,
+    "axisId": 5,
+    "text": "Cómo resolvería un problema técnico con el sistema de información?",
+    "options": [
+      "Actuar de inmediato",
+      "Evaluar las consecuencias",
+      "Solicitar asesoría jurídica",
+      "Conformar un comité de evaluación"
+    ],
+    "correctOptionIndex": 1,
+    "explanation": "La ley establece claramente el procedimiento a seguir en estas situaciones."
+  },
+  {
+    "id": 1374,
+    "axisId": 5,
+    "text": "Cómo capacitaría a su equipo en el uso de sistemas de información?",
+    "options": [
+      "Actuar de inmediato",
+      "Evaluar las consecuencias",
+      "Solicitar asesoría jurídica",
+      "Conformar un comité de evaluación"
+    ],
+    "correctOptionIndex": 1,
+    "explanation": "La ley establece claramente el procedimiento a seguir en estas situaciones."
+  },
+  {
+    "id": 1375,
+    "axisId": 5,
+    "text": "Qué herramienta digital utilizaría para elaborar informes?",
+    "options": [
+      "Seguir el protocolo establecido",
+      "Consultar con un superior",
+      "Tomar una decisión autónoma",
+      "Derivar a otra área"
+    ],
+    "correctOptionIndex": 1,
+    "explanation": "Es importante considerar el principio de transparencia en estos casos."
+  },
+  {
+    "id": 1376,
+    "axisId": 5,
+    "text": "Cómo capacitaría a su equipo en el uso de ofimática?",
+    "options": [
+      "Seguir el protocolo establecido",
+      "Consultar con un superior",
+      "Tomar una decisión autónoma",
+      "Derivar a otra área"
+    ],
+    "correctOptionIndex": 2,
+    "explanation": "La ley establece claramente el procedimiento a seguir en estas situaciones."
+  },
+  {
+    "id": 1377,
+    "axisId": 5,
+    "text": "Cómo capacitaría a su equipo en el uso de sistemas de información?",
+    "options": [
+      "Aplicar el principio de transparencia",
+      "Solicitar autorización",
+      "Documentar la situación",
+      "Buscar una solución alternativa"
+    ],
+    "correctOptionIndex": 3,
+    "explanation": "Esta acción promueve la eficiencia en la gestión pública."
+  },
+  {
+    "id": 1378,
+    "axisId": 5,
+    "text": "Cómo resolvería un problema técnico con las bases de datos?",
+    "options": [
+      "Aplicar el principio de transparencia",
+      "Solicitar autorización",
+      "Documentar la situación",
+      "Buscar una solución alternativa"
+    ],
+    "correctOptionIndex": 1,
+    "explanation": "La ley establece claramente el procedimiento a seguir en estas situaciones."
+  },
+  {
+    "id": 1379,
+    "axisId": 5,
+    "text": "Cómo capacitaría a su equipo en el uso de ofimática?",
+    "options": [
+      "Actuar de inmediato",
+      "Evaluar las consecuencias",
+      "Solicitar asesoría jurídica",
+      "Conformar un comité de evaluación"
+    ],
+    "correctOptionIndex": 0,
+    "explanation": "Esta decisión garantiza el cumplimiento de la normativa vigente."
+  },
+  {
+    "id": 1380,
+    "axisId": 5,
+    "text": "Qué herramienta digital utilizaría para gestionar documentos?",
+    "options": [
+      "Aplicar el principio de transparencia",
+      "Solicitar autorización",
+      "Documentar la situación",
+      "Buscar una solución alternativa"
+    ],
+    "correctOptionIndex": 2,
+    "explanation": "Esta acción promueve la eficiencia en la gestión pública."
+  },
+  {
+    "id": 1381,
+    "axisId": 5,
+    "text": "Cómo resolvería un problema técnico con las plataformas digitales?",
+    "options": [
+      "Actuar de inmediato",
+      "Evaluar las consecuencias",
+      "Solicitar asesoría jurídica",
+      "Conformar un comité de evaluación"
+    ],
+    "correctOptionIndex": 1,
+    "explanation": "Esta acción promueve la eficiencia en la gestión pública."
+  },
+  {
+    "id": 1382,
+    "axisId": 5,
+    "text": "Qué herramienta digital utilizaría para elaborar informes?",
+    "options": [
+      "Seguir el protocolo establecido",
+      "Consultar con un superior",
+      "Tomar una decisión autónoma",
+      "Derivar a otra área"
+    ],
+    "correctOptionIndex": 1,
+    "explanation": "Se debe priorizar el interés general sobre el particular en estos casos."
+  },
+  {
+    "id": 1383,
+    "axisId": 5,
+    "text": "Qué herramienta digital utilizaría para organizar reuniones?",
+    "options": [
+      "Actuar de inmediato",
+      "Evaluar las consecuencias",
+      "Solicitar asesoría jurídica",
+      "Conformar un comité de evaluación"
+    ],
+    "correctOptionIndex": 0,
+    "explanation": "Esta decisión garantiza el cumplimiento de la normativa vigente."
+  },
+  {
+    "id": 1384,
+    "axisId": 5,
+    "text": "Qué herramienta digital utilizaría para organizar reuniones?",
+    "options": [
+      "Seguir el protocolo establecido",
+      "Consultar con un superior",
+      "Tomar una decisión autónoma",
+      "Derivar a otra área"
+    ],
+    "correctOptionIndex": 1,
+    "explanation": "Esta decisión garantiza el cumplimiento de la normativa vigente."
+  },
+  {
+    "id": 1385,
+    "axisId": 5,
+    "text": "Cómo resolvería un problema técnico con el correo electrónico?",
+    "options": [
+      "Actuar de inmediato",
+      "Evaluar las consecuencias",
+      "Solicitar asesoría jurídica",
+      "Conformar un comité de evaluación"
+    ],
+    "correctOptionIndex": 0,
+    "explanation": "Se debe priorizar el interés general sobre el particular en estos casos."
+  },
+  {
+    "id": 1386,
+    "axisId": 5,
+    "text": "Cómo resolvería un problema técnico con el correo electrónico?",
+    "options": [
+      "Actuar de inmediato",
+      "Evaluar las consecuencias",
+      "Solicitar asesoría jurídica",
+      "Conformar un comité de evaluación"
+    ],
+    "correctOptionIndex": 0,
+    "explanation": "Se debe priorizar el interés general sobre el particular en estos casos."
+  },
+  {
+    "id": 1387,
+    "axisId": 5,
+    "text": "Cómo resolvería un problema técnico con las plataformas digitales?",
+    "options": [
+      "Actuar de inmediato",
+      "Evaluar las consecuencias",
+      "Solicitar asesoría jurídica",
+      "Conformar un comité de evaluación"
+    ],
+    "correctOptionIndex": 2,
+    "explanation": "La ley establece claramente el procedimiento a seguir en estas situaciones."
+  },
+  {
+    "id": 1388,
+    "axisId": 5,
+    "text": "Qué herramienta digital utilizaría para organizar reuniones?",
+    "options": [
+      "Aplicar el principio de transparencia",
+      "Solicitar autorización",
+      "Documentar la situación",
+      "Buscar una solución alternativa"
+    ],
+    "correctOptionIndex": 0,
+    "explanation": "Se debe priorizar el interés general sobre el particular en estos casos."
+  },
+  {
+    "id": 1389,
+    "axisId": 5,
+    "text": "Cómo resolvería un problema técnico con las plataformas digitales?",
+    "options": [
+      "Actuar de inmediato",
+      "Evaluar las consecuencias",
+      "Solicitar asesoría jurídica",
+      "Conformar un comité de evaluación"
+    ],
+    "correctOptionIndex": 3,
+    "explanation": "Se debe priorizar el interés general sobre el particular en estos casos."
+  },
+  {
+    "id": 1390,
+    "axisId": 5,
+    "text": "Cómo capacitaría a su equipo en el uso de sistemas de información?",
+    "options": [
+      "Aplicar el principio de transparencia",
+      "Solicitar autorización",
+      "Documentar la situación",
+      "Buscar una solución alternativa"
+    ],
+    "correctOptionIndex": 0,
+    "explanation": "Esta acción promueve la eficiencia en la gestión pública."
+  },
+  {
+    "id": 1391,
+    "axisId": 5,
+    "text": "Cómo capacitaría a su equipo en el uso de ofimática?",
+    "options": [
+      "Actuar de inmediato",
+      "Evaluar las consecuencias",
+      "Solicitar asesoría jurídica",
+      "Conformar un comité de evaluación"
+    ],
+    "correctOptionIndex": 3,
+    "explanation": "Se debe priorizar el interés general sobre el particular en estos casos."
+  },
+  {
+    "id": 1392,
+    "axisId": 5,
+    "text": "Qué herramienta digital utilizaría para gestionar documentos?",
+    "options": [
+      "Seguir el protocolo establecido",
+      "Consultar con un superior",
+      "Tomar una decisión autónoma",
+      "Derivar a otra área"
+    ],
+    "correctOptionIndex": 3,
+    "explanation": "Se debe priorizar el interés general sobre el particular en estos casos."
+  },
+  {
+    "id": 1393,
+    "axisId": 5,
+    "text": "Qué herramienta digital utilizaría para gestionar documentos?",
+    "options": [
+      "Seguir el protocolo establecido",
+      "Consultar con un superior",
+      "Tomar una decisión autónoma",
+      "Derivar a otra área"
+    ],
+    "correctOptionIndex": 3,
+    "explanation": "Esta acción promueve la eficiencia en la gestión pública."
+  },
+  {
+    "id": 1394,
+    "axisId": 5,
+    "text": "Cómo capacitaría a su equipo en el uso de herramientas colaborativas?",
+    "options": [
+      "Seguir el protocolo establecido",
+      "Consultar con un superior",
+      "Tomar una decisión autónoma",
+      "Derivar a otra área"
+    ],
+    "correctOptionIndex": 3,
+    "explanation": "La ley establece claramente el procedimiento a seguir en estas situaciones."
+  },
+  {
+    "id": 1395,
+    "axisId": 5,
+    "text": "Cómo capacitaría a su equipo en el uso de herramientas colaborativas?",
+    "options": [
+      "Seguir el protocolo establecido",
+      "Consultar con un superior",
+      "Tomar una decisión autónoma",
+      "Derivar a otra área"
+    ],
+    "correctOptionIndex": 2,
+    "explanation": "Esta decisión garantiza el cumplimiento de la normativa vigente."
+  },
+  {
+    "id": 1396,
+    "axisId": 5,
+    "text": "Cómo capacitaría a su equipo en el uso de herramientas colaborativas?",
+    "options": [
+      "Actuar de inmediato",
+      "Evaluar las consecuencias",
+      "Solicitar asesoría jurídica",
+      "Conformar un comité de evaluación"
+    ],
+    "correctOptionIndex": 3,
+    "explanation": "Esta decisión garantiza el cumplimiento de la normativa vigente."
+  },
+  {
+    "id": 1397,
+    "axisId": 5,
+    "text": "Cómo resolvería un problema técnico con el correo electrónico?",
+    "options": [
+      "Actuar de inmediato",
+      "Evaluar las consecuencias",
+      "Solicitar asesoría jurídica",
+      "Conformar un comité de evaluación"
+    ],
+    "correctOptionIndex": 2,
+    "explanation": "La ley establece claramente el procedimiento a seguir en estas situaciones."
+  },
+  {
+    "id": 1398,
+    "axisId": 5,
+    "text": "Cómo resolvería un problema técnico con el correo electrónico?",
+    "options": [
+      "Seguir el protocolo establecido",
+      "Consultar con un superior",
+      "Tomar una decisión autónoma",
+      "Derivar a otra área"
+    ],
+    "correctOptionIndex": 3,
+    "explanation": "Esta decisión garantiza el cumplimiento de la normativa vigente."
+  },
+  {
+    "id": 1399,
+    "axisId": 5,
+    "text": "Qué herramienta digital utilizaría para gestionar documentos?",
+    "options": [
+      "Seguir el protocolo establecido",
+      "Consultar con un superior",
+      "Tomar una decisión autónoma",
+      "Derivar a otra área"
+    ],
+    "correctOptionIndex": 2,
+    "explanation": "La ley establece claramente el procedimiento a seguir en estas situaciones."
+  },
+  {
+    "id": 1400,
+    "axisId": 5,
+    "text": "Cómo resolvería un problema técnico con las bases de datos?",
+    "options": [
+      "Aplicar el principio de transparencia",
+      "Solicitar autorización",
+      "Documentar la situación",
+      "Buscar una solución alternativa"
+    ],
+    "correctOptionIndex": 3,
+    "explanation": "Es importante considerar el principio de transparencia en estos casos."
+  },
+  {
+    "id": 1401,
+    "axisId": 5,
+    "text": "Cómo resolvería un problema técnico con el correo electrónico?",
+    "options": [
+      "Seguir el protocolo establecido",
+      "Consultar con un superior",
+      "Tomar una decisión autónoma",
+      "Derivar a otra área"
+    ],
+    "correctOptionIndex": 0,
+    "explanation": "Esta acción promueve la eficiencia en la gestión pública."
+  },
+  {
+    "id": 1402,
+    "axisId": 5,
+    "text": "Cómo resolvería un problema técnico con las plataformas digitales?",
+    "options": [
+      "Actuar de inmediato",
+      "Evaluar las consecuencias",
+      "Solicitar asesoría jurídica",
+      "Conformar un comité de evaluación"
+    ],
+    "correctOptionIndex": 1,
+    "explanation": "La ley establece claramente el procedimiento a seguir en estas situaciones."
+  },
+  {
+    "id": 1403,
+    "axisId": 5,
+    "text": "Cómo capacitaría a su equipo en el uso de herramientas colaborativas?",
+    "options": [
+      "Aplicar el principio de transparencia",
+      "Solicitar autorización",
+      "Documentar la situación",
+      "Buscar una solución alternativa"
+    ],
+    "correctOptionIndex": 2,
+    "explanation": "Esta decisión garantiza el cumplimiento de la normativa vigente."
+  },
+  {
+    "id": 1404,
+    "axisId": 5,
+    "text": "Cómo resolvería un problema técnico con las plataformas digitales?",
+    "options": [
+      "Aplicar el principio de transparencia",
+      "Solicitar autorización",
+      "Documentar la situación",
+      "Buscar una solución alternativa"
+    ],
+    "correctOptionIndex": 1,
+    "explanation": "Esta acción promueve la eficiencia en la gestión pública."
+  },
+  {
+    "id": 1405,
+    "axisId": 5,
+    "text": "Cómo capacitaría a su equipo en el uso de herramientas colaborativas?",
+    "options": [
+      "Seguir el protocolo establecido",
+      "Consultar con un superior",
+      "Tomar una decisión autónoma",
+      "Derivar a otra área"
+    ],
+    "correctOptionIndex": 0,
+    "explanation": "Esta acción promueve la eficiencia en la gestión pública."
+  },
+  {
+    "id": 1406,
+    "axisId": 5,
+    "text": "Cómo capacitaría a su equipo en el uso de sistemas de información?",
+    "options": [
+      "Aplicar el principio de transparencia",
+      "Solicitar autorización",
+      "Documentar la situación",
+      "Buscar una solución alternativa"
+    ],
+    "correctOptionIndex": 0,
+    "explanation": "Se debe priorizar el interés general sobre el particular en estos casos."
+  },
+  {
+    "id": 1407,
+    "axisId": 5,
+    "text": "Qué herramienta digital utilizaría para gestionar documentos?",
+    "options": [
+      "Seguir el protocolo establecido",
+      "Consultar con un superior",
+      "Tomar una decisión autónoma",
+      "Derivar a otra área"
+    ],
+    "correctOptionIndex": 3,
+    "explanation": "Es importante considerar el principio de transparencia en estos casos."
+  },
+  {
+    "id": 1408,
+    "axisId": 5,
+    "text": "Cómo resolvería un problema técnico con el sistema de información?",
+    "options": [
+      "Aplicar el principio de transparencia",
+      "Solicitar autorización",
+      "Documentar la situación",
+      "Buscar una solución alternativa"
+    ],
+    "correctOptionIndex": 0,
+    "explanation": "Esta decisión garantiza el cumplimiento de la normativa vigente."
+  },
+  {
+    "id": 1409,
+    "axisId": 5,
+    "text": "Cómo resolvería un problema técnico con las bases de datos?",
+    "options": [
+      "Actuar de inmediato",
+      "Evaluar las consecuencias",
+      "Solicitar asesoría jurídica",
+      "Conformar un comité de evaluación"
+    ],
+    "correctOptionIndex": 1,
+    "explanation": "Esta acción promueve la eficiencia en la gestión pública."
+  },
+  {
+    "id": 1410,
+    "axisId": 5,
+    "text": "Cómo resolvería un problema técnico con las bases de datos?",
+    "options": [
+      "Aplicar el principio de transparencia",
+      "Solicitar autorización",
+      "Documentar la situación",
+      "Buscar una solución alternativa"
+    ],
+    "correctOptionIndex": 3,
+    "explanation": "Esta decisión garantiza el cumplimiento de la normativa vigente."
+  },
+  {
+    "id": 1411,
+    "axisId": 5,
+    "text": "Qué herramienta digital utilizaría para gestionar documentos?",
+    "options": [
+      "Seguir el protocolo establecido",
+      "Consultar con un superior",
+      "Tomar una decisión autónoma",
+      "Derivar a otra área"
+    ],
+    "correctOptionIndex": 2,
+    "explanation": "La ley establece claramente el procedimiento a seguir en estas situaciones."
+  },
+  {
+    "id": 1412,
+    "axisId": 5,
+    "text": "Qué herramienta digital utilizaría para comunicarse con ciudadanos?",
+    "options": [
+      "Aplicar el principio de transparencia",
+      "Solicitar autorización",
+      "Documentar la situación",
+      "Buscar una solución alternativa"
+    ],
+    "correctOptionIndex": 2,
+    "explanation": "Esta decisión garantiza el cumplimiento de la normativa vigente."
+  },
+  {
+    "id": 1413,
+    "axisId": 5,
+    "text": "Cómo resolvería un problema técnico con las bases de datos?",
+    "options": [
+      "Aplicar el principio de transparencia",
+      "Solicitar autorización",
+      "Documentar la situación",
+      "Buscar una solución alternativa"
+    ],
+    "correctOptionIndex": 3,
+    "explanation": "Esta acción promueve la eficiencia en la gestión pública."
+  },
+  {
+    "id": 1414,
+    "axisId": 5,
+    "text": "Cómo capacitaría a su equipo en el uso de ofimática?",
+    "options": [
+      "Actuar de inmediato",
+      "Evaluar las consecuencias",
+      "Solicitar asesoría jurídica",
+      "Conformar un comité de evaluación"
+    ],
+    "correctOptionIndex": 3,
+    "explanation": "Esta decisión garantiza el cumplimiento de la normativa vigente."
+  },
+  {
+    "id": 1415,
+    "axisId": 6,
+    "text": "Ante un posible caso de conflicto de intereses, ¿cómo actuaría?",
+    "options": [
+      "Seguir el protocolo establecido",
+      "Consultar con un superior",
+      "Tomar una decisión autónoma",
+      "Derivar a otra área"
+    ],
+    "correctOptionIndex": 2,
+    "explanation": "Es importante considerar el principio de transparencia en estos casos."
+  },
+  {
+    "id": 1416,
+    "axisId": 6,
+    "text": "Cómo promovería la ética en su área de trabajo?",
+    "options": [
+      "Actuar de inmediato",
+      "Evaluar las consecuencias",
+      "Solicitar asesoría jurídica",
+      "Conformar un comité de evaluación"
+    ],
+    "correctOptionIndex": 1,
+    "explanation": "Es importante considerar el principio de transparencia en estos casos."
+  },
+  {
+    "id": 1417,
+    "axisId": 6,
+    "text": "Qué haría si presencia una presión indebida?",
+    "options": [
+      "Actuar de inmediato",
+      "Evaluar las consecuencias",
+      "Solicitar asesoría jurídica",
+      "Conformar un comité de evaluación"
+    ],
+    "correctOptionIndex": 2,
+    "explanation": "Esta acción promueve la eficiencia en la gestión pública."
+  },
+  {
+    "id": 1418,
+    "axisId": 6,
+    "text": "Ante un posible caso de acoso laboral, ¿cómo actuaría?",
+    "options": [
+      "Actuar de inmediato",
+      "Evaluar las consecuencias",
+      "Solicitar asesoría jurídica",
+      "Conformar un comité de evaluación"
+    ],
+    "correctOptionIndex": 2,
+    "explanation": "Se debe priorizar el interés general sobre el particular en estos casos."
+  },
+  {
+    "id": 1419,
+    "axisId": 6,
+    "text": "Cómo promovería la ética en procesos administrativos?",
+    "options": [
+      "Seguir el protocolo establecido",
+      "Consultar con un superior",
+      "Tomar una decisión autónoma",
+      "Derivar a otra área"
+    ],
+    "correctOptionIndex": 2,
+    "explanation": "Esta decisión garantiza el cumplimiento de la normativa vigente."
+  },
+  {
+    "id": 1420,
+    "axisId": 6,
+    "text": "Ante un posible caso de corrupción, ¿cómo actuaría?",
+    "options": [
+      "Seguir el protocolo establecido",
+      "Consultar con un superior",
+      "Tomar una decisión autónoma",
+      "Derivar a otra área"
+    ],
+    "correctOptionIndex": 0,
+    "explanation": "Esta decisión garantiza el cumplimiento de la normativa vigente."
+  },
+  {
+    "id": 1421,
+    "axisId": 6,
+    "text": "Qué haría si presencia un soborno?",
+    "options": [
+      "Seguir el protocolo establecido",
+      "Consultar con un superior",
+      "Tomar una decisión autónoma",
+      "Derivar a otra área"
+    ],
+    "correctOptionIndex": 1,
+    "explanation": "Se debe priorizar el interés general sobre el particular en estos casos."
+  },
+  {
+    "id": 1422,
+    "axisId": 6,
+    "text": "Cómo promovería la ética en la entidad?",
+    "options": [
+      "Aplicar el principio de transparencia",
+      "Solicitar autorización",
+      "Documentar la situación",
+      "Buscar una solución alternativa"
+    ],
+    "correctOptionIndex": 1,
+    "explanation": "Es importante considerar el principio de transparencia en estos casos."
+  },
+  {
+    "id": 1423,
+    "axisId": 6,
+    "text": "Cómo promovería la ética en procesos administrativos?",
+    "options": [
+      "Actuar de inmediato",
+      "Evaluar las consecuencias",
+      "Solicitar asesoría jurídica",
+      "Conformar un comité de evaluación"
+    ],
+    "correctOptionIndex": 1,
+    "explanation": "Esta acción promueve la eficiencia en la gestión pública."
+  },
+  {
+    "id": 1424,
+    "axisId": 6,
+    "text": "Qué haría si presencia un favoritismo?",
+    "options": [
+      "Actuar de inmediato",
+      "Evaluar las consecuencias",
+      "Solicitar asesoría jurídica",
+      "Conformar un comité de evaluación"
+    ],
+    "correctOptionIndex": 3,
+    "explanation": "Esta acción promueve la eficiencia en la gestión pública."
+  },
+  {
+    "id": 1425,
+    "axisId": 6,
+    "text": "Qué haría si presencia un conflicto de intereses?",
+    "options": [
+      "Actuar de inmediato",
+      "Evaluar las consecuencias",
+      "Solicitar asesoría jurídica",
+      "Conformar un comité de evaluación"
+    ],
+    "correctOptionIndex": 1,
+    "explanation": "La ley establece claramente el procedimiento a seguir en estas situaciones."
+  },
+  {
+    "id": 1426,
+    "axisId": 6,
+    "text": "Ante un posible caso de acoso laboral, ¿cómo actuaría?",
+    "options": [
+      "Aplicar el principio de transparencia",
+      "Solicitar autorización",
+      "Documentar la situación",
+      "Buscar una solución alternativa"
+    ],
+    "correctOptionIndex": 1,
+    "explanation": "La ley establece claramente el procedimiento a seguir en estas situaciones."
+  },
+  {
+    "id": 1427,
+    "axisId": 6,
+    "text": "Cómo promovería la ética en servicios al ciudadano?",
+    "options": [
+      "Actuar de inmediato",
+      "Evaluar las consecuencias",
+      "Solicitar asesoría jurídica",
+      "Conformar un comité de evaluación"
+    ],
+    "correctOptionIndex": 2,
+    "explanation": "Esta decisión garantiza el cumplimiento de la normativa vigente."
+  },
+  {
+    "id": 1428,
+    "axisId": 6,
+    "text": "Ante un posible caso de corrupción, ¿cómo actuaría?",
+    "options": [
+      "Aplicar el principio de transparencia",
+      "Solicitar autorización",
+      "Documentar la situación",
+      "Buscar una solución alternativa"
+    ],
+    "correctOptionIndex": 0,
+    "explanation": "La ley establece claramente el procedimiento a seguir en estas situaciones."
+  },
+  {
+    "id": 1429,
+    "axisId": 6,
+    "text": "Ante un posible caso de corrupción, ¿cómo actuaría?",
+    "options": [
+      "Aplicar el principio de transparencia",
+      "Solicitar autorización",
+      "Documentar la situación",
+      "Buscar una solución alternativa"
+    ],
+    "correctOptionIndex": 0,
+    "explanation": "Es importante considerar el principio de transparencia en estos casos."
+  },
+  {
+    "id": 1430,
+    "axisId": 6,
+    "text": "Qué haría si presencia un conflicto de intereses?",
+    "options": [
+      "Actuar de inmediato",
+      "Evaluar las consecuencias",
+      "Solicitar asesoría jurídica",
+      "Conformar un comité de evaluación"
+    ],
+    "correctOptionIndex": 2,
+    "explanation": "La ley establece claramente el procedimiento a seguir en estas situaciones."
+  },
+  {
+    "id": 1431,
+    "axisId": 6,
+    "text": "Cómo promovería la ética en procesos administrativos?",
+    "options": [
+      "Aplicar el principio de transparencia",
+      "Solicitar autorización",
+      "Documentar la situación",
+      "Buscar una solución alternativa"
+    ],
+    "correctOptionIndex": 3,
+    "explanation": "Se debe priorizar el interés general sobre el particular en estos casos."
+  },
+  {
+    "id": 1432,
+    "axisId": 6,
+    "text": "Qué haría si presencia una presión indebida?",
+    "options": [
+      "Seguir el protocolo establecido",
+      "Consultar con un superior",
+      "Tomar una decisión autónoma",
+      "Derivar a otra área"
+    ],
+    "correctOptionIndex": 3,
+    "explanation": "Es importante considerar el principio de transparencia en estos casos."
+  },
+  {
+    "id": 1433,
+    "axisId": 6,
+    "text": "Qué haría si presencia una presión indebida?",
+    "options": [
+      "Aplicar el principio de transparencia",
+      "Solicitar autorización",
+      "Documentar la situación",
+      "Buscar una solución alternativa"
+    ],
+    "correctOptionIndex": 3,
+    "explanation": "Esta acción promueve la eficiencia en la gestión pública."
+  },
+  {
+    "id": 1434,
+    "axisId": 6,
+    "text": "Cómo promovería la ética en servicios al ciudadano?",
+    "options": [
+      "Seguir el protocolo establecido",
+      "Consultar con un superior",
+      "Tomar una decisión autónoma",
+      "Derivar a otra área"
+    ],
+    "correctOptionIndex": 3,
+    "explanation": "La ley establece claramente el procedimiento a seguir en estas situaciones."
+  },
+  {
+    "id": 1435,
+    "axisId": 6,
+    "text": "Ante un posible caso de conflicto de intereses, ¿cómo actuaría?",
+    "options": [
+      "Actuar de inmediato",
+      "Evaluar las consecuencias",
+      "Solicitar asesoría jurídica",
+      "Conformar un comité de evaluación"
+    ],
+    "correctOptionIndex": 3,
+    "explanation": "Es importante considerar el principio de transparencia en estos casos."
+  },
+  {
+    "id": 1436,
+    "axisId": 6,
+    "text": "Ante un posible caso de corrupción, ¿cómo actuaría?",
+    "options": [
+      "Aplicar el principio de transparencia",
+      "Solicitar autorización",
+      "Documentar la situación",
+      "Buscar una solución alternativa"
+    ],
+    "correctOptionIndex": 1,
+    "explanation": "Se debe priorizar el interés general sobre el particular en estos casos."
+  },
+  {
+    "id": 1437,
+    "axisId": 6,
+    "text": "Cómo promovería la ética en su área de trabajo?",
+    "options": [
+      "Actuar de inmediato",
+      "Evaluar las consecuencias",
+      "Solicitar asesoría jurídica",
+      "Conformar un comité de evaluación"
+    ],
+    "correctOptionIndex": 1,
+    "explanation": "Esta decisión garantiza el cumplimiento de la normativa vigente."
+  },
+  {
+    "id": 1438,
+    "axisId": 6,
+    "text": "Qué haría si presencia un soborno?",
+    "options": [
+      "Actuar de inmediato",
+      "Evaluar las consecuencias",
+      "Solicitar asesoría jurídica",
+      "Conformar un comité de evaluación"
+    ],
+    "correctOptionIndex": 0,
+    "explanation": "Se debe priorizar el interés general sobre el particular en estos casos."
+  },
+  {
+    "id": 1439,
+    "axisId": 6,
+    "text": "Ante un posible caso de discriminación, ¿cómo actuaría?",
+    "options": [
+      "Aplicar el principio de transparencia",
+      "Solicitar autorización",
+      "Documentar la situación",
+      "Buscar una solución alternativa"
+    ],
+    "correctOptionIndex": 0,
+    "explanation": "Se debe priorizar el interés general sobre el particular en estos casos."
+  },
+  {
+    "id": 1440,
+    "axisId": 6,
+    "text": "Cómo promovería la ética en la entidad?",
+    "options": [
+      "Actuar de inmediato",
+      "Evaluar las consecuencias",
+      "Solicitar asesoría jurídica",
+      "Conformar un comité de evaluación"
+    ],
+    "correctOptionIndex": 2,
+    "explanation": "Se debe priorizar el interés general sobre el particular en estos casos."
+  },
+  {
+    "id": 1441,
+    "axisId": 6,
+    "text": "Qué haría si presencia un conflicto de intereses?",
+    "options": [
+      "Actuar de inmediato",
+      "Evaluar las consecuencias",
+      "Solicitar asesoría jurídica",
+      "Conformar un comité de evaluación"
+    ],
+    "correctOptionIndex": 0,
+    "explanation": "Es importante considerar el principio de transparencia en estos casos."
+  },
+  {
+    "id": 1442,
+    "axisId": 6,
+    "text": "Ante un posible caso de conflicto de intereses, ¿cómo actuaría?",
+    "options": [
+      "Seguir el protocolo establecido",
+      "Consultar con un superior",
+      "Tomar una decisión autónoma",
+      "Derivar a otra área"
+    ],
+    "correctOptionIndex": 2,
+    "explanation": "Se debe priorizar el interés general sobre el particular en estos casos."
+  },
+  {
+    "id": 1443,
+    "axisId": 6,
+    "text": "Ante un posible caso de corrupción, ¿cómo actuaría?",
+    "options": [
+      "Seguir el protocolo establecido",
+      "Consultar con un superior",
+      "Tomar una decisión autónoma",
+      "Derivar a otra área"
+    ],
+    "correctOptionIndex": 3,
+    "explanation": "La ley establece claramente el procedimiento a seguir en estas situaciones."
+  },
+  {
+    "id": 1444,
+    "axisId": 6,
+    "text": "Cómo promovería la ética en procesos administrativos?",
+    "options": [
+      "Aplicar el principio de transparencia",
+      "Solicitar autorización",
+      "Documentar la situación",
+      "Buscar una solución alternativa"
+    ],
+    "correctOptionIndex": 0,
+    "explanation": "Esta decisión garantiza el cumplimiento de la normativa vigente."
+  },
+  {
+    "id": 1445,
+    "axisId": 6,
+    "text": "Ante un posible caso de acoso laboral, ¿cómo actuaría?",
+    "options": [
+      "Seguir el protocolo establecido",
+      "Consultar con un superior",
+      "Tomar una decisión autónoma",
+      "Derivar a otra área"
+    ],
+    "correctOptionIndex": 3,
+    "explanation": "Es importante considerar el principio de transparencia en estos casos."
+  },
+  {
+    "id": 1446,
+    "axisId": 6,
+    "text": "Qué haría si presencia una presión indebida?",
+    "options": [
+      "Seguir el protocolo establecido",
+      "Consultar con un superior",
+      "Tomar una decisión autónoma",
+      "Derivar a otra área"
+    ],
+    "correctOptionIndex": 2,
+    "explanation": "Es importante considerar el principio de transparencia en estos casos."
+  },
+  {
+    "id": 1447,
+    "axisId": 6,
+    "text": "Cómo promovería la ética en servicios al ciudadano?",
+    "options": [
+      "Actuar de inmediato",
+      "Evaluar las consecuencias",
+      "Solicitar asesoría jurídica",
+      "Conformar un comité de evaluación"
+    ],
+    "correctOptionIndex": 1,
+    "explanation": "Esta decisión garantiza el cumplimiento de la normativa vigente."
+  },
+  {
+    "id": 1448,
+    "axisId": 6,
+    "text": "Ante un posible caso de acoso laboral, ¿cómo actuaría?",
+    "options": [
+      "Actuar de inmediato",
+      "Evaluar las consecuencias",
+      "Solicitar asesoría jurídica",
+      "Conformar un comité de evaluación"
+    ],
+    "correctOptionIndex": 2,
+    "explanation": "Esta acción promueve la eficiencia en la gestión pública."
+  },
+  {
+    "id": 1449,
+    "axisId": 6,
+    "text": "Qué haría si presencia una presión indebida?",
+    "options": [
+      "Aplicar el principio de transparencia",
+      "Solicitar autorización",
+      "Documentar la situación",
+      "Buscar una solución alternativa"
+    ],
+    "correctOptionIndex": 3,
+    "explanation": "Esta decisión garantiza el cumplimiento de la normativa vigente."
+  },
+  {
+    "id": 1450,
+    "axisId": 6,
+    "text": "Ante un posible caso de conflicto de intereses, ¿cómo actuaría?",
+    "options": [
+      "Seguir el protocolo establecido",
+      "Consultar con un superior",
+      "Tomar una decisión autónoma",
+      "Derivar a otra área"
+    ],
+    "correctOptionIndex": 3,
+    "explanation": "La ley establece claramente el procedimiento a seguir en estas situaciones."
+  },
+  {
+    "id": 1451,
+    "axisId": 6,
+    "text": "Qué haría si presencia un conflicto de intereses?",
+    "options": [
+      "Actuar de inmediato",
+      "Evaluar las consecuencias",
+      "Solicitar asesoría jurídica",
+      "Conformar un comité de evaluación"
+    ],
+    "correctOptionIndex": 2,
+    "explanation": "Esta decisión garantiza el cumplimiento de la normativa vigente."
+  },
+  {
+    "id": 1452,
+    "axisId": 6,
+    "text": "Qué haría si presencia un favoritismo?",
+    "options": [
+      "Aplicar el principio de transparencia",
+      "Solicitar autorización",
+      "Documentar la situación",
+      "Buscar una solución alternativa"
+    ],
+    "correctOptionIndex": 3,
+    "explanation": "Esta decisión garantiza el cumplimiento de la normativa vigente."
+  },
+  {
+    "id": 1453,
+    "axisId": 6,
+    "text": "Ante un posible caso de conflicto de intereses, ¿cómo actuaría?",
+    "options": [
+      "Aplicar el principio de transparencia",
+      "Solicitar autorización",
+      "Documentar la situación",
+      "Buscar una solución alternativa"
+    ],
+    "correctOptionIndex": 0,
+    "explanation": "Esta decisión garantiza el cumplimiento de la normativa vigente."
+  },
+  {
+    "id": 1454,
+    "axisId": 6,
+    "text": "Ante un posible caso de corrupción, ¿cómo actuaría?",
+    "options": [
+      "Seguir el protocolo establecido",
+      "Consultar con un superior",
+      "Tomar una decisión autónoma",
+      "Derivar a otra área"
+    ],
+    "correctOptionIndex": 0,
+    "explanation": "Es importante considerar el principio de transparencia en estos casos."
+  },
+  {
+    "id": 1455,
+    "axisId": 6,
+    "text": "Cómo promovería la ética en su área de trabajo?",
+    "options": [
+      "Seguir el protocolo establecido",
+      "Consultar con un superior",
+      "Tomar una decisión autónoma",
+      "Derivar a otra área"
+    ],
+    "correctOptionIndex": 1,
+    "explanation": "Esta decisión garantiza el cumplimiento de la normativa vigente."
+  },
+  {
+    "id": 1456,
+    "axisId": 6,
+    "text": "Cómo promovería la ética en la entidad?",
+    "options": [
+      "Aplicar el principio de transparencia",
+      "Solicitar autorización",
+      "Documentar la situación",
+      "Buscar una solución alternativa"
+    ],
+    "correctOptionIndex": 2,
+    "explanation": "Esta acción promueve la eficiencia en la gestión pública."
+  },
+  {
+    "id": 1457,
+    "axisId": 6,
+    "text": "Qué haría si presencia un conflicto de intereses?",
+    "options": [
+      "Aplicar el principio de transparencia",
+      "Solicitar autorización",
+      "Documentar la situación",
+      "Buscar una solución alternativa"
+    ],
+    "correctOptionIndex": 1,
+    "explanation": "Es importante considerar el principio de transparencia en estos casos."
+  },
+  {
+    "id": 1458,
+    "axisId": 7,
+    "text": "Cómo garantizaría la inclusión de población indígena en su área de trabajo?",
+    "options": [
+      "Aplicar el principio de transparencia",
+      "Solicitar autorización",
+      "Documentar la situación",
+      "Buscar una solución alternativa"
+    ],
+    "correctOptionIndex": 2,
+    "explanation": "Se debe priorizar el interés general sobre el particular en estos casos."
+  },
+  {
+    "id": 1459,
+    "axisId": 7,
+    "text": "Qué ajustes razonables implementaría para víctimas del conflicto?",
+    "options": [
+      "Actuar de inmediato",
+      "Evaluar las consecuencias",
+      "Solicitar asesoría jurídica",
+      "Conformar un comité de evaluación"
+    ],
+    "correctOptionIndex": 1,
+    "explanation": "Esta decisión garantiza el cumplimiento de la normativa vigente."
+  },
+  {
+    "id": 1460,
+    "axisId": 7,
+    "text": "Cómo garantizaría la inclusión de migrantes en la entidad?",
+    "options": [
+      "Actuar de inmediato",
+      "Evaluar las consecuencias",
+      "Solicitar asesoría jurídica",
+      "Conformar un comité de evaluación"
+    ],
+    "correctOptionIndex": 0,
+    "explanation": "Esta decisión garantiza el cumplimiento de la normativa vigente."
+  },
+  {
+    "id": 1461,
+    "axisId": 7,
+    "text": "Cómo atendería a una persona con discapacidad auditiva que requiere participar en una reunión?",
+    "options": [
+      "Actuar de inmediato",
+      "Evaluar las consecuencias",
+      "Solicitar asesoría jurídica",
+      "Conformar un comité de evaluación"
+    ],
+    "correctOptionIndex": 1,
+    "explanation": "La ley establece claramente el procedimiento a seguir en estas situaciones."
+  },
+  {
+    "id": 1462,
+    "axisId": 7,
+    "text": "Cómo garantizaría la inclusión de población indígena en la entidad?",
+    "options": [
+      "Actuar de inmediato",
+      "Evaluar las consecuencias",
+      "Solicitar asesoría jurídica",
+      "Conformar un comité de evaluación"
+    ],
+    "correctOptionIndex": 3,
+    "explanation": "Esta acción promueve la eficiencia en la gestión pública."
+  },
+  {
+    "id": 1463,
+    "axisId": 7,
+    "text": "Cómo atendería a una persona con discapacidad auditiva que requiere participar en una reunión?",
+    "options": [
+      "Seguir el protocolo establecido",
+      "Consultar con un superior",
+      "Tomar una decisión autónoma",
+      "Derivar a otra área"
+    ],
+    "correctOptionIndex": 1,
+    "explanation": "La ley establece claramente el procedimiento a seguir en estas situaciones."
+  },
+  {
+    "id": 1464,
+    "axisId": 7,
+    "text": "Qué ajustes razonables implementaría para víctimas del conflicto?",
+    "options": [
+      "Actuar de inmediato",
+      "Evaluar las consecuencias",
+      "Solicitar asesoría jurídica",
+      "Conformar un comité de evaluación"
+    ],
+    "correctOptionIndex": 1,
+    "explanation": "Esta acción promueve la eficiencia en la gestión pública."
+  },
+  {
+    "id": 1465,
+    "axisId": 7,
+    "text": "Qué ajustes razonables implementaría para adultos mayores?",
+    "options": [
+      "Actuar de inmediato",
+      "Evaluar las consecuencias",
+      "Solicitar asesoría jurídica",
+      "Conformar un comité de evaluación"
+    ],
+    "correctOptionIndex": 2,
+    "explanation": "Esta acción promueve la eficiencia en la gestión pública."
+  },
+  {
+    "id": 1466,
+    "axisId": 7,
+    "text": "Cómo garantizaría la inclusión de migrantes en servicios al ciudadano?",
+    "options": [
+      "Actuar de inmediato",
+      "Evaluar las consecuencias",
+      "Solicitar asesoría jurídica",
+      "Conformar un comité de evaluación"
+    ],
+    "correctOptionIndex": 3,
+    "explanation": "Se debe priorizar el interés general sobre el particular en estos casos."
+  },
+  {
+    "id": 1467,
+    "axisId": 7,
+    "text": "Qué ajustes razonables implementaría para población indígena?",
+    "options": [
+      "Actuar de inmediato",
+      "Evaluar las consecuencias",
+      "Solicitar asesoría jurídica",
+      "Conformar un comité de evaluación"
+    ],
+    "correctOptionIndex": 3,
+    "explanation": "Esta acción promueve la eficiencia en la gestión pública."
+  },
+  {
+    "id": 1468,
+    "axisId": 7,
+    "text": "Cómo garantizaría la inclusión de población indígena en procesos administrativos?",
+    "options": [
+      "Aplicar el principio de transparencia",
+      "Solicitar autorización",
+      "Documentar la situación",
+      "Buscar una solución alternativa"
+    ],
+    "correctOptionIndex": 2,
+    "explanation": "Esta acción promueve la eficiencia en la gestión pública."
+  },
+  {
+    "id": 1469,
+    "axisId": 7,
+    "text": "Cómo atendería a una persona con movilidad reducida que requiere participar en una reunión?",
+    "options": [
+      "Aplicar el principio de transparencia",
+      "Solicitar autorización",
+      "Documentar la situación",
+      "Buscar una solución alternativa"
+    ],
+    "correctOptionIndex": 2,
+    "explanation": "La ley establece claramente el procedimiento a seguir en estas situaciones."
+  },
+  {
+    "id": 1470,
+    "axisId": 7,
+    "text": "Cómo atendería a una persona con discapacidad visual que requiere acceder a información?",
+    "options": [
+      "Seguir el protocolo establecido",
+      "Consultar con un superior",
+      "Tomar una decisión autónoma",
+      "Derivar a otra área"
+    ],
+    "correctOptionIndex": 2,
+    "explanation": "Esta decisión garantiza el cumplimiento de la normativa vigente."
+  },
+  {
+    "id": 1471,
+    "axisId": 7,
+    "text": "Qué ajustes razonables implementaría para personas con discapacidad?",
+    "options": [
+      "Aplicar el principio de transparencia",
+      "Solicitar autorización",
+      "Documentar la situación",
+      "Buscar una solución alternativa"
+    ],
+    "correctOptionIndex": 3,
+    "explanation": "La ley establece claramente el procedimiento a seguir en estas situaciones."
+  },
+  {
+    "id": 1472,
+    "axisId": 7,
+    "text": "Cómo atendería a una persona con discapacidad visual que requiere realizar un trámite?",
+    "options": [
+      "Aplicar el principio de transparencia",
+      "Solicitar autorización",
+      "Documentar la situación",
+      "Buscar una solución alternativa"
+    ],
+    "correctOptionIndex": 2,
+    "explanation": "La ley establece claramente el procedimiento a seguir en estas situaciones."
+  },
+  {
+    "id": 1473,
+    "axisId": 7,
+    "text": "Cómo garantizaría la inclusión de personas con discapacidad en procesos administrativos?",
+    "options": [
+      "Seguir el protocolo establecido",
+      "Consultar con un superior",
+      "Tomar una decisión autónoma",
+      "Derivar a otra área"
+    ],
+    "correctOptionIndex": 1,
+    "explanation": "La ley establece claramente el procedimiento a seguir en estas situaciones."
+  },
+  {
+    "id": 1474,
+    "axisId": 7,
+    "text": "Cómo garantizaría la inclusión de personas con discapacidad en la entidad?",
+    "options": [
+      "Aplicar el principio de transparencia",
+      "Solicitar autorización",
+      "Documentar la situación",
+      "Buscar una solución alternativa"
+    ],
+    "correctOptionIndex": 1,
+    "explanation": "Esta acción promueve la eficiencia en la gestión pública."
+  },
+  {
+    "id": 1475,
+    "axisId": 7,
+    "text": "Qué ajustes razonables implementaría para población indígena?",
+    "options": [
+      "Seguir el protocolo establecido",
+      "Consultar con un superior",
+      "Tomar una decisión autónoma",
+      "Derivar a otra área"
+    ],
+    "correctOptionIndex": 1,
+    "explanation": "Es importante considerar el principio de transparencia en estos casos."
+  },
+  {
+    "id": 1476,
+    "axisId": 7,
+    "text": "Cómo atendería a una persona con discapacidad visual que requiere realizar un trámite?",
+    "options": [
+      "Aplicar el principio de transparencia",
+      "Solicitar autorización",
+      "Documentar la situación",
+      "Buscar una solución alternativa"
+    ],
+    "correctOptionIndex": 3,
+    "explanation": "Se debe priorizar el interés general sobre el particular en estos casos."
+  },
+  {
+    "id": 1477,
+    "axisId": 7,
+    "text": "Qué ajustes razonables implementaría para adultos mayores?",
+    "options": [
+      "Seguir el protocolo establecido",
+      "Consultar con un superior",
+      "Tomar una decisión autónoma",
+      "Derivar a otra área"
+    ],
+    "correctOptionIndex": 0,
+    "explanation": "Se debe priorizar el interés general sobre el particular en estos casos."
+  },
+  {
+    "id": 1478,
+    "axisId": 7,
+    "text": "Qué ajustes razonables implementaría para personas con discapacidad?",
+    "options": [
+      "Aplicar el principio de transparencia",
+      "Solicitar autorización",
+      "Documentar la situación",
+      "Buscar una solución alternativa"
+    ],
+    "correctOptionIndex": 1,
+    "explanation": "Esta decisión garantiza el cumplimiento de la normativa vigente."
+  },
+  {
+    "id": 1479,
+    "axisId": 7,
+    "text": "Qué ajustes razonables implementaría para víctimas del conflicto?",
+    "options": [
+      "Actuar de inmediato",
+      "Evaluar las consecuencias",
+      "Solicitar asesoría jurídica",
+      "Conformar un comité de evaluación"
+    ],
+    "correctOptionIndex": 0,
+    "explanation": "Esta acción promueve la eficiencia en la gestión pública."
+  },
+  {
+    "id": 1480,
+    "axisId": 7,
+    "text": "Cómo atendería a una persona con movilidad reducida que requiere participar en una reunión?",
+    "options": [
+      "Aplicar el principio de transparencia",
+      "Solicitar autorización",
+      "Documentar la situación",
+      "Buscar una solución alternativa"
+    ],
+    "correctOptionIndex": 3,
+    "explanation": "La ley establece claramente el procedimiento a seguir en estas situaciones."
+  },
+  {
+    "id": 1481,
+    "axisId": 7,
+    "text": "Cómo atendería a una persona con discapacidad auditiva que requiere recibir atención personalizada?",
+    "options": [
+      "Seguir el protocolo establecido",
+      "Consultar con un superior",
+      "Tomar una decisión autónoma",
+      "Derivar a otra área"
+    ],
+    "correctOptionIndex": 2,
+    "explanation": "Es importante considerar el principio de transparencia en estos casos."
+  },
+  {
+    "id": 1482,
+    "axisId": 7,
+    "text": "Qué ajustes razonables implementaría para adultos mayores?",
+    "options": [
+      "Actuar de inmediato",
+      "Evaluar las consecuencias",
+      "Solicitar asesoría jurídica",
+      "Conformar un comité de evaluación"
+    ],
+    "correctOptionIndex": 0,
+    "explanation": "Esta decisión garantiza el cumplimiento de la normativa vigente."
+  },
+  {
+    "id": 1483,
+    "axisId": 7,
+    "text": "Qué ajustes razonables implementaría para población indígena?",
+    "options": [
+      "Aplicar el principio de transparencia",
+      "Solicitar autorización",
+      "Documentar la situación",
+      "Buscar una solución alternativa"
+    ],
+    "correctOptionIndex": 0,
+    "explanation": "La ley establece claramente el procedimiento a seguir en estas situaciones."
+  },
+  {
+    "id": 1484,
+    "axisId": 7,
+    "text": "Cómo garantizaría la inclusión de víctimas del conflicto en su área de trabajo?",
+    "options": [
+      "Seguir el protocolo establecido",
+      "Consultar con un superior",
+      "Tomar una decisión autónoma",
+      "Derivar a otra área"
+    ],
+    "correctOptionIndex": 1,
+    "explanation": "Esta decisión garantiza el cumplimiento de la normativa vigente."
+  },
+  {
+    "id": 1485,
+    "axisId": 7,
+    "text": "Qué ajustes razonables implementaría para adultos mayores?",
+    "options": [
+      "Actuar de inmediato",
+      "Evaluar las consecuencias",
+      "Solicitar asesoría jurídica",
+      "Conformar un comité de evaluación"
+    ],
+    "correctOptionIndex": 1,
+    "explanation": "Se debe priorizar el interés general sobre el particular en estos casos."
+  },
+  {
+    "id": 1486,
+    "axisId": 7,
+    "text": "Cómo atendería a una persona con movilidad reducida que requiere acceder a información?",
+    "options": [
+      "Aplicar el principio de transparencia",
+      "Solicitar autorización",
+      "Documentar la situación",
+      "Buscar una solución alternativa"
+    ],
+    "correctOptionIndex": 3,
+    "explanation": "Esta decisión garantiza el cumplimiento de la normativa vigente."
+  },
+  {
+    "id": 1487,
+    "axisId": 7,
+    "text": "Cómo atendería a una persona con discapacidad auditiva que requiere acceder a información?",
+    "options": [
+      "Actuar de inmediato",
+      "Evaluar las consecuencias",
+      "Solicitar asesoría jurídica",
+      "Conformar un comité de evaluación"
+    ],
+    "correctOptionIndex": 1,
+    "explanation": "Se debe priorizar el interés general sobre el particular en estos casos."
+  },
+  {
+    "id": 1488,
+    "axisId": 7,
+    "text": "Cómo atendería a una persona con discapacidad visual que requiere realizar un trámite?",
+    "options": [
+      "Aplicar el principio de transparencia",
+      "Solicitar autorización",
+      "Documentar la situación",
+      "Buscar una solución alternativa"
+    ],
+    "correctOptionIndex": 2,
+    "explanation": "Es importante considerar el principio de transparencia en estos casos."
+  },
+  {
+    "id": 1489,
+    "axisId": 7,
+    "text": "Qué ajustes razonables implementaría para adultos mayores?",
+    "options": [
+      "Actuar de inmediato",
+      "Evaluar las consecuencias",
+      "Solicitar asesoría jurídica",
+      "Conformar un comité de evaluación"
+    ],
+    "correctOptionIndex": 2,
+    "explanation": "Esta decisión garantiza el cumplimiento de la normativa vigente."
+  },
+  {
+    "id": 1490,
+    "axisId": 7,
+    "text": "Cómo atendería a una persona con discapacidad cognitiva que requiere recibir atención personalizada?",
+    "options": [
+      "Seguir el protocolo establecido",
+      "Consultar con un superior",
+      "Tomar una decisión autónoma",
+      "Derivar a otra área"
+    ],
+    "correctOptionIndex": 3,
+    "explanation": "La ley establece claramente el procedimiento a seguir en estas situaciones."
+  },
+  {
+    "id": 1491,
+    "axisId": 7,
+    "text": "Qué ajustes razonables implementaría para población indígena?",
+    "options": [
+      "Actuar de inmediato",
+      "Evaluar las consecuencias",
+      "Solicitar asesoría jurídica",
+      "Conformar un comité de evaluación"
+    ],
+    "correctOptionIndex": 1,
+    "explanation": "Es importante considerar el principio de transparencia en estos casos."
+  },
+  {
+    "id": 1492,
+    "axisId": 7,
+    "text": "Cómo atendería a una persona con discapacidad cognitiva que requiere recibir atención personalizada?",
+    "options": [
+      "Aplicar el principio de transparencia",
+      "Solicitar autorización",
+      "Documentar la situación",
+      "Buscar una solución alternativa"
+    ],
+    "correctOptionIndex": 0,
+    "explanation": "Es importante considerar el principio de transparencia en estos casos."
+  },
+  {
+    "id": 1493,
+    "axisId": 7,
+    "text": "Cómo garantizaría la inclusión de personas con discapacidad en la entidad?",
+    "options": [
+      "Seguir el protocolo establecido",
+      "Consultar con un superior",
+      "Tomar una decisión autónoma",
+      "Derivar a otra área"
+    ],
+    "correctOptionIndex": 3,
+    "explanation": "Se debe priorizar el interés general sobre el particular en estos casos."
+  },
+  {
+    "id": 1494,
+    "axisId": 7,
+    "text": "Cómo atendería a una persona con discapacidad visual que requiere participar en una reunión?",
+    "options": [
+      "Seguir el protocolo establecido",
+      "Consultar con un superior",
+      "Tomar una decisión autónoma",
+      "Derivar a otra área"
+    ],
+    "correctOptionIndex": 0,
+    "explanation": "Esta acción promueve la eficiencia en la gestión pública."
+  },
+  {
+    "id": 1495,
+    "axisId": 7,
+    "text": "Cómo garantizaría la inclusión de migrantes en su área de trabajo?",
+    "options": [
+      "Actuar de inmediato",
+      "Evaluar las consecuencias",
+      "Solicitar asesoría jurídica",
+      "Conformar un comité de evaluación"
+    ],
+    "correctOptionIndex": 1,
+    "explanation": "Es importante considerar el principio de transparencia en estos casos."
+  },
+  {
+    "id": 1496,
+    "axisId": 7,
+    "text": "Cómo atendería a una persona con discapacidad visual que requiere participar en una reunión?",
+    "options": [
+      "Aplicar el principio de transparencia",
+      "Solicitar autorización",
+      "Documentar la situación",
+      "Buscar una solución alternativa"
+    ],
+    "correctOptionIndex": 2,
+    "explanation": "Se debe priorizar el interés general sobre el particular en estos casos."
+  },
+  {
+    "id": 1497,
+    "axisId": 7,
+    "text": "Qué ajustes razonables implementaría para personas con discapacidad?",
+    "options": [
+      "Seguir el protocolo establecido",
+      "Consultar con un superior",
+      "Tomar una decisión autónoma",
+      "Derivar a otra área"
+    ],
+    "correctOptionIndex": 3,
+    "explanation": "Esta acción promueve la eficiencia en la gestión pública."
+  },
+  {
+    "id": 1498,
+    "axisId": 7,
+    "text": "Cómo garantizaría la inclusión de población indígena en servicios al ciudadano?",
+    "options": [
+      "Seguir el protocolo establecido",
+      "Consultar con un superior",
+      "Tomar una decisión autónoma",
+      "Derivar a otra área"
+    ],
+    "correctOptionIndex": 1,
+    "explanation": "Esta decisión garantiza el cumplimiento de la normativa vigente."
+  },
+  {
+    "id": 1499,
+    "axisId": 7,
+    "text": "Cómo garantizaría la inclusión de población indígena en su área de trabajo?",
+    "options": [
+      "Aplicar el principio de transparencia",
+      "Solicitar autorización",
+      "Documentar la situación",
+      "Buscar una solución alternativa"
+    ],
+    "correctOptionIndex": 0,
+    "explanation": "La ley establece claramente el procedimiento a seguir en estas situaciones."
+  },
+  {
+    "id": 1500,
+    "axisId": 7,
+    "text": "Cómo atendería a una persona con discapacidad cognitiva que requiere recibir atención personalizada?",
+    "options": [
+      "Seguir el protocolo establecido",
+      "Consultar con un superior",
+      "Tomar una decisión autónoma",
+      "Derivar a otra área"
+    ],
+    "correctOptionIndex": 0,
+    "explanation": "Se debe priorizar el interés general sobre el particular en estos casos."
+  }
+]

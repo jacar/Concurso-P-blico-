@@ -1,39 +1,12 @@
 import type { ThematicAxis, Question } from '../types';
 import { ADDITIONAL_QUESTIONS } from './additional_questions';
-// Importar las preguntas directamente
-const MORE_QUESTIONS: Question[] = [
-  {
-    id: 1200,
-    axisId: 1,
-    text: "Un ciudadano solicita información sobre contratación estatal. ¿Cómo procede?",
-    options: [
-      "Seguir el protocolo establecido",
-      "Consultar con un superior",
-      "Tomar una decisión autónoma",
-      "Derivar a otra área"
-    ],
-    correctOptionIndex: 3,
-    explanation: "Esta acción promueve la eficiencia en la gestión pública."
-  },
-  // Aquí irían las demás preguntas...
-  // Para mantener el código manejable, vamos a incluir solo un subconjunto de preguntas
-  // y luego implementaremos una solución más escalable
-  {
-    id: 1201,
-    axisId: 1,
-    text: "Un ciudadano solicita información sobre licencias ambientales. ¿Cómo procede?",
-    options: [
-      "Aplicar el principio de transparencia",
-      "Solicitar autorización",
-      "Documentar la situación",
-      "Buscar una solución alternativa"
-    ],
-    correctOptionIndex: 0,
-    explanation: "Se debe priorizar el interés general sobre el particular en estos casos."
-  }
-  // En un entorno de producción, considera cargar las preguntas desde una API o base de datos
-];
+import { GENERATED_QUESTIONS } from './generated_questions';
 
+// Usar las preguntas generadas automáticamente
+const MORE_QUESTIONS: Question[] = GENERATED_QUESTIONS;
+  
+  // Nota: Para producción, considera cargar las preguntas desde una API o base de datos
+  // para evitar tener un archivo tan grande en el código fuerte.
 export const THEMATIC_AXES: ThematicAxis[] = [
   {
     id: 1,
