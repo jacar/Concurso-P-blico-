@@ -20,7 +20,6 @@ const GENERAL_TEST_QUESTION_COUNT = QUESTIONS.length;
 
 const AxisSelector: React.FC<{ onSelect: (axis: ThematicAxis) => void; questions: Question[] }> = ({ onSelect, questions }) => (
   <div className="animate-fade-in">
-{{ ... }}
     <h1 className="text-3xl font-bold text-center mb-6">Elige un Modo de Test</h1>
     <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
       {/* General Test Card */}
