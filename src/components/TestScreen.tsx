@@ -8,17 +8,19 @@ interface TestScreenProps {
 }
 
 const ALL_AXES_ID = 0;
-const GENERAL_TEST_QUESTION_COUNT = 40;
+// Mostrar todas las preguntas en la prueba general
+const GENERAL_TEST_QUESTION_COUNT = QUESTIONS.length;
 
-const ALL_AXES_VIRTUAL_AXIS: ThematicAxis = {
+  const ALL_AXES_VIRTUAL_AXIS: ThematicAxis = {
   id: ALL_AXES_ID,
   name: 'Prueba General',
-  description: `Un test con ${GENERAL_TEST_QUESTION_COUNT} preguntas aleatorias de todos los ejes temáticos.`,
+  description: `Un test con ${QUESTIONS.length} preguntas aleatorias de todos los ejes temáticos.`,
   icon: 'fa-layer-group',
 };
 
 const AxisSelector: React.FC<{ onSelect: (axis: ThematicAxis) => void; questions: Question[] }> = ({ onSelect, questions }) => (
   <div className="animate-fade-in">
+{{ ... }}
     <h1 className="text-3xl font-bold text-center mb-6">Elige un Modo de Test</h1>
     <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
       {/* General Test Card */}
@@ -173,10 +175,11 @@ const TestScreen: React.FC<TestScreenProps> = ({ onTestComplete }) => {
   const questionsForAxis = useMemo(() => {
     if (!selectedAxis) return [];
     if (selectedAxis.id === ALL_AXES_ID) {
-      return [...QUESTIONS].sort(() => 0.5 - Math.random()).slice(0, GENERAL_TEST_QUESTION_COUNT);
+      // Mostrar todas las preguntas en orden aleatorio
+      return [...QUESTIONS].sort(() => 0.5 - Math.random());
     }
     return QUESTIONS.filter(q => q.axisId === selectedAxis.id);
-  }, [selectedAxis]);
+  }, [selectedAxis, QUESTIONS]);
 
   const handleTestFinish = (userAnswers: number[]) => {
     let correctCount = 0;
