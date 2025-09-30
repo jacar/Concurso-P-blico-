@@ -1,10 +1,11 @@
-import path from 'path';
 import { defineConfig } from 'vite';
 import react from '@vitejs/plugin-react';
+import path from 'path';
 
-export default defineConfig(({ command, mode }) => {
+// https://vitejs.dev/config/
+export default defineConfig(({ mode }) => {
   const isProduction = mode === 'production';
-  
+
   return {
     base: isProduction ? './' : '/',
     plugins: [react()],
@@ -12,25 +13,23 @@ export default defineConfig(({ command, mode }) => {
       alias: {
         '@': path.resolve(__dirname, './src'),
       },
-      extensions: ['.js', '.jsx', '.ts', '.tsx', '.json']
     },
     build: {
       outDir: 'dist',
       assetsDir: 'assets',
       emptyOutDir: true,
       sourcemap: false,
-      minify: 'terser',
-      terserOptions: {
-        compress: {
-          drop_console: true,
-          drop_debugger: true,
-        },
-      },
+      minify: isProduction ? 'esbuild' : false,
+      cssCodeSplit: true,
       rollupOptions: {
         output: {
-          assetFileNames: 'assets/[name]-[hash][extname]',
-          chunkFileNames: 'assets/[name]-[hash].js',
+          manualChunks: {
+            react: ['react', 'react-dom'],
+            vendor: ['react-icons', 'recharts'],
+          },
           entryFileNames: 'assets/[name]-[hash].js',
+          chunkFileNames: 'assets/[name]-[hash].js',
+          assetFileNames: 'assets/[name]-[hash][extname]',
         },
       },
     },
@@ -40,10 +39,14 @@ export default defineConfig(({ command, mode }) => {
       open: true,
     },
     optimizeDeps: {
-      include: ['react', 'react-dom', 'react-router-dom'],
-      exclude: [],
+      include: ['react', 'react-dom'],
+      esbuildOptions: {
+        target: 'esnext',
+      },
+    },
+    define: {
+      'process.env': {}
     },
     publicDir: 'public',
-    envPrefix: 'VITE_',
   };
 });
